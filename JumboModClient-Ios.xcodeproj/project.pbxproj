@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C138EB7F1A23BDC500D78E78 /* JsonFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C138EB7E1A23BDC500D78E78 /* JsonFetcher.m */; };
+		C13F98751A256ABC001F0A57 /* NSDate+ISO8601Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F986A1A256ABC001F0A57 /* NSDate+ISO8601Parsing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C13F98761A256ABC001F0A57 /* NSDate+ISO8601Unparsing.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F986C1A256ABC001F0A57 /* NSDate+ISO8601Unparsing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C13F98771A256ABC001F0A57 /* USAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F986E1A256ABC001F0A57 /* USAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C13F98791A256ABC001F0A57 /* USGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F98721A256ABC001F0A57 /* USGlobals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C13F987A1A256ABC001F0A57 /* xs.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F98741A256ABC001F0A57 /* xs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C18E68C61A32C2740078B04B /* ModelRootControllerService.m in Sources */ = {isa = PBXBuildFile; fileRef = C18E68C51A32C2740078B04B /* ModelRootControllerService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C19E9DC91A17CF7D00507F5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DC81A17CF7D00507F5E /* UIKit.framework */; };
+		C19E9DCB1A17CF7D00507F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DCA1A17CF7D00507F5E /* Foundation.framework */; };
+		C19E9DCD1A17CF7D00507F5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DCC1A17CF7D00507F5E /* CoreGraphics.framework */; };
+		C19E9DD31A17CF7D00507F5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C19E9DD11A17CF7D00507F5E /* InfoPlist.strings */; };
+		C19E9DD51A17CF7D00507F5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E9DD41A17CF7D00507F5E /* main.m */; };
+		C19E9DD91A17CF7D00507F5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E9DD81A17CF7D00507F5E /* AppDelegate.m */; };
+		C19E9DDC1A17CF7D00507F5E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19E9DDA1A17CF7D00507F5E /* MainStoryboard_iPhone.storyboard */; };
+		C19E9DDF1A17CF7D00507F5E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19E9DDD1A17CF7D00507F5E /* MainStoryboard_iPad.storyboard */; };
+		C19E9DE21A17CF7D00507F5E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E9DE11A17CF7D00507F5E /* MasterViewController.m */; };
+		C19E9DE51A17CF7D00507F5E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E9DE41A17CF7D00507F5E /* DetailViewController.m */; };
+		C19E9DED1A17CF7D00507F5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DEC1A17CF7D00507F5E /* SenTestingKit.framework */; };
+		C19E9DEE1A17CF7D00507F5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DC81A17CF7D00507F5E /* UIKit.framework */; };
+		C19E9DEF1A17CF7D00507F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DCA1A17CF7D00507F5E /* Foundation.framework */; };
+		C19E9DF71A17CF7D00507F5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C19E9DF51A17CF7D00507F5E /* InfoPlist.strings */; };
+		C19E9DFA1A17CF7D00507F5E /* JumboModClient_IosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E9DF91A17CF7D00507F5E /* JumboModClient_IosTests.m */; };
+		C1ED1E181A2FF7DC007CF79A /* JsonMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ED1E171A2FF7DC007CF79A /* JsonMapper.m */; };
+		C1FAC7731A1A760E00FF7093 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAC7671A1A75C600FF7093 /* libRestKit.a */; };
+		C1FAC7791A1A762800FF7093 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAC7741A1A762800FF7093 /* CFNetwork.framework */; };
+		C1FAC77A1A1A762800FF7093 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAC7751A1A762800FF7093 /* CoreData.framework */; };
+		C1FAC77B1A1A762800FF7093 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAC7761A1A762800FF7093 /* MobileCoreServices.framework */; };
+		C1FAC77C1A1A762800FF7093 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAC7771A1A762800FF7093 /* Security.framework */; };
+		C1FAC77D1A1A762800FF7093 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAC7781A1A762800FF7093 /* SystemConfiguration.framework */; };
+		C1FAC77F1A1A779B00FF7093 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FAC77E1A1A779B00FF7093 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19E9DF01A17CF7D00507F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19E9DBB1A17CF7D00507F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19E9DC31A17CF7D00507F5E;
+			remoteInfo = "JumboModClient-Ios";
+		};
+		C1FAC7661A1A75C600FF7093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		C1FAC7681A1A75C600FF7093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		C1FAC76A1A1A75C600FF7093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		C1FAC76C1A1A75C600FF7093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		C1FAC76E1A1A75C600FF7093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		C1FAC7711A1A75F200FF7093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C138EB7D1A23BDC500D78E78 /* JsonFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonFetcher.h; sourceTree = "<group>"; };
+		C138EB7E1A23BDC500D78E78 /* JsonFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonFetcher.m; sourceTree = "<group>"; };
+		C13F98691A256ABC001F0A57 /* NSDate+ISO8601Parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601Parsing.h"; sourceTree = "<group>"; };
+		C13F986A1A256ABC001F0A57 /* NSDate+ISO8601Parsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601Parsing.m"; sourceTree = "<group>"; };
+		C13F986B1A256ABC001F0A57 /* NSDate+ISO8601Unparsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601Unparsing.h"; sourceTree = "<group>"; };
+		C13F986C1A256ABC001F0A57 /* NSDate+ISO8601Unparsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601Unparsing.m"; sourceTree = "<group>"; };
+		C13F986D1A256ABC001F0A57 /* USAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USAdditions.h; sourceTree = "<group>"; };
+		C13F986E1A256ABC001F0A57 /* USAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USAdditions.m; sourceTree = "<group>"; };
+		C13F98711A256ABC001F0A57 /* USGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USGlobals.h; sourceTree = "<group>"; };
+		C13F98721A256ABC001F0A57 /* USGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USGlobals.m; sourceTree = "<group>"; };
+		C13F98731A256ABC001F0A57 /* xs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xs.h; sourceTree = "<group>"; };
+		C13F98741A256ABC001F0A57 /* xs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xs.m; sourceTree = "<group>"; };
+		C18E68C41A32C2740078B04B /* ModelRootControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelRootControllerService.h; sourceTree = "<group>"; };
+		C18E68C51A32C2740078B04B /* ModelRootControllerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelRootControllerService.m; sourceTree = "<group>"; };
+		C19E9DC41A17CF7D00507F5E /* JumboModClient-Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JumboModClient-Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19E9DC81A17CF7D00507F5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C19E9DCA1A17CF7D00507F5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C19E9DCC1A17CF7D00507F5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C19E9DD01A17CF7D00507F5E /* JumboModClient-Ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumboModClient-Ios-Info.plist"; sourceTree = "<group>"; };
+		C19E9DD21A17CF7D00507F5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C19E9DD41A17CF7D00507F5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C19E9DD61A17CF7D00507F5E /* JumboModClient-Ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JumboModClient-Ios-Prefix.pch"; sourceTree = "<group>"; };
+		C19E9DD71A17CF7D00507F5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C19E9DD81A17CF7D00507F5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C19E9DDB1A17CF7D00507F5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C19E9DDE1A17CF7D00507F5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C19E9DE01A17CF7D00507F5E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C19E9DE11A17CF7D00507F5E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C19E9DE31A17CF7D00507F5E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C19E9DE41A17CF7D00507F5E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JumboModClient-IosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19E9DEC1A17CF7D00507F5E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C19E9DF41A17CF7D00507F5E /* JumboModClient-IosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumboModClient-IosTests-Info.plist"; sourceTree = "<group>"; };
+		C19E9DF61A17CF7D00507F5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C19E9DF81A17CF7D00507F5E /* JumboModClient_IosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumboModClient_IosTests.h; sourceTree = "<group>"; };
+		C19E9DF91A17CF7D00507F5E /* JumboModClient_IosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumboModClient_IosTests.m; sourceTree = "<group>"; };
+		C1ED1E161A2FF7DC007CF79A /* JsonMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonMapper.h; sourceTree = "<group>"; };
+		C1ED1E171A2FF7DC007CF79A /* JsonMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonMapper.m; sourceTree = "<group>"; };
+		C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		C1FAC7741A1A762800FF7093 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C1FAC7751A1A762800FF7093 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1FAC7761A1A762800FF7093 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C1FAC7771A1A762800FF7093 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C1FAC7781A1A762800FF7093 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C1FAC77E1A1A779B00FF7093 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19E9DC11A17CF7D00507F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FAC77F1A1A779B00FF7093 /* QuartzCore.framework in Frameworks */,
+				C1FAC7791A1A762800FF7093 /* CFNetwork.framework in Frameworks */,
+				C1FAC77A1A1A762800FF7093 /* CoreData.framework in Frameworks */,
+				C1FAC77B1A1A762800FF7093 /* MobileCoreServices.framework in Frameworks */,
+				C1FAC77C1A1A762800FF7093 /* Security.framework in Frameworks */,
+				C1FAC77D1A1A762800FF7093 /* SystemConfiguration.framework in Frameworks */,
+				C1FAC7731A1A760E00FF7093 /* libRestKit.a in Frameworks */,
+				C19E9DC91A17CF7D00507F5E /* UIKit.framework in Frameworks */,
+				C19E9DCB1A17CF7D00507F5E /* Foundation.framework in Frameworks */,
+				C19E9DCD1A17CF7D00507F5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19E9DE71A17CF7D00507F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E9DED1A17CF7D00507F5E /* SenTestingKit.framework in Frameworks */,
+				C19E9DEE1A17CF7D00507F5E /* UIKit.framework in Frameworks */,
+				C19E9DEF1A17CF7D00507F5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C13F98671A256ABC001F0A57 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C13F98681A256ABC001F0A57 /* ddm */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C13F98681A256ABC001F0A57 /* ddm */ = {
+			isa = PBXGroup;
+			children = (
+				C18E68C41A32C2740078B04B /* ModelRootControllerService.h */,
+				C18E68C51A32C2740078B04B /* ModelRootControllerService.m */,
+				C13F98691A256ABC001F0A57 /* NSDate+ISO8601Parsing.h */,
+				C13F986A1A256ABC001F0A57 /* NSDate+ISO8601Parsing.m */,
+				C13F986B1A256ABC001F0A57 /* NSDate+ISO8601Unparsing.h */,
+				C13F986C1A256ABC001F0A57 /* NSDate+ISO8601Unparsing.m */,
+				C13F986D1A256ABC001F0A57 /* USAdditions.h */,
+				C13F986E1A256ABC001F0A57 /* USAdditions.m */,
+				C13F98711A256ABC001F0A57 /* USGlobals.h */,
+				C13F98721A256ABC001F0A57 /* USGlobals.m */,
+				C13F98731A256ABC001F0A57 /* xs.h */,
+				C13F98741A256ABC001F0A57 /* xs.m */,
+			);
+			path = ddm;
+			sourceTree = "<group>";
+		};
+		C19E9DB91A17CF7D00507F5E = {
+			isa = PBXGroup;
+			children = (
+				C1FAC77E1A1A779B00FF7093 /* QuartzCore.framework */,
+				C1FAC7741A1A762800FF7093 /* CFNetwork.framework */,
+				C1FAC7751A1A762800FF7093 /* CoreData.framework */,
+				C1FAC7761A1A762800FF7093 /* MobileCoreServices.framework */,
+				C1FAC7771A1A762800FF7093 /* Security.framework */,
+				C1FAC7781A1A762800FF7093 /* SystemConfiguration.framework */,
+				C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */,
+				C19E9DCE1A17CF7D00507F5E /* JumboModClient-Ios */,
+				C19E9DF21A17CF7D00507F5E /* JumboModClient-IosTests */,
+				C19E9DC71A17CF7D00507F5E /* Frameworks */,
+				C19E9DC51A17CF7D00507F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19E9DC51A17CF7D00507F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19E9DC41A17CF7D00507F5E /* JumboModClient-Ios.app */,
+				C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19E9DC71A17CF7D00507F5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19E9DC81A17CF7D00507F5E /* UIKit.framework */,
+				C19E9DCA1A17CF7D00507F5E /* Foundation.framework */,
+				C19E9DCC1A17CF7D00507F5E /* CoreGraphics.framework */,
+				C19E9DEC1A17CF7D00507F5E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C19E9DCE1A17CF7D00507F5E /* JumboModClient-Ios */ = {
+			isa = PBXGroup;
+			children = (
+				C13F98671A256ABC001F0A57 /* models */,
+				C138EB7D1A23BDC500D78E78 /* JsonFetcher.h */,
+				C138EB7E1A23BDC500D78E78 /* JsonFetcher.m */,
+				C1ED1E161A2FF7DC007CF79A /* JsonMapper.h */,
+				C1ED1E171A2FF7DC007CF79A /* JsonMapper.m */,
+				C19E9DD71A17CF7D00507F5E /* AppDelegate.h */,
+				C19E9DD81A17CF7D00507F5E /* AppDelegate.m */,
+				C19E9DDA1A17CF7D00507F5E /* MainStoryboard_iPhone.storyboard */,
+				C19E9DDD1A17CF7D00507F5E /* MainStoryboard_iPad.storyboard */,
+				C19E9DE01A17CF7D00507F5E /* MasterViewController.h */,
+				C19E9DE11A17CF7D00507F5E /* MasterViewController.m */,
+				C19E9DE31A17CF7D00507F5E /* DetailViewController.h */,
+				C19E9DE41A17CF7D00507F5E /* DetailViewController.m */,
+				C19E9DCF1A17CF7D00507F5E /* Supporting Files */,
+			);
+			path = "JumboModClient-Ios";
+			sourceTree = "<group>";
+		};
+		C19E9DCF1A17CF7D00507F5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C19E9DD01A17CF7D00507F5E /* JumboModClient-Ios-Info.plist */,
+				C19E9DD11A17CF7D00507F5E /* InfoPlist.strings */,
+				C19E9DD41A17CF7D00507F5E /* main.m */,
+				C19E9DD61A17CF7D00507F5E /* JumboModClient-Ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C19E9DF21A17CF7D00507F5E /* JumboModClient-IosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19E9DF81A17CF7D00507F5E /* JumboModClient_IosTests.h */,
+				C19E9DF91A17CF7D00507F5E /* JumboModClient_IosTests.m */,
+				C19E9DF31A17CF7D00507F5E /* Supporting Files */,
+			);
+			path = "JumboModClient-IosTests";
+			sourceTree = "<group>";
+		};
+		C19E9DF31A17CF7D00507F5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C19E9DF41A17CF7D00507F5E /* JumboModClient-IosTests-Info.plist */,
+				C19E9DF51A17CF7D00507F5E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1FAC75C1A1A75C500FF7093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAC7671A1A75C600FF7093 /* libRestKit.a */,
+				C1FAC7691A1A75C600FF7093 /* RestKitTests.octest */,
+				C1FAC76B1A1A75C600FF7093 /* RestKit.framework */,
+				C1FAC76D1A1A75C600FF7093 /* RestKitFrameworkTests.octest */,
+				C1FAC76F1A1A75C600FF7093 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19E9DC31A17CF7D00507F5E /* JumboModClient-Ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19E9DFD1A17CF7D00507F5E /* Build configuration list for PBXNativeTarget "JumboModClient-Ios" */;
+			buildPhases = (
+				C19E9DC01A17CF7D00507F5E /* Sources */,
+				C19E9DC11A17CF7D00507F5E /* Frameworks */,
+				C19E9DC21A17CF7D00507F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1FAC7721A1A75F200FF7093 /* PBXTargetDependency */,
+			);
+			name = "JumboModClient-Ios";
+			productName = "JumboModClient-Ios";
+			productReference = C19E9DC41A17CF7D00507F5E /* JumboModClient-Ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19E9DEA1A17CF7D00507F5E /* JumboModClient-IosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19E9E001A17CF7D00507F5E /* Build configuration list for PBXNativeTarget "JumboModClient-IosTests" */;
+			buildPhases = (
+				C19E9DE61A17CF7D00507F5E /* Sources */,
+				C19E9DE71A17CF7D00507F5E /* Frameworks */,
+				C19E9DE81A17CF7D00507F5E /* Resources */,
+				C19E9DE91A17CF7D00507F5E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19E9DF11A17CF7D00507F5E /* PBXTargetDependency */,
+			);
+			name = "JumboModClient-IosTests";
+			productName = "JumboModClient-IosTests";
+			productReference = C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19E9DBB1A17CF7D00507F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Jumbo Mobile";
+			};
+			buildConfigurationList = C19E9DBE1A17CF7D00507F5E /* Build configuration list for PBXProject "JumboModClient-Ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C19E9DB91A17CF7D00507F5E;
+			productRefGroup = C19E9DC51A17CF7D00507F5E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C1FAC75C1A1A75C500FF7093 /* Products */;
+					ProjectRef = C1FAC75B1A1A75C500FF7093 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C19E9DC31A17CF7D00507F5E /* JumboModClient-Ios */,
+				C19E9DEA1A17CF7D00507F5E /* JumboModClient-IosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C1FAC7671A1A75C600FF7093 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = C1FAC7661A1A75C600FF7093 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C1FAC7691A1A75C600FF7093 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = C1FAC7681A1A75C600FF7093 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C1FAC76B1A1A75C600FF7093 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = C1FAC76A1A1A75C600FF7093 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C1FAC76D1A1A75C600FF7093 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = C1FAC76C1A1A75C600FF7093 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C1FAC76F1A1A75C600FF7093 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = C1FAC76E1A1A75C600FF7093 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19E9DC21A17CF7D00507F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E9DD31A17CF7D00507F5E /* InfoPlist.strings in Resources */,
+				C19E9DDC1A17CF7D00507F5E /* MainStoryboard_iPhone.storyboard in Resources */,
+				C19E9DDF1A17CF7D00507F5E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19E9DE81A17CF7D00507F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E9DF71A17CF7D00507F5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C19E9DE91A17CF7D00507F5E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19E9DC01A17CF7D00507F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E9DD51A17CF7D00507F5E /* main.m in Sources */,
+				C19E9DD91A17CF7D00507F5E /* AppDelegate.m in Sources */,
+				C19E9DE21A17CF7D00507F5E /* MasterViewController.m in Sources */,
+				C19E9DE51A17CF7D00507F5E /* DetailViewController.m in Sources */,
+				C138EB7F1A23BDC500D78E78 /* JsonFetcher.m in Sources */,
+				C13F98751A256ABC001F0A57 /* NSDate+ISO8601Parsing.m in Sources */,
+				C13F98761A256ABC001F0A57 /* NSDate+ISO8601Unparsing.m in Sources */,
+				C13F98771A256ABC001F0A57 /* USAdditions.m in Sources */,
+				C13F98791A256ABC001F0A57 /* USGlobals.m in Sources */,
+				C13F987A1A256ABC001F0A57 /* xs.m in Sources */,
+				C1ED1E181A2FF7DC007CF79A /* JsonMapper.m in Sources */,
+				C18E68C61A32C2740078B04B /* ModelRootControllerService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19E9DE61A17CF7D00507F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E9DFA1A17CF7D00507F5E /* JumboModClient_IosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19E9DF11A17CF7D00507F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19E9DC31A17CF7D00507F5E /* JumboModClient-Ios */;
+			targetProxy = C19E9DF01A17CF7D00507F5E /* PBXContainerItemProxy */;
+		};
+		C1FAC7721A1A75F200FF7093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = C1FAC7711A1A75F200FF7093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C19E9DD11A17CF7D00507F5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19E9DD21A17CF7D00507F5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C19E9DDA1A17CF7D00507F5E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19E9DDB1A17CF7D00507F5E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C19E9DDD1A17CF7D00507F5E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19E9DDE1A17CF7D00507F5E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C19E9DF51A17CF7D00507F5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C19E9DF61A17CF7D00507F5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C19E9DFB1A17CF7D00507F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19E9DFC1A17CF7D00507F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C19E9DFE1A17CF7D00507F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumboModClient-Ios/JumboModClient-Ios-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+				);
+				INFOPLIST_FILE = "JumboModClient-Ios/JumboModClient-Ios-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C19E9DFF1A17CF7D00507F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumboModClient-Ios/JumboModClient-Ios-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"\"$(BUILT_PRODUCTS_DIR)/../../Headers\"",
+				);
+				INFOPLIST_FILE = "JumboModClient-Ios/JumboModClient-Ios-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C19E9E011A17CF7D00507F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumboModClient-Ios.app/JumboModClient-Ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumboModClient-Ios/JumboModClient-Ios-Prefix.pch";
+				INFOPLIST_FILE = "JumboModClient-IosTests/JumboModClient-IosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C19E9E021A17CF7D00507F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumboModClient-Ios.app/JumboModClient-Ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumboModClient-Ios/JumboModClient-Ios-Prefix.pch";
+				INFOPLIST_FILE = "JumboModClient-IosTests/JumboModClient-IosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19E9DBE1A17CF7D00507F5E /* Build configuration list for PBXProject "JumboModClient-Ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19E9DFB1A17CF7D00507F5E /* Debug */,
+				C19E9DFC1A17CF7D00507F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19E9DFD1A17CF7D00507F5E /* Build configuration list for PBXNativeTarget "JumboModClient-Ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19E9DFE1A17CF7D00507F5E /* Debug */,
+				C19E9DFF1A17CF7D00507F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19E9E001A17CF7D00507F5E /* Build configuration list for PBXNativeTarget "JumboModClient-IosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19E9E011A17CF7D00507F5E /* Debug */,
+				C19E9E021A17CF7D00507F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C19E9DBB1A17CF7D00507F5E /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4" : 0,
+    "D78740BB5B159EA13C82AB5AF1D92A0F3C627237" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "831A9D81-B72A-4563-91A6-7D140DFE5106",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4" : "JumboModClient-Ios",
+    "D78740BB5B159EA13C82AB5AF1D92A0F3C627237" : "JumboModClient-IosRestKit"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JumboModClient-Ios",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JumboModClient-Ios.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JumboMobile\/JumboModClient-Ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/RestKit\/RestKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D78740BB5B159EA13C82AB5AF1D92A0F3C627237"
+    }
+  ]
+}
