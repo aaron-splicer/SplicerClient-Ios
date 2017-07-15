@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "427BADE98C0497248C050EA63CFF1DBAEB741080",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4" : 0,
-    "D78740BB5B159EA13C82AB5AF1D92A0F3C627237" : 0
+    "D78740BB5B159EA13C82AB5AF1D92A0F3C627237" : 0,
+    "427BADE98C0497248C050EA63CFF1DBAEB741080" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "831A9D81-B72A-4563-91A6-7D140DFE5106",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4" : "JumboModClient-Ios",
-    "D78740BB5B159EA13C82AB5AF1D92A0F3C627237" : "JumboModClient-IosRestKit"
+    "D78740BB5B159EA13C82AB5AF1D92A0F3C627237" : "JumboModClient-IosRestKit",
+    "427BADE98C0497248C050EA63CFF1DBAEB741080" : "SplicerClient-Ios\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "JumboModClient-Ios",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JumboMobile\/JumboModClient-Ios.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20B1B9BF7C6A9E24DE76B0CDB6687E1ED277C6E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aaron-splicer\/SplicerClient-Ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "427BADE98C0497248C050EA63CFF1DBAEB741080"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/RestKit\/RestKit.git",

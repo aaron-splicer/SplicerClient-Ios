@@ -15,7 +15,7 @@
 #import "ModelRootControllerService.h"
 #import "JsonFetcher.h"
 
-static NSString * const SERVER_BASE_URL = @"http://jumbo.systems";
+static NSString * const SERVER_BASE_URL = @"http://splicer.io";
 //static NSString * const SERVER_BASE_URL = @"http://localhost";
 
 @implementation MasterViewController
@@ -60,7 +60,7 @@ static JsonFetcher *_usersFetcher;
     }
     
     //[_usersFetcher execute:self ];
-    [_usersFetcher execute:self path:@"/api/users"];
+    [_usersFetcher execute:self path:@"/api/splicer/User/list"];
  
 }
 
