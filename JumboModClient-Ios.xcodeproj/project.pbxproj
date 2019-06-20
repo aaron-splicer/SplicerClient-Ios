@@ -24,7 +24,6 @@
 		C19E9DDF1A17CF7D00507F5E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19E9DDD1A17CF7D00507F5E /* MainStoryboard_iPad.storyboard */; };
 		C19E9DE21A17CF7D00507F5E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E9DE11A17CF7D00507F5E /* MasterViewController.m */; };
 		C19E9DE51A17CF7D00507F5E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19E9DE41A17CF7D00507F5E /* DetailViewController.m */; };
-		C19E9DED1A17CF7D00507F5E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DEC1A17CF7D00507F5E /* SenTestingKit.framework */; };
 		C19E9DEE1A17CF7D00507F5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DC81A17CF7D00507F5E /* UIKit.framework */; };
 		C19E9DEF1A17CF7D00507F5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19E9DCA1A17CF7D00507F5E /* Foundation.framework */; };
 		C19E9DF71A17CF7D00507F5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C19E9DF51A17CF7D00507F5E /* InfoPlist.strings */; };
@@ -122,8 +121,7 @@
 		C19E9DE11A17CF7D00507F5E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		C19E9DE31A17CF7D00507F5E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C19E9DE41A17CF7D00507F5E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JumboModClient-IosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C19E9DEC1A17CF7D00507F5E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JumboModClient-IosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19E9DF41A17CF7D00507F5E /* JumboModClient-IosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumboModClient-IosTests-Info.plist"; sourceTree = "<group>"; };
 		C19E9DF61A17CF7D00507F5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C19E9DF81A17CF7D00507F5E /* JumboModClient_IosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumboModClient_IosTests.h; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19E9DED1A17CF7D00507F5E /* SenTestingKit.framework in Frameworks */,
 				C19E9DEE1A17CF7D00507F5E /* UIKit.framework in Frameworks */,
 				C19E9DEF1A17CF7D00507F5E /* Foundation.framework in Frameworks */,
 			);
@@ -218,7 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				C19E9DC41A17CF7D00507F5E /* JumboModClient-Ios.app */,
-				C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.octest */,
+				C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,7 +226,6 @@
 				C19E9DC81A17CF7D00507F5E /* UIKit.framework */,
 				C19E9DCA1A17CF7D00507F5E /* Foundation.framework */,
 				C19E9DCC1A17CF7D00507F5E /* CoreGraphics.framework */,
-				C19E9DEC1A17CF7D00507F5E /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -334,8 +330,8 @@
 			);
 			name = "JumboModClient-IosTests";
 			productName = "JumboModClient-IosTests";
-			productReference = C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = C19E9DEB1A17CF7D00507F5E /* JumboModClient-IosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -343,6 +339,7 @@
 		C19E9DBB1A17CF7D00507F5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Jumbo Mobile";
 			};
@@ -617,14 +614,13 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumboModClient-Ios.app/JumboModClient-Ios";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JumboModClient-Ios/JumboModClient-Ios-Prefix.pch";
 				INFOPLIST_FILE = "JumboModClient-IosTests/JumboModClient-IosTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -634,14 +630,13 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumboModClient-Ios.app/JumboModClient-Ios";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JumboModClient-Ios/JumboModClient-Ios-Prefix.pch";
 				INFOPLIST_FILE = "JumboModClient-IosTests/JumboModClient-IosTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

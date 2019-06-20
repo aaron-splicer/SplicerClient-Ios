@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Jumbo Mobile. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface JumboModClient_IosTests : SenTestCase
+@interface JumboModClient_IosTests : XCTestCase
 
 @end

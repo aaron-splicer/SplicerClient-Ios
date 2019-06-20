@@ -2438,7 +2438,7 @@
 			name = RestKitTests;
 			productName = RestKitTests;
 			productReference = 25160D2614564E820060A5C5 /* RestKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		25160E61145651060060A5C5 /* RestKitFramework */ = {
 			isa = PBXNativeTarget;
@@ -2476,7 +2476,7 @@
 			name = RestKitFrameworkTests;
 			productName = RestKitFrameworkTests;
 			productReference = 25160E78145651060060A5C5 /* RestKitFrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		259C301515128079003066A2 /* RestKitResources */ = {
 			isa = PBXNativeTarget;
@@ -2502,6 +2502,7 @@
 		25160D0D14564E810060A5C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = RestKit;
 			};
