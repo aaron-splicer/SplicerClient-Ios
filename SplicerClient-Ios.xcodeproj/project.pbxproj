@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14897E122C29BC2001F1AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14897E022C29BC2001F1AAF /* ViewController.swift */; };
 		C160DE2422C284F2009F04CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2322C284F2009F04CC /* AppDelegate.swift */; };
 		C160DE2622C284F2009F04CC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2522C284F2009F04CC /* FirstViewController.swift */; };
 		C160DE2822C284F2009F04CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2722C284F2009F04CC /* SecondViewController.swift */; };
@@ -15,6 +16,10 @@
 		C160DE3022C284F2009F04CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C160DE2E22C284F2009F04CC /* LaunchScreen.storyboard */; };
 		C160DE3B22C284F2009F04CC /* SplicerClient_IosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE3A22C284F2009F04CC /* SplicerClient_IosTests.swift */; };
 		C160DE4622C284F2009F04CC /* SplicerClient_IosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE4522C284F2009F04CC /* SplicerClient_IosUITests.swift */; };
+		C1EE04DF22C2943F00E12E77 /* .placeholder in Resources */ = {isa = PBXBuildFile; fileRef = C1EE04D822C2943F00E12E77 /* .placeholder */; };
+		C1EE04E022C2943F00E12E77 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EE04DA22C2943F00E12E77 /* Board.m */; };
+		C1EE04E122C2943F00E12E77 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EE04DC22C2943F00E12E77 /* Cell.m */; };
+		C1EE04E222C2943F00E12E77 /* DisplayDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EE04DE22C2943F00E12E77 /* DisplayDriver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C14897E022C29BC2001F1AAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../J2OBJCBase/J2OBJCBase/ViewController.swift; sourceTree = "<group>"; };
 		C160DE2022C284F2009F04CC /* SplicerClient-Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplicerClient-Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C160DE2322C284F2009F04CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C160DE2522C284F2009F04CC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +63,13 @@
 		C160DE4522C284F2009F04CC /* SplicerClient_IosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplicerClient_IosUITests.swift; sourceTree = "<group>"; };
 		C160DE4722C284F2009F04CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = J2OBJCBase.xcodeproj; path = ../J2OBJCBase/J2OBJCBase.xcodeproj; sourceTree = "<group>"; };
+		C1EE04D822C2943F00E12E77 /* .placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .placeholder; sourceTree = "<group>"; };
+		C1EE04D922C2943F00E12E77 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		C1EE04DA22C2943F00E12E77 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		C1EE04DB22C2943F00E12E77 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		C1EE04DC22C2943F00E12E77 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		C1EE04DD22C2943F00E12E77 /* DisplayDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayDriver.h; sourceTree = "<group>"; };
+		C1EE04DE22C2943F00E12E77 /* DisplayDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayDriver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +121,7 @@
 		C160DE2222C284F2009F04CC /* SplicerClient-Ios */ = {
 			isa = PBXGroup;
 			children = (
+				C1EE04D722C2943F00E12E77 /* generated */,
 				C160DE2322C284F2009F04CC /* AppDelegate.swift */,
 				C160DE2522C284F2009F04CC /* FirstViewController.swift */,
 				C160DE2722C284F2009F04CC /* SecondViewController.swift */,
@@ -143,6 +157,22 @@
 				C160DE5A22C28AA9009F04CC /* J2OBJCBase.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C1EE04D722C2943F00E12E77 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				C14897E022C29BC2001F1AAF /* ViewController.swift */,
+				C1EE04D822C2943F00E12E77 /* .placeholder */,
+				C1EE04D922C2943F00E12E77 /* Board.h */,
+				C1EE04DA22C2943F00E12E77 /* Board.m */,
+				C1EE04DB22C2943F00E12E77 /* Cell.h */,
+				C1EE04DC22C2943F00E12E77 /* Cell.m */,
+				C1EE04DD22C2943F00E12E77 /* DisplayDriver.h */,
+				C1EE04DE22C2943F00E12E77 /* DisplayDriver.m */,
+			);
+			name = generated;
+			path = "../../SplicerClient-Droid/SplicerClient-Shared/generated";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C160DE3022C284F2009F04CC /* LaunchScreen.storyboard in Resources */,
+				C1EE04DF22C2943F00E12E77 /* .placeholder in Resources */,
 				C160DE2D22C284F2009F04CC /* Assets.xcassets in Resources */,
 				C160DE2B22C284F2009F04CC /* Main.storyboard in Resources */,
 			);
@@ -295,8 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1EE04E222C2943F00E12E77 /* DisplayDriver.m in Sources */,
+				C1EE04E122C2943F00E12E77 /* Cell.m in Sources */,
 				C160DE2822C284F2009F04CC /* SecondViewController.swift in Sources */,
 				C160DE2422C284F2009F04CC /* AppDelegate.swift in Sources */,
+				C14897E122C29BC2001F1AAF /* ViewController.swift in Sources */,
+				C1EE04E022C2943F00E12E77 /* Board.m in Sources */,
 				C160DE2622C284F2009F04CC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,10 +484,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/frameworks";
+				"HEADER_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/include";
 				INFOPLIST_FILE = "SplicerClient-Ios/Info.plist";
+				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ljre_emul",
+					"-ljre_util",
+					"-liconv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../J2OBJCBase/J2OBJCBase/J2OBJCBase-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -461,10 +506,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/frameworks";
+				"HEADER_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/include";
 				INFOPLIST_FILE = "SplicerClient-Ios/Info.plist";
+				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ljre_emul",
+					"-ljre_util",
+					"-liconv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../J2OBJCBase/J2OBJCBase/J2OBJCBase-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
