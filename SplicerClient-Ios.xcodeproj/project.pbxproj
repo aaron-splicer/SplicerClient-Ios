@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F099D6EAAD171D4E6628D5B /* libPods-SplicerClient-Ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */; };
 		C14897E122C29BC2001F1AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14897E022C29BC2001F1AAF /* ViewController.swift */; };
 		C160DE2422C284F2009F04CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2322C284F2009F04CC /* AppDelegate.swift */; };
 		C160DE2622C284F2009F04CC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2522C284F2009F04CC /* FirstViewController.swift */; };
@@ -47,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BB570A9320124CD3755107B /* Pods-SplicerClient-Ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplicerClient-Ios.release.xcconfig"; path = "Target Support Files/Pods-SplicerClient-Ios/Pods-SplicerClient-Ios.release.xcconfig"; sourceTree = "<group>"; };
+		618470988E3ED383EE3AED04 /* Pods-SplicerClient-Ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplicerClient-Ios.debug.xcconfig"; path = "Target Support Files/Pods-SplicerClient-Ios/Pods-SplicerClient-Ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SplicerClient-Ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14897E022C29BC2001F1AAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../J2OBJCBase/J2OBJCBase/ViewController.swift; sourceTree = "<group>"; };
 		C160DE2022C284F2009F04CC /* SplicerClient-Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplicerClient-Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C160DE2322C284F2009F04CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F099D6EAAD171D4E6628D5B /* libPods-SplicerClient-Ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A31B5890D64697495A357F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7A2A87BF61A4FA0B232049 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				618470988E3ED383EE3AED04 /* Pods-SplicerClient-Ios.debug.xcconfig */,
+				4BB570A9320124CD3755107B /* Pods-SplicerClient-Ios.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C160DE1722C284F2009F04CC = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +128,8 @@
 				C160DE3922C284F2009F04CC /* SplicerClient-IosTests */,
 				C160DE4422C284F2009F04CC /* SplicerClient-IosUITests */,
 				C160DE2122C284F2009F04CC /* Products */,
+				8D7A2A87BF61A4FA0B232049 /* Pods */,
+				2A31B5890D64697495A357F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C160DE4A22C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-Ios" */;
 			buildPhases = (
+				737BE7BC0F8D212B9541D768 /* [CP] Check Pods Manifest.lock */,
 				C160DE1C22C284F2009F04CC /* Sources */,
 				C160DE1D22C284F2009F04CC /* Frameworks */,
 				C160DE1E22C284F2009F04CC /* Resources */,
@@ -320,6 +346,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		737BE7BC0F8D212B9541D768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplicerClient-Ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C160DE1C22C284F2009F04CC /* Sources */ = {
@@ -482,6 +533,7 @@
 		};
 		C160DE4B22C284F2009F04CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618470988E3ED383EE3AED04 /* Pods-SplicerClient-Ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/frameworks";
@@ -490,11 +542,7 @@
 				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
-				"OTHER_LDFLAGS[arch=*]" = (
-					"-ljre_emul",
-					"-ljre_util",
-					"-liconv",
-				);
+				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul -ljre_util -liconv";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "../J2OBJCBase/J2OBJCBase/J2OBJCBase-Bridging-Header.h";
@@ -504,6 +552,7 @@
 		};
 		C160DE4C22C284F2009F04CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB570A9320124CD3755107B /* Pods-SplicerClient-Ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/frameworks";
@@ -512,11 +561,7 @@
 				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
-				"OTHER_LDFLAGS[arch=*]" = (
-					"-ljre_emul",
-					"-ljre_util",
-					"-liconv",
-				);
+				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul -ljre_util -liconv";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "../J2OBJCBase/J2OBJCBase/J2OBJCBase-Bridging-Header.h";
