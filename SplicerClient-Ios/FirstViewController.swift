@@ -9,7 +9,7 @@
 import UIKit
 
 //class FirstViewController: UIViewController {
-class FirstViewController: ViewController {
+class FirstViewController: ViewController {//j2objc's: it demonstrates compiling java code
 
     override func viewDidLoad() {
         super.viewDidLoad()
