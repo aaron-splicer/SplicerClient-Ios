@@ -32,6 +32,13 @@
 			remoteGlobalIDString = C160DE1F22C284F2009F04CC;
 			remoteInfo = "SplicerClient-Ios";
 		};
+		C160DE5922C28AA9009F04CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E6E051B2275F42E00C53BDE;
+			remoteInfo = J2OBJCBase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +56,7 @@
 		C160DE4122C284F2009F04CC /* SplicerClient-IosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplicerClient-IosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C160DE4522C284F2009F04CC /* SplicerClient_IosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplicerClient_IosUITests.swift; sourceTree = "<group>"; };
 		C160DE4722C284F2009F04CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = J2OBJCBase.xcodeproj; path = ../J2OBJCBase/J2OBJCBase.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		C160DE1722C284F2009F04CC = {
 			isa = PBXGroup;
 			children = (
+				C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */,
 				C160DE2222C284F2009F04CC /* SplicerClient-Ios */,
 				C160DE3922C284F2009F04CC /* SplicerClient-IosTests */,
 				C160DE4422C284F2009F04CC /* SplicerClient-IosUITests */,
@@ -126,6 +135,14 @@
 				C160DE4722C284F2009F04CC /* Info.plist */,
 			);
 			path = "SplicerClient-IosUITests";
+			sourceTree = "<group>";
+		};
+		C160DE5522C28AA9009F04CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C160DE5A22C28AA9009F04CC /* J2OBJCBase.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +238,12 @@
 			mainGroup = C160DE1722C284F2009F04CC;
 			productRefGroup = C160DE2122C284F2009F04CC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C160DE5522C28AA9009F04CC /* Products */;
+					ProjectRef = C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C160DE1F22C284F2009F04CC /* SplicerClient-Ios */,
@@ -229,6 +252,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C160DE5A22C28AA9009F04CC /* J2OBJCBase.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = J2OBJCBase.app;
+			remoteRef = C160DE5922C28AA9009F04CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C160DE1E22C284F2009F04CC /* Resources */ = {
@@ -509,6 +542,7 @@
 				C160DE4C22C284F2009F04CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C160DE4D22C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-IosTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +551,7 @@
 				C160DE4F22C284F2009F04CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C160DE5022C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-IosUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +560,7 @@
 				C160DE5222C284F2009F04CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
