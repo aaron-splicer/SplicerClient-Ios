@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C160DE2422C284F2009F04CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2322C284F2009F04CC /* AppDelegate.swift */; };
+		C160DE2622C284F2009F04CC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2522C284F2009F04CC /* FirstViewController.swift */; };
+		C160DE2822C284F2009F04CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2722C284F2009F04CC /* SecondViewController.swift */; };
+		C160DE2B22C284F2009F04CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C160DE2922C284F2009F04CC /* Main.storyboard */; };
+		C160DE2D22C284F2009F04CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C160DE2C22C284F2009F04CC /* Assets.xcassets */; };
+		C160DE3022C284F2009F04CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C160DE2E22C284F2009F04CC /* LaunchScreen.storyboard */; };
+		C160DE3B22C284F2009F04CC /* SplicerClient_IosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE3A22C284F2009F04CC /* SplicerClient_IosTests.swift */; };
+		C160DE4622C284F2009F04CC /* SplicerClient_IosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE4522C284F2009F04CC /* SplicerClient_IosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C160DE3722C284F2009F04CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C160DE1822C284F2009F04CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C160DE1F22C284F2009F04CC;
+			remoteInfo = "SplicerClient-Ios";
+		};
+		C160DE4222C284F2009F04CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C160DE1822C284F2009F04CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C160DE1F22C284F2009F04CC;
+			remoteInfo = "SplicerClient-Ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C160DE2022C284F2009F04CC /* SplicerClient-Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplicerClient-Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C160DE2322C284F2009F04CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C160DE2522C284F2009F04CC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C160DE2722C284F2009F04CC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C160DE2A22C284F2009F04CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C160DE2C22C284F2009F04CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C160DE2F22C284F2009F04CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C160DE3122C284F2009F04CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C160DE3622C284F2009F04CC /* SplicerClient-IosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplicerClient-IosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C160DE3A22C284F2009F04CC /* SplicerClient_IosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplicerClient_IosTests.swift; sourceTree = "<group>"; };
+		C160DE3C22C284F2009F04CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C160DE4122C284F2009F04CC /* SplicerClient-IosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplicerClient-IosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C160DE4522C284F2009F04CC /* SplicerClient_IosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplicerClient_IosUITests.swift; sourceTree = "<group>"; };
+		C160DE4722C284F2009F04CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C160DE1D22C284F2009F04CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C160DE3322C284F2009F04CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C160DE3E22C284F2009F04CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C160DE1722C284F2009F04CC = {
+			isa = PBXGroup;
+			children = (
+				C160DE2222C284F2009F04CC /* SplicerClient-Ios */,
+				C160DE3922C284F2009F04CC /* SplicerClient-IosTests */,
+				C160DE4422C284F2009F04CC /* SplicerClient-IosUITests */,
+				C160DE2122C284F2009F04CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C160DE2122C284F2009F04CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C160DE2022C284F2009F04CC /* SplicerClient-Ios.app */,
+				C160DE3622C284F2009F04CC /* SplicerClient-IosTests.xctest */,
+				C160DE4122C284F2009F04CC /* SplicerClient-IosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C160DE2222C284F2009F04CC /* SplicerClient-Ios */ = {
+			isa = PBXGroup;
+			children = (
+				C160DE2322C284F2009F04CC /* AppDelegate.swift */,
+				C160DE2522C284F2009F04CC /* FirstViewController.swift */,
+				C160DE2722C284F2009F04CC /* SecondViewController.swift */,
+				C160DE2922C284F2009F04CC /* Main.storyboard */,
+				C160DE2C22C284F2009F04CC /* Assets.xcassets */,
+				C160DE2E22C284F2009F04CC /* LaunchScreen.storyboard */,
+				C160DE3122C284F2009F04CC /* Info.plist */,
+			);
+			path = "SplicerClient-Ios";
+			sourceTree = "<group>";
+		};
+		C160DE3922C284F2009F04CC /* SplicerClient-IosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C160DE3A22C284F2009F04CC /* SplicerClient_IosTests.swift */,
+				C160DE3C22C284F2009F04CC /* Info.plist */,
+			);
+			path = "SplicerClient-IosTests";
+			sourceTree = "<group>";
+		};
+		C160DE4422C284F2009F04CC /* SplicerClient-IosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C160DE4522C284F2009F04CC /* SplicerClient_IosUITests.swift */,
+				C160DE4722C284F2009F04CC /* Info.plist */,
+			);
+			path = "SplicerClient-IosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C160DE1F22C284F2009F04CC /* SplicerClient-Ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C160DE4A22C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-Ios" */;
+			buildPhases = (
+				C160DE1C22C284F2009F04CC /* Sources */,
+				C160DE1D22C284F2009F04CC /* Frameworks */,
+				C160DE1E22C284F2009F04CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SplicerClient-Ios";
+			productName = "SplicerClient-Ios";
+			productReference = C160DE2022C284F2009F04CC /* SplicerClient-Ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C160DE3522C284F2009F04CC /* SplicerClient-IosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C160DE4D22C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-IosTests" */;
+			buildPhases = (
+				C160DE3222C284F2009F04CC /* Sources */,
+				C160DE3322C284F2009F04CC /* Frameworks */,
+				C160DE3422C284F2009F04CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C160DE3822C284F2009F04CC /* PBXTargetDependency */,
+			);
+			name = "SplicerClient-IosTests";
+			productName = "SplicerClient-IosTests";
+			productReference = C160DE3622C284F2009F04CC /* SplicerClient-IosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C160DE4022C284F2009F04CC /* SplicerClient-IosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C160DE5022C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-IosUITests" */;
+			buildPhases = (
+				C160DE3D22C284F2009F04CC /* Sources */,
+				C160DE3E22C284F2009F04CC /* Frameworks */,
+				C160DE3F22C284F2009F04CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C160DE4322C284F2009F04CC /* PBXTargetDependency */,
+			);
+			name = "SplicerClient-IosUITests";
+			productName = "SplicerClient-IosUITests";
+			productReference = C160DE4122C284F2009F04CC /* SplicerClient-IosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C160DE1822C284F2009F04CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aaron Evans";
+				TargetAttributes = {
+					C160DE1F22C284F2009F04CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C160DE3522C284F2009F04CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C160DE1F22C284F2009F04CC;
+					};
+					C160DE4022C284F2009F04CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C160DE1F22C284F2009F04CC;
+					};
+				};
+			};
+			buildConfigurationList = C160DE1B22C284F2009F04CC /* Build configuration list for PBXProject "SplicerClient-Ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C160DE1722C284F2009F04CC;
+			productRefGroup = C160DE2122C284F2009F04CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C160DE1F22C284F2009F04CC /* SplicerClient-Ios */,
+				C160DE3522C284F2009F04CC /* SplicerClient-IosTests */,
+				C160DE4022C284F2009F04CC /* SplicerClient-IosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C160DE1E22C284F2009F04CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C160DE3022C284F2009F04CC /* LaunchScreen.storyboard in Resources */,
+				C160DE2D22C284F2009F04CC /* Assets.xcassets in Resources */,
+				C160DE2B22C284F2009F04CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C160DE3422C284F2009F04CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C160DE3F22C284F2009F04CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C160DE1C22C284F2009F04CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C160DE2822C284F2009F04CC /* SecondViewController.swift in Sources */,
+				C160DE2422C284F2009F04CC /* AppDelegate.swift in Sources */,
+				C160DE2622C284F2009F04CC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C160DE3222C284F2009F04CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C160DE3B22C284F2009F04CC /* SplicerClient_IosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C160DE3D22C284F2009F04CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C160DE4622C284F2009F04CC /* SplicerClient_IosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C160DE3822C284F2009F04CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C160DE1F22C284F2009F04CC /* SplicerClient-Ios */;
+			targetProxy = C160DE3722C284F2009F04CC /* PBXContainerItemProxy */;
+		};
+		C160DE4322C284F2009F04CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C160DE1F22C284F2009F04CC /* SplicerClient-Ios */;
+			targetProxy = C160DE4222C284F2009F04CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C160DE2922C284F2009F04CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C160DE2A22C284F2009F04CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C160DE2E22C284F2009F04CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C160DE2F22C284F2009F04CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C160DE4822C284F2009F04CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C160DE4922C284F2009F04CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C160DE4B22C284F2009F04CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SplicerClient-Ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C160DE4C22C284F2009F04CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SplicerClient-Ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C160DE4E22C284F2009F04CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SplicerClient-IosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-IosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplicerClient-Ios.app/SplicerClient-Ios";
+			};
+			name = Debug;
+		};
+		C160DE4F22C284F2009F04CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SplicerClient-IosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-IosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplicerClient-Ios.app/SplicerClient-Ios";
+			};
+			name = Release;
+		};
+		C160DE5122C284F2009F04CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SplicerClient-IosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-IosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SplicerClient-Ios";
+			};
+			name = Debug;
+		};
+		C160DE5222C284F2009F04CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SplicerClient-IosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-IosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SplicerClient-Ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C160DE1B22C284F2009F04CC /* Build configuration list for PBXProject "SplicerClient-Ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C160DE4822C284F2009F04CC /* Debug */,
+				C160DE4922C284F2009F04CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C160DE4A22C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-Ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C160DE4B22C284F2009F04CC /* Debug */,
+				C160DE4C22C284F2009F04CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C160DE4D22C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-IosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C160DE4E22C284F2009F04CC /* Debug */,
+				C160DE4F22C284F2009F04CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C160DE5022C284F2009F04CC /* Build configuration list for PBXNativeTarget "SplicerClient-IosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C160DE5122C284F2009F04CC /* Debug */,
+				C160DE5222C284F2009F04CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C160DE1822C284F2009F04CC /* Project object */;
+}
