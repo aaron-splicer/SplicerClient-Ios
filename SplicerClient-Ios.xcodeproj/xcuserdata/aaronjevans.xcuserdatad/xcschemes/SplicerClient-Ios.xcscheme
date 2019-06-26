@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C19E9DC31A17CF7D00507F5E"
-               BuildableName = "JumboModClient-Ios.app"
-               BlueprintName = "JumboModClient-Ios"
-               ReferencedContainer = "container:JumboModClient-Ios.xcodeproj">
+               BlueprintIdentifier = "E267FD1F1BE8048900F86B42"
+               BuildableName = "XLForm.framework"
+               BlueprintName = "XLForm"
+               ReferencedContainer = "container:../XLForm/XLForm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -62,6 +62,20 @@
                ReferencedContainer = "container:SplicerClient-Ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C160DE4022C284F2009F04CC"
+               BuildableName = "SplicerClient-IosUITests.xctest"
+               BlueprintName = "SplicerClient-IosUITests"
+               ReferencedContainer = "container:SplicerClient-Ios.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -70,6 +84,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C160DE3522C284F2009F04CC"
+               BuildableName = "SplicerClient-IosTests.xctest"
+               BlueprintName = "SplicerClient-IosTests"
+               ReferencedContainer = "container:SplicerClient-Ios.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

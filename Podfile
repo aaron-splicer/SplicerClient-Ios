@@ -1,6 +1,7 @@
+project 'SplicerClient-Ios.xcodeproj' 
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
-project 'SplicerClient-Ios.xcodeproj' 
+
 target 'SplicerClient-Ios' do
 
 pod 'XLForm', :path => '../XLForm/'
@@ -11,5 +12,4 @@ pod 'XLData', :git => 'https://github.com/xmartlabs/XLData.git', :commit => '1f9
 pod 'JVFloatLabeledTextField', '1.0.2', :inhibit_warnings => true
 pod 'AXRatingView', '1.0.3', :inhibit_warnings => true
 pod 'SHSPhoneComponent'
-pod 'AFNetworking', '~> 2.0', :inhibit_warnings => true
 end

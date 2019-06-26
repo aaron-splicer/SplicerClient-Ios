@@ -1,7 +1,7 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AXRatingView" "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField" "${PODS_ROOT}/Headers/Public/SHSPhoneComponent" "${PODS_ROOT}/Headers/Public/XLData" "${PODS_ROOT}/Headers/Public/XLForm"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/AXRatingView" "${PODS_CONFIGURATION_BUILD_DIR}/JVFloatLabeledTextField" "${PODS_CONFIGURATION_BUILD_DIR}/SHSPhoneComponent" "${PODS_CONFIGURATION_BUILD_DIR}/XLData" "${PODS_CONFIGURATION_BUILD_DIR}/XLForm"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AXRatingView" -isystem "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField" -isystem "${PODS_ROOT}/Headers/Public/XLData" -isystem "${PODS_ROOT}/Headers/Public/XLForm"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AXRatingView" -isystem "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField" -isystem "${PODS_ROOT}/Headers/Public/XLData"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"AXRatingView" -l"JVFloatLabeledTextField" -l"SHSPhoneComponent" -l"XLData" -l"XLForm" -framework "CoreData" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

@@ -131,24 +131,6 @@ THE SOFTWARE.</string>
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Jumbo Inc. License
-
-Jumbo Inc. software uses third-party libraries or other resources that may be distributed under licenses different than the Jumbo Inc. License.  Copyright 2014 Jumbo Inc.,  All rights reserved.
-
-LICENSE GRANT. Subject to the terms of this Agreement, Jumbo Inc. grants to you "Evaluator", during the Term, a limited, revocable, non-exclusive, non-transferable, non-sublicensable license to install and use the Software on a single computer for a period of 30 days after downloading of the Software (the "Evaluation Period") for the sole purpose of evaluating the Software. Evaluator shall not use the Software in a production environment. Customer may only use the Software for evaluating the Software solely for Customer's own internal business purpose in accordance with the Software documentation and other terms and conditions of this Agreement. Customer's right to use the Software shall lapse at the end of the Evaluation Period and, at that time, Customer is required to delete all copies of the Software. If Customer is interested in a full commercial license, please contact: info@discretemobile.com.
-
-Evaluator acknowledges that the Software and the structure, organization, and source code thereof constitute valuable trade secrets of Jumbo Inc..
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS,WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>SplicerClient-Ios</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
 			<string>The MIT License (MIT)
 
 Copyright (c) 2014 Xmartlabs ( http://xmartlabs.com )

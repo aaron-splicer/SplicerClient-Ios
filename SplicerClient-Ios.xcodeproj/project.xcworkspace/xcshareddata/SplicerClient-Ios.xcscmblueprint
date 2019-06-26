@@ -4,15 +4,17 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "6DAE5DC63163848BE72AC1825792981E9BCDEB44" : 9223372036854775807,
+    "AF7423C487C4B1B7082E587F3AB70804F6530E81" : 9223372036854775807,
+    "427BADE98C0497248C050EA63CFF1DBAEB741080" : 9223372036854775807,
     "BAE57027AF069B358A67A2BA0819B9F23FCB8FEE" : 9223372036854775807,
-    "427BADE98C0497248C050EA63CFF1DBAEB741080" : 9223372036854775807
+    "6DAE5DC63163848BE72AC1825792981E9BCDEB44" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D93946F7-EBC5-4EFD-BC98-2EAD4B4BB524",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "6DAE5DC63163848BE72AC1825792981E9BCDEB44" : "SplicerClient-Droid\/",
+    "AF7423C487C4B1B7082E587F3AB70804F6530E81" : "XLForm\/",
+    "427BADE98C0497248C050EA63CFF1DBAEB741080" : "SplicerClient-Ios\/",
     "BAE57027AF069B358A67A2BA0819B9F23FCB8FEE" : "J2OBJCBase\/",
-    "427BADE98C0497248C050EA63CFF1DBAEB741080" : "SplicerClient-Ios\/"
+    "6DAE5DC63163848BE72AC1825792981E9BCDEB44" : "SplicerClient-Droid\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SplicerClient-Ios",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -27,6 +29,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aaron-splicer\/SplicerClient-Droid-develop.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6DAE5DC63163848BE72AC1825792981E9BCDEB44"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aaron-splicer\/XLForm.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF7423C487C4B1B7082E587F3AB70804F6530E81"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aaron-splicer\/J2OBJCBase.git",
