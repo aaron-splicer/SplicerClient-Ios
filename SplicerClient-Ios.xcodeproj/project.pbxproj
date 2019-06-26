@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F099D6EAAD171D4E6628D5B /* libPods-SplicerClient-Ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */; };
+		C10DA61122C30583009A8750 /* XLFormInlineSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C10DA61022C30583009A8750 /* XLFormInlineSegmentedCell.m */; };
 		C14897E122C29BC2001F1AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14897E022C29BC2001F1AAF /* ViewController.swift */; };
 		C15D5BA122C2FBB200289DB2 /* BasicPredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5B9A22C2FBB200289DB2 /* BasicPredicateViewController.m */; };
 		C15D5BA222C2FBB200289DB2 /* BlogExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5B9C22C2FBB200289DB2 /* BlogExampleViewController.m */; };
@@ -114,19 +115,14 @@
 			remoteGlobalIDString = C19E9DEB1A17CF7D00507F5E;
 			remoteInfo = "JumboModClient-IosTests";
 		};
-		C1BCD16F22C3106B00044731 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1BCD16822C3106B00044731 /* XLForm.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2850C5F818D0F706002B7D0A;
-			remoteInfo = XLForm;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4BB570A9320124CD3755107B /* Pods-SplicerClient-Ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplicerClient-Ios.release.xcconfig"; path = "Target Support Files/Pods-SplicerClient-Ios/Pods-SplicerClient-Ios.release.xcconfig"; sourceTree = "<group>"; };
 		618470988E3ED383EE3AED04 /* Pods-SplicerClient-Ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplicerClient-Ios.debug.xcconfig"; path = "Target Support Files/Pods-SplicerClient-Ios/Pods-SplicerClient-Ios.debug.xcconfig"; sourceTree = "<group>"; };
 		A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SplicerClient-Ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10DA60F22C30583009A8750 /* XLFormInlineSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormInlineSegmentedCell.h; sourceTree = "<group>"; };
+		C10DA61022C30583009A8750 /* XLFormInlineSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormInlineSegmentedCell.m; sourceTree = "<group>"; };
 		C14897E022C29BC2001F1AAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../J2OBJCBase/J2OBJCBase/ViewController.swift; sourceTree = "<group>"; };
 		C15D5B9922C2FBB200289DB2 /* BasicPredicateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPredicateViewController.h; sourceTree = "<group>"; };
 		C15D5B9A22C2FBB200289DB2 /* BasicPredicateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPredicateViewController.m; sourceTree = "<group>"; };
@@ -225,13 +221,6 @@
 		C1AF36A122C2E7250032D12D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1AF36A222C2E7250032D12D /* XLForm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XLForm-Info.plist"; sourceTree = "<group>"; };
 		C1AF36A322C2E7250032D12D /* XLForm-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLForm-Prefix.pch"; sourceTree = "<group>"; };
-		C1BCD16822C3106B00044731 /* XLForm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XLForm.xcodeproj; path = "../XLForm/Examples/Objective-C/XLForm.xcodeproj"; sourceTree = "<group>"; };
-		C1BCD17122C3108400044731 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C1BCD17222C3108400044731 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C1BCD17322C3108400044731 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C1BCD17422C3108400044731 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C1BCD17A22C310FD00044731 /* XLFormInlineSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormInlineSegmentedCell.h; sourceTree = "<group>"; };
-		C1BCD17B22C310FD00044731 /* XLFormInlineSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormInlineSegmentedCell.m; sourceTree = "<group>"; };
 		C1CD7DA522C2FFDB00C0009C /* XLForm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLForm-Prefix.pch"; sourceTree = "<group>"; };
 		C1EE04D822C2943F00E12E77 /* .placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .placeholder; sourceTree = "<group>"; };
 		C1EE04D922C2943F00E12E77 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
@@ -291,6 +280,16 @@
 				4BB570A9320124CD3755107B /* Pods-SplicerClient-Ios.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C10DA60E22C30583009A8750 /* Inline Segmented */ = {
+			isa = PBXGroup;
+			children = (
+				C10DA60F22C30583009A8750 /* XLFormInlineSegmentedCell.h */,
+				C10DA61022C30583009A8750 /* XLFormInlineSegmentedCell.m */,
+			);
+			name = "Inline Segmented";
+			path = "../../XLForm/Examples/Objective-C/Inline Segmented";
 			sourceTree = "<group>";
 		};
 		C15D5B9822C2FBB200289DB2 /* PredicateExamples */ = {
@@ -374,7 +373,6 @@
 		C160DE1722C284F2009F04CC = {
 			isa = PBXGroup;
 			children = (
-				C1BCD16822C3106B00044731 /* XLForm.xcodeproj */,
 				C173F29322C2D79B0081CA32 /* JumboModClient-Ios.xcodeproj */,
 				C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */,
 				C160DE2222C284F2009F04CC /* SplicerClient-Ios */,
@@ -399,7 +397,7 @@
 		C160DE2222C284F2009F04CC /* SplicerClient-Ios */ = {
 			isa = PBXGroup;
 			children = (
-				C1BCD17922C310FD00044731 /* Inline Segmented */,
+				C10DA60E22C30583009A8750 /* Inline Segmented */,
 				C1CD7DA522C2FFDB00C0009C /* XLForm-Prefix.pch */,
 				C1AF363822C2E7250032D12D /* Examples */,
 				C1AF369B22C2E7250032D12D /* XLForm */,
@@ -652,24 +650,6 @@
 			path = XLForm;
 			sourceTree = "<group>";
 		};
-		C1BCD16922C3106B00044731 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C1BCD17022C3106B00044731 /* XLForm.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C1BCD17922C310FD00044731 /* Inline Segmented */ = {
-			isa = PBXGroup;
-			children = (
-				C1BCD17A22C310FD00044731 /* XLFormInlineSegmentedCell.h */,
-				C1BCD17B22C310FD00044731 /* XLFormInlineSegmentedCell.m */,
-			);
-			name = "Inline Segmented";
-			path = "../../XLForm/Examples/Objective-C/Inline Segmented";
-			sourceTree = "<group>";
-		};
 		C1EE04D722C2943F00E12E77 /* generated */ = {
 			isa = PBXGroup;
 			children = (
@@ -789,10 +769,6 @@
 					ProductGroup = C173F29422C2D79B0081CA32 /* Products */;
 					ProjectRef = C173F29322C2D79B0081CA32 /* JumboModClient-Ios.xcodeproj */;
 				},
-				{
-					ProductGroup = C1BCD16922C3106B00044731 /* Products */;
-					ProjectRef = C1BCD16822C3106B00044731 /* XLForm.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -823,13 +799,6 @@
 			fileType = wrapper.cfbundle;
 			path = "JumboModClient-IosTests.xctest";
 			remoteRef = C173F29C22C2D79B0081CA32 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C1BCD17022C3106B00044731 /* XLForm.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = XLForm.app;
-			remoteRef = C1BCD16F22C3106B00044731 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -945,7 +914,7 @@
 				C15D5BC322C2FD1200289DB2 /* XLFormRatingCell.m in Sources */,
 				C1AF36B022C2E7250032D12D /* ExamplesFormViewController.m in Sources */,
 				C15D5BC122C2FD1200289DB2 /* FloatLabeledTextFieldCell.m in Sources */,
-				C1BCD17C22C310FD00044731 /* XLFormInlineSegmentedCell.m in Sources */,
+				C10DA61122C30583009A8750 /* XLFormInlineSegmentedCell.m in Sources */,
 				C1AF36C222C2E7250032D12D /* CustomSelectorsFormViewController.m in Sources */,
 				C1AF36CA22C2E7250032D12D /* Model.xcdatamodeld in Sources */,
 				C1AF36C322C2E7250032D12D /* CLLocationValueTrasformer.m in Sources */,
@@ -1152,7 +1121,11 @@
 				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
-				"OTHER_LDFLAGS[arch=*]" = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ljre_emul",
+					"-ljre_util",
+					"-liconv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SplicerClient-Ios/J2OBJCBase-Bridging-Header.h";
@@ -1186,6 +1159,11 @@
 				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ljre_emul",
+					"-ljre_util",
+					"-liconv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SplicerClient-Ios/J2OBJCBase-Bridging-Header.h";
