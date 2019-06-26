@@ -8,39 +8,89 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>AXRatingView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>JVFloatLabeledTextField.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>Pods-SplicerClient-Ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>SHSPhoneComponent.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>SplicerClient-Ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 		<key>XLData.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0130B3724283586C0E9D2A112D4F2AA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AD84EA98A846A6E82ACC25CC13CFE3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>949AB0CA1AE4B2CFFBDC370A6FB1143D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3FDD061F7BDEDB21FDF2BADD48A6E32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D50AE83DD721C55CB9B772BCBA4FDAF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDBB1A585DEBC338805A9B958369E7A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F571007502E8D291701B742839653EB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
