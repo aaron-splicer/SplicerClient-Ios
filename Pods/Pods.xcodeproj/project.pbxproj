@@ -19,135 +19,206 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		055FA19286EADA669736BBC76868DE3F /* XLDataStoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3056CAB7A3E24AF73C700A1E8A381A71 /* XLDataStoreController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		09A0A6C52827629B77F4D9FF90D1400A /* XLDataSectionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B33BE3147F3A50842776ABD5B9CCAB9E /* XLDataSectionStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		09ADF94C8C0FA886B69EF579C92831E6 /* XLRemoteDataStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF265552114BC5818165C4CC599DB10E /* XLRemoteDataStoreController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0E07E38675ACCE25CE3EE3702BA32262 /* XLDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AB3F8AEE87E9219EB17581FFA77E37 /* XLDataLoader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0E90019B698DEAE6723AB634A2902EEA /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA847032CB6C8E99637974C77065448F /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		12018060C742FBE1C4788A75D23611AB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5190C7A81611EF0AE6C485AFC74B6509 /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1256323B6E44FEE336A894BAE8B6E997 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA826EEEEF4D6177CF4C2119017B954 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		128BB8E16E2AC06BCD9983AEEFCB5DBD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 633CD4EE1F408DC8140E14E392E45142 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		12B31622B9F0C4FE1F9D4D02EC212DE2 /* XLDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9744A1896026AF9DDED013CFFD96F425 /* XLDataLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		15BE9A5A5BA5FBA9EFAFE13D871D12D9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EC473771095757957F9B49D609401D09 /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		17C8B4DCAB026E7E06212ECB0194AE09 /* SHSPhoneLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0F9C895F7419C930E4FEE21D2F3CAB /* SHSPhoneLibrary.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1A2F6422890EB7254BD7AA6CDB6FFFF5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E9FBE10FCF97B654D13E8ED68B0B54 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1EC9180352B6BCE075C821A3B9F378D3 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CDB717C5D9CCC5ADB7B051E7E7CB7E /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		209BD1197BA52FAC743925DE00EF757C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 698CB30C67BE1D9E85C97DA6911692DB /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		20DA98FBA24FC219A42F4D7BCD82EEA6 /* XLRemoteCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4873D7105BC81CF2C55EC43E8FC07ED6 /* XLRemoteCoreDataController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		210EFBC4F9DF39337B0349132AD7DB75 /* AXRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BDF0A32DBA1B1039CAF1F563F85192 /* AXRatingView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2491ADD253D41705B28B0B46ACBADDCB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397E83968CA9C327A5CBB8034E454B4 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2690BAF48BA463AA7FCE5925E4C4357B /* XLNetworkStatusView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1BBD8C1BBF1B690ECD0F9A72D9BF40 /* XLNetworkStatusView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		27218A1835B812F577D41CCED3A9BB41 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDCF0E8EF3BF1960610DA873077845 /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		289FF40479EE0CBE267EDEABCACC43A6 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A325BFEA4575129CE340C4A313526BE5 /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3145E3D7E38D1CEAAC0BD9C67CFD42CC /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D578478119AB01E7769114D93D1063 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		32435CA4F005B4677E112F140CAD56F0 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E686461271DA0F2043282B65629CFCE /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		36E1ECD241C3094FAB96FA793A94DAE3 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D1C69818376178452293F133EB7E5 /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3ADDE512F222F23E7545AA2868A96A6B /* SHSPhoneTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = AA73A37784BB76E570DCFC9E573FD39A /* SHSPhoneTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3ED25BD65F1E87F38A706B07214BFD80 /* XLSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 53DD135243481F099B7197015BA454F6 /* XLSearchBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4875896F998851308E60860496E86947 /* SHSPhoneNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A58111D91928E85B1E7DEAF49CF2C49 /* SHSPhoneNumberFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BCC1D1C55CC467A6C2936FA1C741A1B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAF6AB9B3F214D18A84A2488A53D4D /* AFNetworking-dummy.m */; };
-		4E4DD1D7742E9DD6955124289B809AD8 /* XLCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245EAA1FC1D129C07F0831A43503F5FC /* XLCoreDataController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		505C014E013ABC2832E3923824B09518 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE34D4E38ECBF293D6C6EDF111B9B /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		523D8A17BCDD72BFE898C670BBD6EEA3 /* SHSPhoneNumberFormatter+UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 884B9BCE5BEECB936CFEC24095A306A5 /* SHSPhoneNumberFormatter+UserConfig.m */; };
-		5253C0C87609653D9BF32415BBF655A2 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FA094CED7FCDDFD6FA0B2353FABC972F /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5A04B101B82E9816AFB14949121BD16E /* Pods-SplicerClient-Ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B03F58775BDDC0162AC01B50982A5E05 /* Pods-SplicerClient-Ios-dummy.m */; };
-		5E4FA58D5D935B82196A211E9C620F38 /* XLNetworkStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 127AFA79F052BEF7D36657AF30DEABDD /* XLNetworkStatusView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5F25E8EA314FCC0BF38F75EE15A613AF /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 055865A048FE0A9AE1156686A0AA241D /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		613234CBFF8B2D23ADA984FCF427D90A /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C515746B863D7ECC0A52638F4F5FC02 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		622EABE4EA8B1A69E4B4800C8E8E53A5 /* XLDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D84C12D84F9208720341CE3D03A49 /* XLDataStore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		637B78995ABF394983F7C7A75CACE8BE /* SHSPhoneNumberFormatter+UserConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CA12E094B980AE6C6BA705CAA648D5AF /* SHSPhoneNumberFormatter+UserConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AECAC663CB65355CF0BFB610C879E99 /* XLData.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF9DB413CAEC7FB93B1687C222631F0 /* XLData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6C3763A6EF8DB140F469B1D45BED87FF /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9927121D14EF3422D2DA9C1744404 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		71432A931621EFF39811CC31FBFB40C6 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 895B232865BF3DF3BF2BA8C05A7ED12D /* UIAlertView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		73B423F07AF923C16048F9074D1D0C2A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E6CF8A91A0374099A941AD0A51309221 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		77D8E959A55B8DBC7F3D7B081F6820C3 /* XLDataSectionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B36C9726CF2D88226FA1B8F25C52B3 /* XLDataSectionStore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7D84770084AA51BCFB29C78864DD4508 /* SHSPhoneLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A64E35F26F73ABD765D85C10030253E /* SHSPhoneLogic.m */; };
-		7D9401C412EFFDF2B1EE0C6B9B9D6F67 /* SHSFlagAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0995A7A2B9F8EDBF53BC5A349D6D0045 /* SHSFlagAccessoryView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7EACBB202630A52D7593F5A079EC2530 /* XLCoreDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 364C03BF48E9E4B0DF4B95D618DE3D81 /* XLCoreDataController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7F34CF2880BC5F9E9CC98E1FB70D81CF /* SHSPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9A00457AF83D947465005B7DD251E /* SHSPhoneNumberFormatter.m */; };
-		80C088A3840F372480CDD4AC9DEA651B /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDEFE17DC5DE01AAC6856AA2E944A2C /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8CDBAA6BB656529E9AD18CDB4907FCEA /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E2EFB1E0BDFBA4B4BA360C45552E6F /* UIScrollView+SVInfiniteScrolling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8F075C017CEF4300C95611A990462951 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B449B3A5B210888E4B5B5A1571046 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9239D2AC0F67303C95976F7CA883A8D0 /* AXRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7654B060FA9DB1271B1E96CB206FCD /* AXRatingView-dummy.m */; };
-		94FEDE2F023C127B24A302EA2A2E3000 /* XLData.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EC397BB7688C528BDA9E88656B0AE0 /* XLData.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A060EC28A1ABADBA50B1583923330886 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBD18509B0094A6319350ECDE751F55 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0BBF0EA837C34E13768ACBEAE10D9FF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = A66D6D4F200BC250CAAD2F4F2717B4E3 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A7892F3232FAEBAE9A2AB8BB6D735590 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A1245A6254180C603BA32B8B7B0008DD /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACEF3838961F14E35972418A228BBBD9 /* XLRemoteControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 051F0ADA831BFAF969E004F32C1C3DE4 /* XLRemoteControllerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ADDCB14F6746AC5760FCEF47123B1698 /* XLRemoteDataStoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB39F517C3A36206C25C22C4E4C2213 /* XLRemoteDataStoreController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE7A903C8BCE510DA043CB7B865B46AE /* XLDataStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700C5C6AF6E1823C49699132EEDAE6EF /* XLDataStoreController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B0AA66A2A4BAC765B6A5391379CB344F /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 16094DB89C55E59B97FA4DA81AA792B1 /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B12917388AFDB338FA733504FAE18C62 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED0742BF49804095B9484829636D1EF /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B167509ECF34ABE806FD29056AD451EE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A33BC3B020ED5C0AC1E7DC6CF6C376 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B255E31DAC6DB7CADFA62A0465380281 /* XLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 325FB305A755C782F1DE745A07F5796F /* XLSearchBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B26FCA1CF72B94FCE77C2B1052A5927D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 956BD6C1A6074D9AE690270FAF853E86 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B76473466114B1C4FECBA9F1F19BFC54 /* XLDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2B7A53F8DA9C5A390158DDEA5D0837 /* XLDataStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B95D75959ACB72B5DC07FFFF243204AE /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C5DB48DAA919CAEF373889E598B5B8 /* JVFloatLabeledTextField-dummy.m */; };
-		B9B3B90C9CDD7EDDF4BC68E775C16E36 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5C48B51B0D5FA1DB91AAE843F9B1AC /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BB9FE3CD087F6CCAB2E437542BF9F14A /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EC4EFE3E2F046A54AD875C930B0315 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BBD45CEFDDC2CF92A313DA2F38DE72B2 /* XLRemoteCoreDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 15110E607AAD699D56C53B34E76A2D2E /* XLRemoteCoreDataController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5CC8DD6020CDBD05B81D673A0E74582 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4365968128C217CDB6479747845183 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C630F71EEBC906E18E44558EB269B549 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE9EEB04BA62A2C9A2779BB88CAFA8A /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CBBEAE94C905FF9763F77687CC7A6518 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B21BE4067180EB603A8399D377FFBA28 /* AFHTTPRequestOperationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF8C9105E7400AC0E3EE27259EF0474D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA23BFF60430B31CB4AA53F981FDE7 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D0E10349F1BF96564D5436564F345D4D /* SHSPhoneComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A996C1AD40E3E6BFEFCEB952F756B4A0 /* SHSPhoneComponent-dummy.m */; };
-		D2B6331BA06B709EFA03652EE52C5622 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 42011EB02A0DD0D8D221294D60E313F0 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3412420BD40281E66C07F5CBCFBD463 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE3B1BE40B10974E26B6DD3913310DF /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D8E2E52FB7D613078381C0A179B0C1DB /* SHSPhoneLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4178E27CDAC6D86E7419A695D75B38 /* SHSPhoneLogic.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD9CDE76199B50578ADCDD8D7BB7E3EE /* SHSFlagAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB093FDA37B52BFC5C0FE6B810C5FFC /* SHSFlagAccessoryView.m */; };
-		E133D27E51119B309B72DFC967DBE324 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1F0CEFF0D461F6AEDF20BD8E13DEB7 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E796C994D07F2B5CFF755DBD857F6C13 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 66947F820F59BECB35A6A489B53F7388 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E8A8E2B956464B74C899393FB2E76370 /* SHSPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1AF4FA59D2FC3E235DF9A158F68E9B /* SHSPhoneTextField.m */; };
-		EC634B6F86D7DD492237725FDF033498 /* AXRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D533CF7BDDF27D6BB904ACF86A60F /* AXRatingView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EDD0B037D57E4076BD6516AFF444E836 /* XLData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6339C4430066266BF9A54C56BA39D649 /* XLData-dummy.m */; };
-		EE0EEA36F03259A2001AF0B9F1CC62F2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A30881F4DF33B5A3F2BBEE460891D68C /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F185AEF7A9322093EE8341DBC11F80AF /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA12ACD7F210E25CDDCD932AD20BB1A /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F7FFA7BA5D8A9C63910C79E9D982B6A9 /* UIScrollView+SVInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4946F56FBB5C807E6661642C787776 /* UIScrollView+SVInfiniteScrolling.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F95C48247ED7555ABE374F45C002A644 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B53AB82E39B1AC9A6C7B52FAF28FB7F /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		02AE3E0E3AE743ED40846B7B48740DF6 /* XLFormSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A18B15867FD4F0BE44137524190878 /* XLFormSegmentedCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		03A542E82A020337A88B87D062921817 /* XLFormInlineSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9D4B0A3C34E19B62A9C1C00092F2AC /* XLFormInlineSelectorCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		055FA19286EADA669736BBC76868DE3F /* XLDataStoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = 931B397FBFEACB4051276D552E2E4D17 /* XLDataStoreController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08594D940F87CCC1EC8E0213D4364199 /* XLFormRightImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3DABE6C1CC25C96AEC51EA02B1B18D /* XLFormRightImageButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		088C99AFD294C770E53D2594456AA6F4 /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C08FE9CB7AAA3E8F75222FBDE16832 /* XLFormBaseCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0934F45881B58CD4978E3FB069B11D79 /* XLFormButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C75E3C15A15BA1F6380647B4D550532 /* XLFormButtonCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09464F50AED49FF1617BF91E186945CC /* NSObject+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A7B5CB1E4D85D6559405D51BC2066A /* NSObject+XLFormAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09A0A6C52827629B77F4D9FF90D1400A /* XLDataSectionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9681648CD9ABB4AD668C468B151A2508 /* XLDataSectionStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09ADF94C8C0FA886B69EF579C92831E6 /* XLRemoteDataStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC742B363E563B07F294F4B4C7E12B4 /* XLRemoteDataStoreController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0A277EC370AFBF3B12AAB73AC5F70DB1 /* XLFormDateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE7CCB8820C1C6D4DD31E61FE16BEAF /* XLFormDateCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B2D36226B076C24475495760B3C9C0F /* NSArray+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24F69D66086D3117054FD8299A2729 /* NSArray+XLFormAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0CD0142B4B2D8C7EEBFBC6DCE9752749 /* XLFormDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C355B5BD2A1F2A53995BEF1A99D71450 /* XLFormDatePickerCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0D020E0846DA210141514C569927A2FD /* XLFormTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A794E8EA1BE8962C3A3E430C4B4742 /* XLFormTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E07E38675ACCE25CE3EE3702BA32262 /* XLDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C6308CBF0D28E8506F63C40A0E81713D /* XLDataLoader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E90019B698DEAE6723AB634A2902EEA /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 154367B18D3AC5F41D40D6A94E9EE783 /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		12018060C742FBE1C4788A75D23611AB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7BE1F5E7F0C12305A9B0E12C4E81E2 /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1256323B6E44FEE336A894BAE8B6E997 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D16BC6EB0AFD1ADFB064F36D8A37E37 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		128BB8E16E2AC06BCD9983AEEFCB5DBD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F2277915D1245B7F7656B0E22039AD /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		12B31622B9F0C4FE1F9D4D02EC212DE2 /* XLDataLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 674BFBE5751539E1355DDD11CC2E6054 /* XLDataLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15BE9A5A5BA5FBA9EFAFE13D871D12D9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AEDB9B1DD6D1C434E6499FF3774B09 /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		16C7C7909B8DED08EC62501E3BFA6390 /* XLForm.m in Sources */ = {isa = PBXBuildFile; fileRef = B15D9934235AD091CDBA3EBD1B927C3D /* XLForm.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		17C8B4DCAB026E7E06212ECB0194AE09 /* SHSPhoneLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BF68C53896C7A2FD26ED0B34E03E12 /* SHSPhoneLibrary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A2F6422890EB7254BD7AA6CDB6FFFF5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B75F9A990A2F829C4C80B46B05ECFA /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EC9180352B6BCE075C821A3B9F378D3 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF6A1721342A48E5094BE72C4611B77 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		209BD1197BA52FAC743925DE00EF757C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3B044639EF980A8596D542DDB952EA /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20DA98FBA24FC219A42F4D7BCD82EEA6 /* XLRemoteCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9EFA67B53A8ADE580F5ED0196462B /* XLRemoteCoreDataController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		210EFBC4F9DF39337B0349132AD7DB75 /* AXRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5ADD83802AD91520DB826028EB2AB2 /* AXRatingView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2491ADD253D41705B28B0B46ACBADDCB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C03C98EBE72CD23D3A3F530491F1DA /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		249AF5F22260D738474FC546B690D584 /* XLFormInlineRowDescriptorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9915217536D1ACE8E289CB22518710B7 /* XLFormInlineRowDescriptorCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25A738831137020AABFE71A514B8E02A /* XLFormRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 332AAD5F771147DB0C0552C7C0EA994E /* XLFormRightImageButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2690BAF48BA463AA7FCE5925E4C4357B /* XLNetworkStatusView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD54EB03A5EF7FC4ED30B874D0E38A69 /* XLNetworkStatusView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27218A1835B812F577D41CCED3A9BB41 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0AFB4D7B5960137816895CF3DC3CA /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		27D948ACE6B418D7A18A09E74034C346 /* XLFormDescriptorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A91EFB6214011AFBFF21DEEC1B7F0F /* XLFormDescriptorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		289FF40479EE0CBE267EDEABCACC43A6 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCDD368C39814D7206A77B5B9E9CFFB /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		28C0743CD1F3487E048B51C3F29B1677 /* XLFormRowDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DF122646A93ABF8E9761F7D57357A384 /* XLFormRowDescriptor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2B3C9BFBE691B806909F073C558690B4 /* NSPredicate+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 768FE9A2C2EF5071630000C44F1004D6 /* NSPredicate+XLFormAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3145E3D7E38D1CEAAC0BD9C67CFD42CC /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4729227D38AEB2A8807481BF06F65095 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32435CA4F005B4677E112F140CAD56F0 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 606043AB1228490735AD3FE4D8E0299F /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35CD5EFF019FE1BEE6C93631D3110F0D /* XLFormBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2E7B325C8C08E48EB27550B816ECD8 /* XLFormBaseCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36E1ECD241C3094FAB96FA793A94DAE3 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 50713B50F22D3D384AD5EFE6DEA7322F /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3ADDE512F222F23E7545AA2868A96A6B /* SHSPhoneTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FC21A9C40FE0D693C081540D3515F12D /* SHSPhoneTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C6433E1DD73C67B6BE6465B1526EC89 /* XLFormValidationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 62430B3B0EDE79AF1D968FCC8A863716 /* XLFormValidationStatus.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D5F71BBC81425D16C246101A8913E97 /* XLFormValidatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA4B3192DA18F84F3629C8CC9516542 /* XLFormValidatorProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ED25BD65F1E87F38A706B07214BFD80 /* XLSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2B42F6663057AFCE5F9B1C69BF38D7 /* XLSearchBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F04FAB383E439E6E3BD99D5A24A750C /* XLFormRowDescriptorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C21554EED15A6C7BB1A7E0836B8B3D17 /* XLFormRowDescriptorViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4704C5011DC7F905CE7DFEE482B24D38 /* UIView+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEC540AAFD77A385C2E3E8AC4B8FBE3 /* UIView+XLFormAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4875896F998851308E60860496E86947 /* SHSPhoneNumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F86A5B54348BE0BB0A1FF345EE1393B3 /* SHSPhoneNumberFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A8B70E2A18A9D783DC7D94EC593C339 /* XLFormButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2188479D690529595866F2C73232ECA /* XLFormButtonCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4BCC1D1C55CC467A6C2936FA1C741A1B /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 178C5B76D7869965A404CCB0DE5F4F07 /* AFNetworking-dummy.m */; };
+		4D7ACEBCE2B9EEE6C535084F10C9981B /* XLFormDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FBD74BB64C277E196DBB0A4120F8A /* XLFormDescriptor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4E4DD1D7742E9DD6955124289B809AD8 /* XLCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC844435E763892D9719B20B70752972 /* XLCoreDataController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4E83AAB44D18E766B1DAEEED33625A5B /* NSExpression+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92FFE5614229936FB150CA4E18E236 /* NSExpression+XLFormAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4F9838FDB8DEEE8D2BEFF7EE19087046 /* XLFormSegmentedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E244F2CD4692DE6294DBA45B0C7D04DC /* XLFormSegmentedCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		505C014E013ABC2832E3923824B09518 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6CE40D3CA170D7190BB0BB0CEB8857 /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5141F417289D4458B8D800EC646E34A3 /* XLFormRowNavigationAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7244274775F8934F7C3EFE2EF2E5E4DC /* XLFormRowNavigationAccessoryView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		523D8A17BCDD72BFE898C670BBD6EEA3 /* SHSPhoneNumberFormatter+UserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0A03CFA5273823673F2B0CDEA3F64 /* SHSPhoneNumberFormatter+UserConfig.m */; };
+		5253C0C87609653D9BF32415BBF655A2 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E062AA1615958E488A536E162FFF89EA /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52CB5DC65ED22F85CF7CA70362C2792D /* XLFormSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E11B2BEBA1AFC156445231B43AC1FEF4 /* XLFormSwitchCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59DC9029D3E93F86B8811FEFAD57FECD /* XLFormRightDetailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D204AFFF3805B3A8ECACB17FA66CCDD /* XLFormRightDetailCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E2CD60B01E87226F380AF5640B5F0FB /* XLFormSectionDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 604AF44224057E1A168A419172EE3D76 /* XLFormSectionDescriptor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5E4FA58D5D935B82196A211E9C620F38 /* XLNetworkStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6C830A0B8A1079D030A4806AC064EA /* XLNetworkStatusView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5F25E8EA314FCC0BF38F75EE15A613AF /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F711E4E1728A9188905D9917F9ED036B /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F9BC6B2DDCBC0F2663F354124EE9EA4 /* XLFormOptionsObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD04B26D7D5DAEB3B381DD13D49E4EB /* XLFormOptionsObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6059C4A7C6EB91D436A0C1716FD40B36 /* NSPredicate+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B7117DAEAF4DE29EA426A86935CDDE46 /* NSPredicate+XLFormAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		613234CBFF8B2D23ADA984FCF427D90A /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C713A87A3ABC55B6C80A6EDFAAF26E36 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		622EABE4EA8B1A69E4B4800C8E8E53A5 /* XLDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5B26D22A2C60C895047458DEC2C05 /* XLDataStore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6292774D5602629301574DB64EF0451A /* XLFormTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CCC2A33A9F1931AD71C68313A994B /* XLFormTextViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		637B78995ABF394983F7C7A75CACE8BE /* SHSPhoneNumberFormatter+UserConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AD0B2423B47B89D83E928DFAF63DF2 /* SHSPhoneNumberFormatter+UserConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		677B9FA6C2C4579F4359620E595A0072 /* XLFormOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DC795FF37F2BD0DF8099571F2C4B94 /* XLFormOptionsViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6A726214807605F6BA328581D24039E0 /* XLFormTextViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DC6E3A5E6BA99CE5044F2230BCE5C1 /* XLFormTextViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AECAC663CB65355CF0BFB610C879E99 /* XLData.h in Headers */ = {isa = PBXBuildFile; fileRef = 817633BFE6B63ABA5F0728E4EEF967E2 /* XLData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C2FF970E1E17E3427E74DEE69E4B68B /* XLFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 600553E260A32C4062907C40CF021003 /* XLFormValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C3763A6EF8DB140F469B1D45BED87FF /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 034230607D0C6332CB6402F8E6656C04 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		707E411EC82246E16504FC1ACD7D9111 /* XLFormStepCounterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0947132947DECF8D4110F51A42C2EF1E /* XLFormStepCounterCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71432A931621EFF39811CC31FBFB40C6 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 074C711061AA5ABAFCFB6620CFE86246 /* UIAlertView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72501FD07480402D9124E6EA99C2BCB6 /* XLFormSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3ACA1B4BCD21BE1DD985392EA1B1C /* XLFormSliderCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		73B423F07AF923C16048F9074D1D0C2A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE6F3FAF0199A6EAF9D05E649E436BB /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74DA1D7A5E443A84E36F7424E58AA4FD /* NSObject+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7412D0E2725094CB6A4B83E5D7D51096 /* NSObject+XLFormAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		76BBAB8BE63575FAE8241AB26975DE74 /* XLFormPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 540DE4F97A18F7ECA3D254E56D9D1296 /* XLFormPickerCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		77D8E959A55B8DBC7F3D7B081F6820C3 /* XLDataSectionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 132AFF301D26A2EED49B92F92DD0D60A /* XLDataSectionStore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7A775074E7A07974F2BEF679B64AAD11 /* XLFormRowNavigationAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA72AAFFE1A1158A4EBCFD16F1F646 /* XLFormRowNavigationAccessoryView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7D84770084AA51BCFB29C78864DD4508 /* SHSPhoneLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1677A71FA3B1B1E302740DB2DA90D835 /* SHSPhoneLogic.m */; };
+		7D9401C412EFFDF2B1EE0C6B9B9D6F67 /* SHSFlagAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = B2609A40947A8BF08D3FDB7063694760 /* SHSFlagAccessoryView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E6BAC9D9F75BFEA67FB5AC19C84C80E /* XLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011B0BD38C15E23052198E21FFC105E1 /* XLFormViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7EACBB202630A52D7593F5A079EC2530 /* XLCoreDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 925A508C9FDE181362306CE14E7A3D11 /* XLCoreDataController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F34CF2880BC5F9E9CC98E1FB70D81CF /* SHSPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA1385AE5E6626C027B76A498130FA /* SHSPhoneNumberFormatter.m */; };
+		80C088A3840F372480CDD4AC9DEA651B /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F409A40073CAE9DE4447C3B97168F8A /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8140612C3CD414B77F5D7C835BE95E14 /* XLFormLeftRightSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCBBC0769880C20A45BFA64153443C /* XLFormLeftRightSelectorCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		83ECC0FA03DC225941DFE8B876547E1E /* XLFormStepCounterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07955ABD9A0F46A91A7F49A1A3A02B53 /* XLFormStepCounterCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		83F21790021BF6F5D2D2286A33F7DC0C /* XLFormSectionDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B35A5244E67F4A7EB54AC059C0F6FB4 /* XLFormSectionDescriptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		842332093FAC4E02DF337B555F5A44F4 /* XLFormCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C91E09131A95E0443C76C76A19AC22CD /* XLFormCheckCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8CDBAA6BB656529E9AD18CDB4907FCEA /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 73868FF1AB912923A817A84B398E47E7 /* UIScrollView+SVInfiniteScrolling.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8F075C017CEF4300C95611A990462951 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E340895DC00D729654EB9EBD2CFD176 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9239D2AC0F67303C95976F7CA883A8D0 /* AXRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C223156363EDA29AE6479DEC1D1489 /* AXRatingView-dummy.m */; };
+		94FEDE2F023C127B24A302EA2A2E3000 /* XLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB626716035663468C24BFC76F15663 /* XLData.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97613804466C585F12DB4837B5BF8EB9 /* XLForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 082FF260454A255BECCADF9972F99A30 /* XLForm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A060EC28A1ABADBA50B1583923330886 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7F3E954006FF74F2E21503F8D6B660 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0BBF0EA837C34E13768ACBEAE10D9FF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9AE69FE4CCCEDF2C9EA0AB95B4A52C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6C1C35DDDE9F036AAF45428A6FAC37B /* XLFormCheckCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C53D427F7832C89B04C7FA739E1441C /* XLFormCheckCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A741EC17EB2C7F97FAC35549ED17111D /* XLFormSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE300F7A267C2C64B8A32C1E9F1489 /* XLFormSelectorCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7892F3232FAEBAE9A2AB8BB6D735590 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B34EB98C9E02B9891AE12796280615 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC279EC691E2992AA8F0CD3C7A379A96 /* NSArray+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA76F6558C8319B83FD3A9C887BACC4 /* NSArray+XLFormAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACEF3838961F14E35972418A228BBBD9 /* XLRemoteControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F32C4F50A122F0F8DD8E2D78B953E5EF /* XLRemoteControllerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADDCB14F6746AC5760FCEF47123B1698 /* XLRemoteDataStoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A3C702B34DCB7F240882000FECD587 /* XLRemoteDataStoreController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE7A903C8BCE510DA043CB7B865B46AE /* XLDataStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4580DBE7DBB81DEA038EAF381DD7DC1 /* XLDataStoreController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF39FF2288BF46418B743028EE69AF9A /* XLFormRowDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 791DE049202DBF9CC3A25056B290521B /* XLFormRowDescriptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0AA66A2A4BAC765B6A5391379CB344F /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 912496C802C272EAC48441B6E693508F /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B12917388AFDB338FA733504FAE18C62 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D311EE9F13DF89BCC647FD5FAC52B26 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B167509ECF34ABE806FD29056AD451EE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 28948C0DA8631DD64BB69C5F3DCBA0CA /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B255E31DAC6DB7CADFA62A0465380281 /* XLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B18F429562CC870937470F7E59A5AB4 /* XLSearchBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B26FCA1CF72B94FCE77C2B1052A5927D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F9B04A369001D114FAE9D1E705D148 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B76473466114B1C4FECBA9F1F19BFC54 /* XLDataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = C85285527A8305C387B525C7284BEF1D /* XLDataStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7EC17C833044404EF0C459BB7100AFD /* XLFormRightDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF3FB15F6E1217EA01873FF60469B9 /* XLFormRightDetailCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B7FF4DBD19FBC4BEB561A030E41EB22C /* NSString+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE363CDB3BA57C5FADB16A379FF7D89 /* NSString+XLFormAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B95D75959ACB72B5DC07FFFF243204AE /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A166A0A730E853A85DE9CFD3425607D1 /* JVFloatLabeledTextField-dummy.m */; };
+		B9B3B90C9CDD7EDDF4BC68E775C16E36 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E991A27C23FA2AB4362CDB198213D82 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB9FE3CD087F6CCAB2E437542BF9F14A /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8097A77E4EC2A0C197E5E7439A12640C /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBD45CEFDDC2CF92A313DA2F38DE72B2 /* XLRemoteCoreDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F57533C572479FB94AA2FBA3361BC69 /* XLRemoteCoreDataController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCD367BF6C119A492E37D7F7918AA343 /* UIView+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BADA68C136A579DCBF39FF15CD3690DC /* UIView+XLFormAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BD63D8773C1FC73669BC0BFE8AB6E9A5 /* XLFormValidationStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = CA26520665334292AA717F0F21660A44 /* XLFormValidationStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C080353542047CF57EA11609BD4A1113 /* XLFormImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854E983CD99EE69EA8D058CD264E09E /* XLFormImageCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C38B13AA3265F10A8E6CEE6436333933 /* XLFormRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EBD43F9797D88868AA692261EC99C /* XLFormRegexValidator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C44C1474DBB12112A432985EA0CF82CE /* XLFormDatePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A8615F9E475FFB8B719A6DA76F1DC5 /* XLFormDatePickerCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5CC8DD6020CDBD05B81D673A0E74582 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA2A29649C5FEB0C56E077E464F4C77 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C630F71EEBC906E18E44558EB269B549 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F0474429025BD900F7A41CB68BDEE1F0 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C751762653F30DD64B7A2A1D4E925C2C /* XLFormInlineSelectorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE6E73604281B69FD25DB3231CDDE53 /* XLFormInlineSelectorCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB1E90A2B5ECBB27E26CD279A7D2331B /* XLFormTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F732B2BBFDDBFEF6541CD1EDC8FDFCEB /* XLFormTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBBEAE94C905FF9763F77687CC7A6518 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB318EA8EAB497CCCB9D1701C13C07 /* AFHTTPRequestOperationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CCEDACEBD74614EE30FB0556FA92F9EE /* XLFormSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 953AD10E461A3AD31571630FD065AF76 /* XLFormSwitchCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CD025ED420544FAE4667EE2B4FB17637 /* XLFormOptionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BF89F9AC831A76C290CFB777DB357B /* XLFormOptionsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD6FF8EF5752A0108F61897A795A6CAA /* XLFormOptionsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DB7F63002B72B8E6F905627E2486 /* XLFormOptionsObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CDF28EAD8EE2875BFD5102C383D134D4 /* XLFormTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F6746C15AF111884C1A315C39600B07 /* XLFormTextFieldCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF8C9105E7400AC0E3EE27259EF0474D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E640E35143263FA6605CB61FF3CAFD /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CF9F21C9F7A33FC62E5CB6C89A49FE78 /* XLFormLeftRightSelectorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD469E62984F595E041C36FF7B97735 /* XLFormLeftRightSelectorCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0E10349F1BF96564D5436564F345D4D /* SHSPhoneComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F38AA034FA5D08E5BCA928ABC62E491D /* SHSPhoneComponent-dummy.m */; };
+		D1E01E48F3D96B6FE1E0187F2E67EC1E /* XLForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1A8EC64DB846AB32B5BFACA7BC82A /* XLForm-dummy.m */; };
+		D2B6331BA06B709EFA03652EE52C5622 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9508710DA10F72ED63F4DB7AA297C715 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3412420BD40281E66C07F5CBCFBD463 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A8190AAE4ABE35D9F5ACB62192FEE1 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D42420A3D5C4CF064E88C731925F577D /* XLFormSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6B4D0BE33CD33A2BE6C4465C70BF09 /* XLFormSliderCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4C676D26D3A85D86DFC9B4FBCDBB3BD /* XLFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 971A16ECBBCBE636AC482CFE6D2047BF /* XLFormValidator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D8E2E52FB7D613078381C0A179B0C1DB /* SHSPhoneLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C192856E1957B940E0D451703ADD1E7 /* SHSPhoneLogic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD54951C584F56E6D476B1B18C4918E5 /* XLFormRegexValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = E536503DAA19D5419AE042EE5CCB75CA /* XLFormRegexValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD9CDE76199B50578ADCDD8D7BB7E3EE /* SHSFlagAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FF5D7C4102E9726352BA69EE0503D /* SHSFlagAccessoryView.m */; };
+		E133D27E51119B309B72DFC967DBE324 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FA336D62F6F1068459267F6E09CCAB /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E796C994D07F2B5CFF755DBD857F6C13 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BE24C42D36FF7A80ECAF38D849D014 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8A8E2B956464B74C899393FB2E76370 /* SHSPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B2802A73B237389118214259C760BD4B /* SHSPhoneTextField.m */; };
+		EC634B6F86D7DD492237725FDF033498 /* AXRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD9F2F854AD599FCF28B6E1477C9F77 /* AXRatingView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EDD0B037D57E4076BD6516AFF444E836 /* XLData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B892D156CD09DDB9D5D9A84B1B8B9CA /* XLData-dummy.m */; };
+		EE0EEA36F03259A2001AF0B9F1CC62F2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 108E42CD0B68B3B9D9345C61BEBCFDA0 /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE5005BF06D67370ECDC40E426DBC3BA /* XLFormDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AA46703EBECFB1A23CA7A59A796D8C /* XLFormDateCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F185AEF7A9322093EE8341DBC11F80AF /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D975419D73BC90630D8FC5FC2F4C4F8 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F26FBDF216B51F74FBD7E682A4B8E05B /* XLFormDescriptorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2470E2DA7249D56B6107D9A35312FEBD /* XLFormDescriptorCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F375CF27E6173B0E71B2A2FF6125C00C /* NSExpression+XLFormAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A66C2BB9E648EE6A6B922C9E5D689 /* NSExpression+XLFormAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F538AAA006844AE9EE3856CE51CC380B /* XLFormSelectorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CEFBAC0859FF1BDE2F33553BFCEDBB /* XLFormSelectorCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5DEED54654E7F1355A958F997E8E9A1 /* NSString+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B12EA951E9130CCB0983B5606E495863 /* NSString+XLFormAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F5EF7BF915782070BC37B22DA9A44509 /* XLFormDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D35BB260D80438DCA1F44243A2AE6A5C /* XLFormDescriptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5F7B630CE693E9693B0EA81B4C621B0 /* Pods-SplicerClient-Ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 816644CB28A63B3ADFF766FAD293D233 /* Pods-SplicerClient-Ios-dummy.m */; };
+		F7FFA7BA5D8A9C63910C79E9D982B6A9 /* UIScrollView+SVInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E59374A1AFAD7AB84AFA3ADEB4CC28C /* UIScrollView+SVInfiniteScrolling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8ACCA5944639ECD36E07A94E42F403E /* XLFormTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D9819441C6354FC2E47319550A13 /* XLFormTextFieldCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F95C48247ED7555ABE374F45C002A644 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4732CE81F2DFBD148B8DC610E2DAEE5 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FCC9C444DF172A9CA89EA06A767477D3 /* XLFormImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133B297A7A7A49D650EEA98EAA4C908F /* XLFormImageCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEDD6354BA743F7A7D827378A3018F6B /* XLFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3E096E2A30224B567C74256B50FB3B /* XLFormViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFD85A999B8DD45966E57F4C30FFED9B /* XLFormPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEE28D2753A27BB3B12F12AB100A26A /* XLFormPickerCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25FCCD728BAD1DD7037CA560AD7EC4AC /* PBXContainerItemProxy */ = {
+		033D2977510C832B6E0589CBADEF201C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 949AB0CA1AE4B2CFFBDC370A6FB1143D;
 			remoteInfo = AXRatingView;
 		};
-		293128D7589CF9F8102658F79C9B1733 /* PBXContainerItemProxy */ = {
+		21E134795A03E769641A051116BA7C80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		33492B46D39331D2A7C496D9A5117E2A /* PBXContainerItemProxy */ = {
+		845762A6E2EC342FFCBD5B0D85ED7E33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3FDD061F7BDEDB21FDF2BADD48A6E32;
-			remoteInfo = "SplicerClient-Ios";
+			remoteGlobalIDString = F571007502E8D291701B742839653EB5;
+			remoteInfo = SHSPhoneComponent;
 		};
-		38E39AA6ED9BEFA847C624BEF8223B94 /* PBXContainerItemProxy */ = {
+		9DB761BA0BA545EF03A715B9602F3BD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D50AE83DD721C55CB9B772BCBA4FDAF4;
 			remoteInfo = JVFloatLabeledTextField;
 		};
-		478C5822A8307F810C4BB24DD44922BD /* PBXContainerItemProxy */ = {
+		A4C61FBEF8DD588FDA339C1DD31C02C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDBB1A585DEBC338805A9B958369E7A1;
-			remoteInfo = XLData;
-		};
-		4795CE208A2B884E143461B8C360BBD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F571007502E8D291701B742839653EB5;
-			remoteInfo = SHSPhoneComponent;
+			remoteGlobalIDString = D3FDD061F7BDEDB21FDF2BADD48A6E32;
+			remoteInfo = "SplicerClient-Ios";
 		};
 		C6B220F8968EFE5EF5AF478920B8A22E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -156,123 +227,234 @@
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
+		E395AD4CE56ADDF2F8CB03490C9AD745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 127E692FF724D4C929D1AF5ADFC90C6C;
+			remoteInfo = XLForm;
+		};
+		EEE77A0063B8A40EC961953A904F1D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBB1A585DEBC338805A9B958369E7A1;
+			remoteInfo = XLData;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A18B15867FD4F0BE44137524190878 /* XLFormSegmentedCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSegmentedCell.m; path = XLForm/XL/Cell/XLFormSegmentedCell.m; sourceTree = "<group>"; };
+		011B0BD38C15E23052198E21FFC105E1 /* XLFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormViewController.m; path = XLForm/XL/Controllers/XLFormViewController.m; sourceTree = "<group>"; };
 		02F8FA1923BAE2CE689095C2FD4FD6EF /* libXLData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXLData.a; path = libXLData.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0397E83968CA9C327A5CBB8034E454B4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		051F0ADA831BFAF969E004F32C1C3DE4 /* XLRemoteControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLRemoteControllerDelegate.h; path = XLData/XL/CoreRemote/Loader/XLRemoteControllerDelegate.h; sourceTree = "<group>"; };
-		055865A048FE0A9AE1156686A0AA241D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		09148FA35C20B33134ABC094C1F32B98 /* XLData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLData-prefix.pch"; sourceTree = "<group>"; };
-		0995A7A2B9F8EDBF53BC5A349D6D0045 /* SHSFlagAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSFlagAccessoryView.h; path = SHSPhoneComponents/SHSFlagAccessoryView.h; sourceTree = "<group>"; };
-		0AE3B1BE40B10974E26B6DD3913310DF /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		127AFA79F052BEF7D36657AF30DEABDD /* XLNetworkStatusView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLNetworkStatusView.m; path = XLData/XL/Core/View/XLNetworkStatusView.m; sourceTree = "<group>"; };
-		15110E607AAD699D56C53B34E76A2D2E /* XLRemoteCoreDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLRemoteCoreDataController.h; path = XLData/XL/Remote/CoreData/XLRemoteCoreDataController.h; sourceTree = "<group>"; };
-		16094DB89C55E59B97FA4DA81AA792B1 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
-		18C9A00457AF83D947465005B7DD251E /* SHSPhoneNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSPhoneNumberFormatter.m; path = SHSPhoneComponents/SHSPhoneNumberFormatter.m; sourceTree = "<group>"; };
-		1A64E35F26F73ABD765D85C10030253E /* SHSPhoneLogic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSPhoneLogic.m; path = SHSPhoneComponents/SHSPhoneLogic.m; sourceTree = "<group>"; };
-		1AFEE34D4E38ECBF293D6C6EDF111B9B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		1EDEFE17DC5DE01AAC6856AA2E944A2C /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
-		245EAA1FC1D129C07F0831A43503F5FC /* XLCoreDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLCoreDataController.m; path = XLData/XL/Local/CoreData/XLCoreDataController.m; sourceTree = "<group>"; };
-		24CDB717C5D9CCC5ADB7B051E7E7CB7E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		28BDF0A32DBA1B1039CAF1F563F85192 /* AXRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXRatingView.h; path = AXRatingView/AXRatingView.h; sourceTree = "<group>"; };
-		2BBA23BFF60430B31CB4AA53F981FDE7 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		3056CAB7A3E24AF73C700A1E8A381A71 /* XLDataStoreController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataStoreController.h; path = XLData/XL/Local/DataStore/XLDataStoreController.h; sourceTree = "<group>"; };
-		325FB305A755C782F1DE745A07F5796F /* XLSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLSearchBar.m; path = XLData/XL/Core/View/XLSearchBar.m; sourceTree = "<group>"; };
-		364C03BF48E9E4B0DF4B95D618DE3D81 /* XLCoreDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLCoreDataController.h; path = XLData/XL/Local/CoreData/XLCoreDataController.h; sourceTree = "<group>"; };
-		3BB39F517C3A36206C25C22C4E4C2213 /* XLRemoteDataStoreController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLRemoteDataStoreController.h; path = XLData/XL/Remote/DataStore/XLRemoteDataStoreController.h; sourceTree = "<group>"; };
-		3BDBE7E05B1D28B0F0C85F0F973790F2 /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
-		3E686461271DA0F2043282B65629CFCE /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		3ED6DBDFF1EB8305193B8FC5DDDF4378 /* XLData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLData.xcconfig; sourceTree = "<group>"; };
-		41E2EFB1E0BDFBA4B4BA360C45552E6F /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVInfiniteScrolling.m"; path = "XLData/XL/Core/Helpers/UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
-		42011EB02A0DD0D8D221294D60E313F0 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		4873D7105BC81CF2C55EC43E8FC07ED6 /* XLRemoteCoreDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLRemoteCoreDataController.m; path = XLData/XL/Remote/CoreData/XLRemoteCoreDataController.m; sourceTree = "<group>"; };
-		493967E6FCEAE9BE6975A98F9C0BD483 /* SHSPhoneComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHSPhoneComponent-prefix.pch"; sourceTree = "<group>"; };
-		4E7654B060FA9DB1271B1E96CB206FCD /* AXRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXRatingView-dummy.m"; sourceTree = "<group>"; };
-		4F9D1C69818376178452293F133EB7E5 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		5125F8960C4CA6E02E2106C8DD6808BB /* Pods-SplicerClient-Ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplicerClient-Ios.debug.xcconfig"; sourceTree = "<group>"; };
-		5190C7A81611EF0AE6C485AFC74B6509 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		533C8D82BCF2A304ED06B56669C3E0BE /* Pods-SplicerClient-Ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SplicerClient-Ios-acknowledgements.plist"; sourceTree = "<group>"; };
-		53DD135243481F099B7197015BA454F6 /* XLSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLSearchBar.h; path = XLData/XL/Core/View/XLSearchBar.h; sourceTree = "<group>"; };
-		58E9FBE10FCF97B654D13E8ED68B0B54 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		5A1F0CEFF0D461F6AEDF20BD8E13DEB7 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		5A58111D91928E85B1E7DEAF49CF2C49 /* SHSPhoneNumberFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneNumberFormatter.h; path = SHSPhoneComponents/SHSPhoneNumberFormatter.h; sourceTree = "<group>"; };
-		5B53AB82E39B1AC9A6C7B52FAF28FB7F /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		5DFF7DDCD3A4D777C1EF2F4EFAADCADA /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
-		6339C4430066266BF9A54C56BA39D649 /* XLData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLData-dummy.m"; sourceTree = "<group>"; };
-		633CD4EE1F408DC8140E14E392E45142 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		6618366C49E325A08F7E6BC1A0B3E492 /* AXRatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXRatingView.xcconfig; sourceTree = "<group>"; };
-		66947F820F59BECB35A6A489B53F7388 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		698CB30C67BE1D9E85C97DA6911692DB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		69EC4EFE3E2F046A54AD875C930B0315 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		6ED0742BF49804095B9484829636D1EF /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		6F1AF4FA59D2FC3E235DF9A158F68E9B /* SHSPhoneTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSPhoneTextField.m; path = SHSPhoneComponents/SHSPhoneTextField.m; sourceTree = "<group>"; };
-		6FA12ACD7F210E25CDDCD932AD20BB1A /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		700C5C6AF6E1823C49699132EEDAE6EF /* XLDataStoreController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataStoreController.m; path = XLData/XL/Local/DataStore/XLDataStoreController.m; sourceTree = "<group>"; };
-		78C5DB48DAA919CAEF373889E598B5B8 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
-		7A4946F56FBB5C807E6661642C787776 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVInfiniteScrolling.h"; path = "XLData/XL/Core/Helpers/UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
-		7EDDCF0E8EF3BF1960610DA873077845 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		840ADCEA27804F175ADA293FD400AC0E /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		034230607D0C6332CB6402F8E6656C04 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		074C711061AA5ABAFCFB6620CFE86246 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		07955ABD9A0F46A91A7F49A1A3A02B53 /* XLFormStepCounterCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormStepCounterCell.m; path = XLForm/XL/Cell/XLFormStepCounterCell.m; sourceTree = "<group>"; };
+		07D1A8EC64DB846AB32B5BFACA7BC82A /* XLForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLForm-dummy.m"; sourceTree = "<group>"; };
+		082FF260454A255BECCADF9972F99A30 /* XLForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLForm.h; path = XLForm/XL/XLForm.h; sourceTree = "<group>"; };
+		0947132947DECF8D4110F51A42C2EF1E /* XLFormStepCounterCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormStepCounterCell.h; path = XLForm/XL/Cell/XLFormStepCounterCell.h; sourceTree = "<group>"; };
+		09CEFBAC0859FF1BDE2F33553BFCEDBB /* XLFormSelectorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSelectorCell.h; path = XLForm/XL/Cell/XLFormSelectorCell.h; sourceTree = "<group>"; };
+		09E278118E80A04A6ECD0EB7F9F8EFED /* XLForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLForm-prefix.pch"; sourceTree = "<group>"; };
+		0B6FA150A39525A4314CD2907C2DC803 /* AXRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXRatingView-prefix.pch"; sourceTree = "<group>"; };
+		0D16BC6EB0AFD1ADFB064F36D8A37E37 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		0D6B4D0BE33CD33A2BE6C4465C70BF09 /* XLFormSliderCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSliderCell.h; path = XLForm/XL/Cell/XLFormSliderCell.h; sourceTree = "<group>"; };
+		0DD9F2F854AD599FCF28B6E1477C9F77 /* AXRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXRatingView.m; path = AXRatingView/AXRatingView.m; sourceTree = "<group>"; };
+		0DFE300F7A267C2C64B8A32C1E9F1489 /* XLFormSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSelectorCell.m; path = XLForm/XL/Cell/XLFormSelectorCell.m; sourceTree = "<group>"; };
+		0FD469E62984F595E041C36FF7B97735 /* XLFormLeftRightSelectorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormLeftRightSelectorCell.h; path = XLForm/XL/Cell/XLFormLeftRightSelectorCell.h; sourceTree = "<group>"; };
+		108E42CD0B68B3B9D9345C61BEBCFDA0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		132AFF301D26A2EED49B92F92DD0D60A /* XLDataSectionStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataSectionStore.m; path = XLData/XL/Core/Store/XLDataSectionStore.m; sourceTree = "<group>"; };
+		133B297A7A7A49D650EEA98EAA4C908F /* XLFormImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormImageCell.h; path = XLForm/XL/Cell/XLFormImageCell.h; sourceTree = "<group>"; };
+		154367B18D3AC5F41D40D6A94E9EE783 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		1677A71FA3B1B1E302740DB2DA90D835 /* SHSPhoneLogic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSPhoneLogic.m; path = SHSPhoneComponents/SHSPhoneLogic.m; sourceTree = "<group>"; };
+		178C5B76D7869965A404CCB0DE5F4F07 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		17C0A03CFA5273823673F2B0CDEA3F64 /* SHSPhoneNumberFormatter+UserConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SHSPhoneNumberFormatter+UserConfig.m"; path = "SHSPhoneComponents/SHSPhoneNumberFormatter+UserConfig.m"; sourceTree = "<group>"; };
+		1854E983CD99EE69EA8D058CD264E09E /* XLFormImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormImageCell.m; path = XLForm/XL/Cell/XLFormImageCell.m; sourceTree = "<group>"; };
+		18E640E35143263FA6605CB61FF3CAFD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		191960DC1E18585000E8DD917C715D0A /* SHSPhoneComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHSPhoneComponent.xcconfig; sourceTree = "<group>"; };
+		1A1EBD43F9797D88868AA692261EC99C /* XLFormRegexValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRegexValidator.m; path = XLForm/XL/Validation/XLFormRegexValidator.m; sourceTree = "<group>"; };
+		1BA4B3192DA18F84F3629C8CC9516542 /* XLFormValidatorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormValidatorProtocol.h; path = XLForm/XL/Validation/XLFormValidatorProtocol.h; sourceTree = "<group>"; };
+		1C192856E1957B940E0D451703ADD1E7 /* SHSPhoneLogic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneLogic.h; path = SHSPhoneComponents/SHSPhoneLogic.h; sourceTree = "<group>"; };
+		1C75E3C15A15BA1F6380647B4D550532 /* XLFormButtonCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormButtonCell.h; path = XLForm/XL/Cell/XLFormButtonCell.h; sourceTree = "<group>"; };
+		1DC0AFB4D7B5960137816895CF3DC3CA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		1FE363CDB3BA57C5FADB16A379FF7D89 /* NSString+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSString+XLFormAdditions.h"; sourceTree = "<group>"; };
+		21DC795FF37F2BD0DF8099571F2C4B94 /* XLFormOptionsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormOptionsViewController.m; path = XLForm/XL/Controllers/XLFormOptionsViewController.m; sourceTree = "<group>"; };
+		2470E2DA7249D56B6107D9A35312FEBD /* XLFormDescriptorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDescriptorCell.h; path = XLForm/XL/Cell/XLFormDescriptorCell.h; sourceTree = "<group>"; };
+		28948C0DA8631DD64BB69C5F3DCBA0CA /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		29AA46703EBECFB1A23CA7A59A796D8C /* XLFormDateCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormDateCell.m; path = XLForm/XL/Cell/XLFormDateCell.m; sourceTree = "<group>"; };
+		2AB626716035663468C24BFC76F15663 /* XLData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLData.m; path = XLData/XL/Core/XLData.m; sourceTree = "<group>"; };
+		2CD04B26D7D5DAEB3B381DD13D49E4EB /* XLFormOptionsObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormOptionsObject.h; path = XLForm/XL/Controllers/XLFormOptionsObject.h; sourceTree = "<group>"; };
+		2D204AFFF3805B3A8ECACB17FA66CCDD /* XLFormRightDetailCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRightDetailCell.h; path = XLForm/XL/Helpers/Views/XLFormRightDetailCell.h; sourceTree = "<group>"; };
+		30FA336D62F6F1068459267F6E09CCAB /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		332AAD5F771147DB0C0552C7C0EA994E /* XLFormRightImageButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRightImageButton.m; path = XLForm/XL/Helpers/Views/XLFormRightImageButton.m; sourceTree = "<group>"; };
+		33A91EFB6214011AFBFF21DEEC1B7F0F /* XLFormDescriptorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDescriptorDelegate.h; path = XLForm/XL/Descriptors/XLFormDescriptorDelegate.h; sourceTree = "<group>"; };
+		37A8190AAE4ABE35D9F5ACB62192FEE1 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		37DC6E3A5E6BA99CE5044F2230BCE5C1 /* XLFormTextViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormTextViewCell.h; path = XLForm/XL/Cell/XLFormTextViewCell.h; sourceTree = "<group>"; };
+		3AA9DB7F63002B72B8E6F905627E2486 /* XLFormOptionsObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormOptionsObject.m; path = XLForm/XL/Controllers/XLFormOptionsObject.m; sourceTree = "<group>"; };
+		40B34EB98C9E02B9891AE12796280615 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		42BCBBC0769880C20A45BFA64153443C /* XLFormLeftRightSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormLeftRightSelectorCell.m; path = XLForm/XL/Cell/XLFormLeftRightSelectorCell.m; sourceTree = "<group>"; };
+		45A8615F9E475FFB8B719A6DA76F1DC5 /* XLFormDatePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDatePickerCell.h; path = XLForm/XL/Cell/XLFormDatePickerCell.h; sourceTree = "<group>"; };
+		4729227D38AEB2A8807481BF06F65095 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		47BF89F9AC831A76C290CFB777DB357B /* XLFormOptionsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormOptionsViewController.h; path = XLForm/XL/Controllers/XLFormOptionsViewController.h; sourceTree = "<group>"; };
+		4AC742B363E563B07F294F4B4C7E12B4 /* XLRemoteDataStoreController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLRemoteDataStoreController.m; path = XLData/XL/Remote/DataStore/XLRemoteDataStoreController.m; sourceTree = "<group>"; };
+		4B18F429562CC870937470F7E59A5AB4 /* XLSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLSearchBar.m; path = XLData/XL/Core/View/XLSearchBar.m; sourceTree = "<group>"; };
+		4B2B42F6663057AFCE5F9B1C69BF38D7 /* XLSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLSearchBar.h; path = XLData/XL/Core/View/XLSearchBar.h; sourceTree = "<group>"; };
+		4DB9EFA67B53A8ADE580F5ED0196462B /* XLRemoteCoreDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLRemoteCoreDataController.m; path = XLData/XL/Remote/CoreData/XLRemoteCoreDataController.m; sourceTree = "<group>"; };
+		50713B50F22D3D384AD5EFE6DEA7322F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		540DE4F97A18F7ECA3D254E56D9D1296 /* XLFormPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormPickerCell.m; path = XLForm/XL/Cell/XLFormPickerCell.m; sourceTree = "<group>"; };
+		56FB87747D61279CF3FA9B2008DDEF33 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		5AB5B26D22A2C60C895047458DEC2C05 /* XLDataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataStore.m; path = XLData/XL/Core/Store/XLDataStore.m; sourceTree = "<group>"; };
+		5E991A27C23FA2AB4362CDB198213D82 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		5F45B5139E2E2E07D87E6D538307A8C2 /* XLForm.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = XLForm.bundle; path = XLForm/XLForm.bundle; sourceTree = "<group>"; };
+		600553E260A32C4062907C40CF021003 /* XLFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormValidator.h; path = XLForm/XL/Validation/XLFormValidator.h; sourceTree = "<group>"; };
+		604AF44224057E1A168A419172EE3D76 /* XLFormSectionDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSectionDescriptor.m; path = XLForm/XL/Descriptors/XLFormSectionDescriptor.m; sourceTree = "<group>"; };
+		606043AB1228490735AD3FE4D8E0299F /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		62430B3B0EDE79AF1D968FCC8A863716 /* XLFormValidationStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormValidationStatus.m; path = XLForm/XL/Validation/XLFormValidationStatus.m; sourceTree = "<group>"; };
+		64A7B5CB1E4D85D6559405D51BC2066A /* NSObject+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSObject+XLFormAdditions.h"; sourceTree = "<group>"; };
+		674BFBE5751539E1355DDD11CC2E6054 /* XLDataLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataLoader.h; path = XLData/XL/CoreRemote/Loader/XLDataLoader.h; sourceTree = "<group>"; };
+		698C4F845ECB53011E4E6B7BA372EBAE /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		6B892D156CD09DDB9D5D9A84B1B8B9CA /* XLData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLData-dummy.m"; sourceTree = "<group>"; };
+		6C445144A1E12108088FC0A1CA88155B /* XLForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLForm.xcconfig; sourceTree = "<group>"; };
+		6D975419D73BC90630D8FC5FC2F4C4F8 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		6F409A40073CAE9DE4447C3B97168F8A /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		6F6FBD74BB64C277E196DBB0A4120F8A /* XLFormDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormDescriptor.m; path = XLForm/XL/Descriptors/XLFormDescriptor.m; sourceTree = "<group>"; };
+		7244274775F8934F7C3EFE2EF2E5E4DC /* XLFormRowNavigationAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowNavigationAccessoryView.h; path = XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.h; sourceTree = "<group>"; };
+		73868FF1AB912923A817A84B398E47E7 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVInfiniteScrolling.m"; path = "XLData/XL/Core/Helpers/UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		7412D0E2725094CB6A4B83E5D7D51096 /* NSObject+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSObject+XLFormAdditions.m"; sourceTree = "<group>"; };
+		768FE9A2C2EF5071630000C44F1004D6 /* NSPredicate+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSPredicate+XLFormAdditions.m"; sourceTree = "<group>"; };
+		791DE049202DBF9CC3A25056B290521B /* XLFormRowDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowDescriptor.h; path = XLForm/XL/Descriptors/XLFormRowDescriptor.h; sourceTree = "<group>"; };
+		796A66C2BB9E648EE6A6B922C9E5D689 /* NSExpression+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSExpression+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSExpression+XLFormAdditions.h"; sourceTree = "<group>"; };
+		7A3B044639EF980A8596D542DDB952EA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7C83D5B237D4FBD98307A384AD596681 /* XLData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLData-prefix.pch"; sourceTree = "<group>"; };
+		7DA16AF9A4A18FAF6F8C7FBD3C46D3B0 /* Pods-SplicerClient-Ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplicerClient-Ios.release.xcconfig"; sourceTree = "<group>"; };
+		7F6746C15AF111884C1A315C39600B07 /* XLFormTextFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormTextFieldCell.h; path = XLForm/XL/Cell/XLFormTextFieldCell.h; sourceTree = "<group>"; };
+		8097A77E4EC2A0C197E5E7439A12640C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		816644CB28A63B3ADFF766FAD293D233 /* Pods-SplicerClient-Ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SplicerClient-Ios-dummy.m"; sourceTree = "<group>"; };
+		817633BFE6B63ABA5F0728E4EEF967E2 /* XLData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLData.h; path = XLData/XL/Core/XLData.h; sourceTree = "<group>"; };
 		8697DF77E582CDE28A692A57A64D16FB /* libSHSPhoneComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSHSPhoneComponent.a; path = libSHSPhoneComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		884B9BCE5BEECB936CFEC24095A306A5 /* SHSPhoneNumberFormatter+UserConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SHSPhoneNumberFormatter+UserConfig.m"; path = "SHSPhoneComponents/SHSPhoneNumberFormatter+UserConfig.m"; sourceTree = "<group>"; };
-		895B232865BF3DF3BF2BA8C05A7ED12D /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		8A2D84C12D84F9208720341CE3D03A49 /* XLDataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataStore.m; path = XLData/XL/Core/Store/XLDataStore.m; sourceTree = "<group>"; };
-		8A4178E27CDAC6D86E7419A695D75B38 /* SHSPhoneLogic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneLogic.h; path = SHSPhoneComponents/SHSPhoneLogic.h; sourceTree = "<group>"; };
-		8C4365968128C217CDB6479747845183 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		8C515746B863D7ECC0A52638F4F5FC02 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
-		8EB093FDA37B52BFC5C0FE6B810C5FFC /* SHSFlagAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSFlagAccessoryView.m; path = SHSPhoneComponents/SHSFlagAccessoryView.m; sourceTree = "<group>"; };
+		8AFF3FB15F6E1217EA01873FF60469B9 /* XLFormRightDetailCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRightDetailCell.m; path = XLForm/XL/Helpers/Views/XLFormRightDetailCell.m; sourceTree = "<group>"; };
+		8C53D427F7832C89B04C7FA739E1441C /* XLFormCheckCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormCheckCell.h; path = XLForm/XL/Cell/XLFormCheckCell.h; sourceTree = "<group>"; };
+		8DE6E73604281B69FD25DB3231CDDE53 /* XLFormInlineSelectorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormInlineSelectorCell.h; path = XLForm/XL/Cell/XLFormInlineSelectorCell.h; sourceTree = "<group>"; };
+		8E340895DC00D729654EB9EBD2CFD176 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		8E7BE1F5E7F0C12305A9B0E12C4E81E2 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		8EA76F6558C8319B83FD3A9C887BACC4 /* NSArray+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSArray+XLFormAdditions.h"; sourceTree = "<group>"; };
+		8EB79196BD6382741168AD6F0E476F50 /* libXLForm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXLForm.a; path = libXLForm.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F08D9819441C6354FC2E47319550A13 /* XLFormTextFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextFieldCell.m; path = XLForm/XL/Cell/XLFormTextFieldCell.m; sourceTree = "<group>"; };
+		8F6CE40D3CA170D7190BB0BB0CEB8857 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		912496C802C272EAC48441B6E693508F /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
 		919D2341879D75837BAE9E9FEC37B198 /* libAXRatingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAXRatingView.a; path = libAXRatingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		923B588126ED6EB552CA9DEA26DCBD57 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		925A508C9FDE181362306CE14E7A3D11 /* XLCoreDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLCoreDataController.h; path = XLData/XL/Local/CoreData/XLCoreDataController.h; sourceTree = "<group>"; };
+		931B397FBFEACB4051276D552E2E4D17 /* XLDataStoreController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataStoreController.h; path = XLData/XL/Local/DataStore/XLDataStoreController.h; sourceTree = "<group>"; };
 		9397FC51AE6A52618C8B2B99C6C05845 /* libJVFloatLabeledTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJVFloatLabeledTextField.a; path = libJVFloatLabeledTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		956BD6C1A6074D9AE690270FAF853E86 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		9744A1896026AF9DDED013CFFD96F425 /* XLDataLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataLoader.h; path = XLData/XL/CoreRemote/Loader/XLDataLoader.h; sourceTree = "<group>"; };
+		93C08FE9CB7AAA3E8F75222FBDE16832 /* XLFormBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormBaseCell.m; path = XLForm/XL/Cell/XLFormBaseCell.m; sourceTree = "<group>"; };
+		94CE70E764DB6786CE7C19E2F6395084 /* Pods-SplicerClient-Ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SplicerClient-Ios-resources.sh"; sourceTree = "<group>"; };
+		9508710DA10F72ED63F4DB7AA297C715 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		953AD10E461A3AD31571630FD065AF76 /* XLFormSwitchCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSwitchCell.m; path = XLForm/XL/Cell/XLFormSwitchCell.m; sourceTree = "<group>"; };
+		9681648CD9ABB4AD668C468B151A2508 /* XLDataSectionStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataSectionStore.h; path = XLData/XL/Core/Store/XLDataSectionStore.h; sourceTree = "<group>"; };
+		971A16ECBBCBE636AC482CFE6D2047BF /* XLFormValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormValidator.m; path = XLForm/XL/Validation/XLFormValidator.m; sourceTree = "<group>"; };
+		9915217536D1ACE8E289CB22518710B7 /* XLFormInlineRowDescriptorCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormInlineRowDescriptorCell.h; path = XLForm/XL/Cell/XLFormInlineRowDescriptorCell.h; sourceTree = "<group>"; };
+		9A2E7B325C8C08E48EB27550B816ECD8 /* XLFormBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormBaseCell.h; path = XLForm/XL/Cell/XLFormBaseCell.h; sourceTree = "<group>"; };
+		9AF6A1721342A48E5094BE72C4611B77 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9B35A5244E67F4A7EB54AC059C0F6FB4 /* XLFormSectionDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSectionDescriptor.h; path = XLForm/XL/Descriptors/XLFormSectionDescriptor.h; sourceTree = "<group>"; };
+		9B5ADD83802AD91520DB826028EB2AB2 /* AXRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXRatingView.h; path = AXRatingView/AXRatingView.h; sourceTree = "<group>"; };
+		9BFA72AAFFE1A1158A4EBCFD16F1F646 /* XLFormRowNavigationAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRowNavigationAccessoryView.m; path = XLForm/XL/Helpers/Views/XLFormRowNavigationAccessoryView.m; sourceTree = "<group>"; };
+		9D311EE9F13DF89BCC647FD5FAC52B26 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA826EEEEF4D6177CF4C2119017B954 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
-		9EBD18509B0094A6319350ECDE751F55 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
-		A1245A6254180C603BA32B8B7B0008DD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		A1513289AFBA2C09E0530B476F53E3B9 /* Pods-SplicerClient-Ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SplicerClient-Ios-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A30881F4DF33B5A3F2BBEE460891D68C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		A325BFEA4575129CE340C4A313526BE5 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9E59374A1AFAD7AB84AFA3ADEB4CC28C /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVInfiniteScrolling.h"; path = "XLData/XL/Core/Helpers/UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		9F57533C572479FB94AA2FBA3361BC69 /* XLRemoteCoreDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLRemoteCoreDataController.h; path = XLData/XL/Remote/CoreData/XLRemoteCoreDataController.h; sourceTree = "<group>"; };
+		A0AEDB9B1DD6D1C434E6499FF3774B09 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		A166A0A730E853A85DE9CFD3425607D1 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		A2EB3D737F1647FE876D06913ADAFD17 /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
 		A376C08A5F48D8D901D0BA9BF374E73A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A3B75F9A990A2F829C4C80B46B05ECFA /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A66D6D4F200BC250CAAD2F4F2717B4E3 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		A6FAF6AB9B3F214D18A84A2488A53D4D /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		A996C1AD40E3E6BFEFCEB952F756B4A0 /* SHSPhoneComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHSPhoneComponent-dummy.m"; sourceTree = "<group>"; };
-		AA73A37784BB76E570DCFC9E573FD39A /* SHSPhoneTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneTextField.h; path = SHSPhoneComponents/SHSPhoneTextField.h; sourceTree = "<group>"; };
+		AA92FFE5614229936FB150CA4E18E236 /* NSExpression+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSExpression+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSExpression+XLFormAdditions.m"; sourceTree = "<group>"; };
+		AAEC540AAFD77A385C2E3E8AC4B8FBE3 /* UIView+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XLFormAdditions.h"; path = "XLForm/XL/Helpers/UIView+XLFormAdditions.h"; sourceTree = "<group>"; };
+		ABAA1385AE5E6626C027B76A498130FA /* SHSPhoneNumberFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSPhoneNumberFormatter.m; path = SHSPhoneComponents/SHSPhoneNumberFormatter.m; sourceTree = "<group>"; };
 		AC4C5A39139D04DA7CB351C4463B5E57 /* SplicerClient-Ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SplicerClient-Ios.xcconfig"; sourceTree = "<group>"; };
-		AF7F30E4F58C4378E1D7D8A1DE6FFD55 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		B03F58775BDDC0162AC01B50982A5E05 /* Pods-SplicerClient-Ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SplicerClient-Ios-dummy.m"; sourceTree = "<group>"; };
-		B21BE4067180EB603A8399D377FFBA28 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		B33BE3147F3A50842776ABD5B9CCAB9E /* XLDataSectionStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataSectionStore.h; path = XLData/XL/Core/Store/XLDataSectionStore.h; sourceTree = "<group>"; };
-		B39D533CF7BDDF27D6BB904ACF86A60F /* AXRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXRatingView.m; path = AXRatingView/AXRatingView.m; sourceTree = "<group>"; };
-		BB36511DCBCC6BF6C20422A85C1488F5 /* Pods-SplicerClient-Ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplicerClient-Ios.release.xcconfig"; sourceTree = "<group>"; };
-		BC5C48B51B0D5FA1DB91AAE843F9B1AC /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		BF265552114BC5818165C4CC599DB10E /* XLRemoteDataStoreController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLRemoteDataStoreController.m; path = XLData/XL/Remote/DataStore/XLRemoteDataStoreController.m; sourceTree = "<group>"; };
-		C1AB3F8AEE87E9219EB17581FFA77E37 /* XLDataLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataLoader.m; path = XLData/XL/CoreRemote/Loader/XLDataLoader.m; sourceTree = "<group>"; };
-		C1EC397BB7688C528BDA9E88656B0AE0 /* XLData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLData.m; path = XLData/XL/Core/XLData.m; sourceTree = "<group>"; };
-		C2B36C9726CF2D88226FA1B8F25C52B3 /* XLDataSectionStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataSectionStore.m; path = XLData/XL/Core/Store/XLDataSectionStore.m; sourceTree = "<group>"; };
-		C31B449B3A5B210888E4B5B5A1571046 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		ACEE28D2753A27BB3B12F12AB100A26A /* XLFormPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormPickerCell.h; path = XLForm/XL/Cell/XLFormPickerCell.h; sourceTree = "<group>"; };
+		B12EA951E9130CCB0983B5606E495863 /* NSString+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSString+XLFormAdditions.m"; sourceTree = "<group>"; };
+		B15D9934235AD091CDBA3EBD1B927C3D /* XLForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLForm.m; path = XLForm/XL/XLForm.m; sourceTree = "<group>"; };
+		B2609A40947A8BF08D3FDB7063694760 /* SHSFlagAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSFlagAccessoryView.h; path = SHSPhoneComponents/SHSFlagAccessoryView.h; sourceTree = "<group>"; };
+		B2802A73B237389118214259C760BD4B /* SHSPhoneTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSPhoneTextField.m; path = SHSPhoneComponents/SHSPhoneTextField.m; sourceTree = "<group>"; };
+		B2BE24C42D36FF7A80ECAF38D849D014 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		B7117DAEAF4DE29EA426A86935CDDE46 /* NSPredicate+XLFormAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+XLFormAdditions.h"; path = "XLForm/XL/Helpers/NSPredicate+XLFormAdditions.h"; sourceTree = "<group>"; };
+		B9A794E8EA1BE8962C3A3E430C4B4742 /* XLFormTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextView.m; path = XLForm/XL/Helpers/Views/XLFormTextView.m; sourceTree = "<group>"; };
+		BADA68C136A579DCBF39FF15CD3690DC /* UIView+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XLFormAdditions.m"; path = "XLForm/XL/Helpers/UIView+XLFormAdditions.m"; sourceTree = "<group>"; };
+		BB6C830A0B8A1079D030A4806AC064EA /* XLNetworkStatusView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLNetworkStatusView.m; path = XLData/XL/Core/View/XLNetworkStatusView.m; sourceTree = "<group>"; };
+		BC9AE69FE4CCCEDF2C9EA0AB95B4A52C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		BD3E096E2A30224B567C74256B50FB3B /* XLFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormViewController.h; path = XLForm/XL/Controllers/XLFormViewController.h; sourceTree = "<group>"; };
+		C0A3C702B34DCB7F240882000FECD587 /* XLRemoteDataStoreController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLRemoteDataStoreController.h; path = XLData/XL/Remote/DataStore/XLRemoteDataStoreController.h; sourceTree = "<group>"; };
+		C10BC9422BE38B6EFC533A67BDFEB3B8 /* XLData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLData.xcconfig; sourceTree = "<group>"; };
+		C21554EED15A6C7BB1A7E0836B8B3D17 /* XLFormRowDescriptorViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRowDescriptorViewController.h; path = XLForm/XL/Controllers/XLFormRowDescriptorViewController.h; sourceTree = "<group>"; };
+		C355B5BD2A1F2A53995BEF1A99D71450 /* XLFormDatePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormDatePickerCell.m; path = XLForm/XL/Cell/XLFormDatePickerCell.m; sourceTree = "<group>"; };
+		C4580DBE7DBB81DEA038EAF381DD7DC1 /* XLDataStoreController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataStoreController.m; path = XLData/XL/Local/DataStore/XLDataStoreController.m; sourceTree = "<group>"; };
+		C6308CBF0D28E8506F63C40A0E81713D /* XLDataLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLDataLoader.m; path = XLData/XL/CoreRemote/Loader/XLDataLoader.m; sourceTree = "<group>"; };
+		C713A87A3ABC55B6C80A6EDFAAF26E36 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		C85285527A8305C387B525C7284BEF1D /* XLDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataStore.h; path = XLData/XL/Core/Store/XLDataStore.h; sourceTree = "<group>"; };
 		C870952A9141BB84DEA08398708C6CB4 /* SplicerClient-Ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "SplicerClient-Ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CA12E094B980AE6C6BA705CAA648D5AF /* SHSPhoneNumberFormatter+UserConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SHSPhoneNumberFormatter+UserConfig.h"; path = "SHSPhoneComponents/SHSPhoneNumberFormatter+UserConfig.h"; sourceTree = "<group>"; };
-		CA847032CB6C8E99637974C77065448F /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
-		CB1BBD8C1BBF1B690ECD0F9A72D9BF40 /* XLNetworkStatusView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLNetworkStatusView.h; path = XLData/XL/Core/View/XLNetworkStatusView.h; sourceTree = "<group>"; };
-		CDD9927121D14EF3422D2DA9C1744404 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		CE0F9C895F7419C930E4FEE21D2F3CAB /* SHSPhoneLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneLibrary.h; path = SHSPhoneComponents/SHSPhoneLibrary.h; sourceTree = "<group>"; };
-		CE7DCCF4604CB1EA086A3D13EB61848D /* AXRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXRatingView-prefix.pch"; sourceTree = "<group>"; };
-		CEE9EEB04BA62A2C9A2779BB88CAFA8A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		CFF9DB413CAEC7FB93B1687C222631F0 /* XLData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLData.h; path = XLData/XL/Core/XLData.h; sourceTree = "<group>"; };
-		D0D578478119AB01E7769114D93D1063 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		E6CF8A91A0374099A941AD0A51309221 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		C91E09131A95E0443C76C76A19AC22CD /* XLFormCheckCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormCheckCell.m; path = XLForm/XL/Cell/XLFormCheckCell.m; sourceTree = "<group>"; };
+		CA26520665334292AA717F0F21660A44 /* XLFormValidationStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormValidationStatus.h; path = XLForm/XL/Validation/XLFormValidationStatus.h; sourceTree = "<group>"; };
+		CB9D4B0A3C34E19B62A9C1C00092F2AC /* XLFormInlineSelectorCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormInlineSelectorCell.m; path = XLForm/XL/Cell/XLFormInlineSelectorCell.m; sourceTree = "<group>"; };
+		CC844435E763892D9719B20B70752972 /* XLCoreDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLCoreDataController.m; path = XLData/XL/Local/CoreData/XLCoreDataController.m; sourceTree = "<group>"; };
+		CD54EB03A5EF7FC4ED30B874D0E38A69 /* XLNetworkStatusView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLNetworkStatusView.h; path = XLData/XL/Core/View/XLNetworkStatusView.h; sourceTree = "<group>"; };
+		CEE6F3FAF0199A6EAF9D05E649E436BB /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		D35BB260D80438DCA1F44243A2AE6A5C /* XLFormDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDescriptor.h; path = XLForm/XL/Descriptors/XLFormDescriptor.h; sourceTree = "<group>"; };
+		D3C03C98EBE72CD23D3A3F530491F1DA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		D3D7422C39BE4A6F000B431F8FB09B5B /* SHSPhoneComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHSPhoneComponent-prefix.pch"; sourceTree = "<group>"; };
+		D4C223156363EDA29AE6479DEC1D1489 /* AXRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXRatingView-dummy.m"; sourceTree = "<group>"; };
+		DA24F69D66086D3117054FD8299A2729 /* NSArray+XLFormAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+XLFormAdditions.m"; path = "XLForm/XL/Helpers/NSArray+XLFormAdditions.m"; sourceTree = "<group>"; };
+		DD311C323341F28F4CB11C94D70BB136 /* AXRatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXRatingView.xcconfig; sourceTree = "<group>"; };
+		DDE3ACA1B4BCD21BE1DD985392EA1B1C /* XLFormSliderCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormSliderCell.m; path = XLForm/XL/Cell/XLFormSliderCell.m; sourceTree = "<group>"; };
+		DDE7CCB8820C1C6D4DD31E61FE16BEAF /* XLFormDateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormDateCell.h; path = XLForm/XL/Cell/XLFormDateCell.h; sourceTree = "<group>"; };
+		DE624E86431063A19F6C9121329FBF36 /* Pods-SplicerClient-Ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplicerClient-Ios.debug.xcconfig"; sourceTree = "<group>"; };
+		DEA2A29649C5FEB0C56E077E464F4C77 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		DF122646A93ABF8E9761F7D57357A384 /* XLFormRowDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormRowDescriptor.m; path = XLForm/XL/Descriptors/XLFormRowDescriptor.m; sourceTree = "<group>"; };
+		E062AA1615958E488A536E162FFF89EA /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		E11B2BEBA1AFC156445231B43AC1FEF4 /* XLFormSwitchCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSwitchCell.h; path = XLForm/XL/Cell/XLFormSwitchCell.h; sourceTree = "<group>"; };
+		E12395F166B16937EAD654D28BA77A0E /* Pods-SplicerClient-Ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SplicerClient-Ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2188479D690529595866F2C73232ECA /* XLFormButtonCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormButtonCell.m; path = XLForm/XL/Cell/XLFormButtonCell.m; sourceTree = "<group>"; };
+		E244F2CD4692DE6294DBA45B0C7D04DC /* XLFormSegmentedCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormSegmentedCell.h; path = XLForm/XL/Cell/XLFormSegmentedCell.h; sourceTree = "<group>"; };
+		E2BF68C53896C7A2FD26ED0B34E03E12 /* SHSPhoneLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneLibrary.h; path = SHSPhoneComponents/SHSPhoneLibrary.h; sourceTree = "<group>"; };
+		E4F9B04A369001D114FAE9D1E705D148 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		E536503DAA19D5419AE042EE5CCB75CA /* XLFormRegexValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRegexValidator.h; path = XLForm/XL/Validation/XLFormRegexValidator.h; sourceTree = "<group>"; };
+		E6F2277915D1245B7F7656B0E22039AD /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		E70371B9EFA50AEB9D99276B2302A19E /* libPods-SplicerClient-Ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SplicerClient-Ios.a"; path = "libPods-SplicerClient-Ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC473771095757957F9B49D609401D09 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		EE74473C74EAA3C3CF3EA9E717DE863D /* SHSPhoneComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHSPhoneComponent.xcconfig; sourceTree = "<group>"; };
-		F5A33BC3B020ED5C0AC1E7DC6CF6C376 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		ECCDD368C39814D7206A77B5B9E9CFFB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		EDFB318EA8EAB497CCCB9D1701C13C07 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		EE7CCC2A33A9F1931AD71C68313A994B /* XLFormTextViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLFormTextViewCell.m; path = XLForm/XL/Cell/XLFormTextViewCell.m; sourceTree = "<group>"; };
+		EFDC61EBD7A247CF01FF74F4384AE645 /* Pods-SplicerClient-Ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SplicerClient-Ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0474429025BD900F7A41CB68BDEE1F0 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		F0AD0B2423B47B89D83E928DFAF63DF2 /* SHSPhoneNumberFormatter+UserConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SHSPhoneNumberFormatter+UserConfig.h"; path = "SHSPhoneComponents/SHSPhoneNumberFormatter+UserConfig.h"; sourceTree = "<group>"; };
+		F32C4F50A122F0F8DD8E2D78B953E5EF /* XLRemoteControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLRemoteControllerDelegate.h; path = XLData/XL/CoreRemote/Loader/XLRemoteControllerDelegate.h; sourceTree = "<group>"; };
+		F38AA034FA5D08E5BCA928ABC62E491D /* SHSPhoneComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHSPhoneComponent-dummy.m"; sourceTree = "<group>"; };
+		F4732CE81F2DFBD148B8DC610E2DAEE5 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		F685DC60694638BC8905E103BD50133D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FA094CED7FCDDFD6FA0B2353FABC972F /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		FD2B7A53F8DA9C5A390158DDEA5D0837 /* XLDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLDataStore.h; path = XLData/XL/Core/Store/XLDataStore.h; sourceTree = "<group>"; };
+		F711E4E1728A9188905D9917F9ED036B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F732B2BBFDDBFEF6541CD1EDC8FDFCEB /* XLFormTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormTextView.h; path = XLForm/XL/Helpers/Views/XLFormTextView.h; sourceTree = "<group>"; };
+		F86A5B54348BE0BB0A1FF345EE1393B3 /* SHSPhoneNumberFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneNumberFormatter.h; path = SHSPhoneComponents/SHSPhoneNumberFormatter.h; sourceTree = "<group>"; };
+		FA7F3E954006FF74F2E21503F8D6B660 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		FC21A9C40FE0D693C081540D3515F12D /* SHSPhoneTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSPhoneTextField.h; path = SHSPhoneComponents/SHSPhoneTextField.h; sourceTree = "<group>"; };
+		FC3DABE6C1CC25C96AEC51EA02B1B18D /* XLFormRightImageButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLFormRightImageButton.h; path = XLForm/XL/Helpers/Views/XLFormRightImageButton.h; sourceTree = "<group>"; };
+		FE3FF5D7C4102E9726352BA69EE0503D /* SHSFlagAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHSFlagAccessoryView.m; path = SHSPhoneComponents/SHSFlagAccessoryView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		42D8CF29438E564CDCF52AB348E57F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A1E63BD4A19C8AF8C7793D01C28259C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F1858FC3591CF8B9794AC94F1D2766 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -307,130 +489,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF7AF835F1A4439B6261FC0CAEB98AC7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02CCB2D43CB2D07B6C92F9C3A68D0EEE /* Support Files */ = {
+		087F74E603761BE21920AA7C28BE6B6F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3BDBE7E05B1D28B0F0C85F0F973790F2 /* JVFloatLabeledTextField.xcconfig */,
-				78C5DB48DAA919CAEF373889E598B5B8 /* JVFloatLabeledTextField-dummy.m */,
-				5DFF7DDCD3A4D777C1EF2F4EFAADCADA /* JVFloatLabeledTextField-prefix.pch */,
+				4FD906DF6BC28A3BC1E8D596657712C1 /* Pods-SplicerClient-Ios */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JVFloatLabeledTextField";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		04883678F6080D85C36292907395AF82 /* Support Files */ = {
+		17B8D7EE8D04EE9D5638A76F84FF60BE /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				EE74473C74EAA3C3CF3EA9E717DE863D /* SHSPhoneComponent.xcconfig */,
-				A996C1AD40E3E6BFEFCEB952F756B4A0 /* SHSPhoneComponent-dummy.m */,
-				493967E6FCEAE9BE6975A98F9C0BD483 /* SHSPhoneComponent-prefix.pch */,
+				40B34EB98C9E02B9891AE12796280615 /* AFNetworkReachabilityManager.h */,
+				8F6CE40D3CA170D7190BB0BB0CEB8857 /* AFNetworkReachabilityManager.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SHSPhoneComponent";
+			name = Reachability;
 			sourceTree = "<group>";
 		};
-		092B36252EFCC35AF2D40CD093CC3695 /* AFNetworking */ = {
+		182A562C01D8667C6E50564AB6940DD5 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				3E686461271DA0F2043282B65629CFCE /* AFNetworking.h */,
-				3CAD0F33A712E6F7D585182A028CE285 /* NSURLConnection */,
-				D663AEE3AA6077F95F98D9030775EE0B /* NSURLSession */,
-				E2B01D12F62F93E97BAB5B4E8C8059D7 /* Reachability */,
-				9A7E6624EBBDE23CC4D554A176942D00 /* Security */,
-				EA38327476BB6B8FB6D9635F5CAEF388 /* Serialization */,
-				2F02F39B79F116102ED48A2619255FBE /* Support Files */,
-				725690AA19646FA1F375319B7B36DA96 /* UIKit */,
+				BC9AE69FE4CCCEDF2C9EA0AB95B4A52C /* AFSecurityPolicy.h */,
+				108E42CD0B68B3B9D9345C61BEBCFDA0 /* AFSecurityPolicy.m */,
 			);
-			name = AFNetworking;
-			path = AFNetworking;
+			name = Security;
 			sourceTree = "<group>";
 		};
-		166331E69263409437BCBCD0D604CD35 /* Products */ = {
+		2FB594C468AC2B8E0E3301ADFFC619D1 /* XLData */ = {
 			isa = PBXGroup;
 			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
-				919D2341879D75837BAE9E9FEC37B198 /* libAXRatingView.a */,
-				9397FC51AE6A52618C8B2B99C6C05845 /* libJVFloatLabeledTextField.a */,
-				E70371B9EFA50AEB9D99276B2302A19E /* libPods-SplicerClient-Ios.a */,
-				8697DF77E582CDE28A692A57A64D16FB /* libSHSPhoneComponent.a */,
-				02F8FA1923BAE2CE689095C2FD4FD6EF /* libXLData.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1E3AD398E9CD819CDFCFCBBB73364625 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6618366C49E325A08F7E6BC1A0B3E492 /* AXRatingView.xcconfig */,
-				4E7654B060FA9DB1271B1E96CB206FCD /* AXRatingView-dummy.m */,
-				CE7DCCF4604CB1EA086A3D13EB61848D /* AXRatingView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AXRatingView";
-			sourceTree = "<group>";
-		};
-		27A1B9525D77F7D129A0E9F784AAA456 /* JVFloatLabeledTextField */ = {
-			isa = PBXGroup;
-			children = (
-				16094DB89C55E59B97FA4DA81AA792B1 /* JVFloatLabeledTextField.h */,
-				1EDEFE17DC5DE01AAC6856AA2E944A2C /* JVFloatLabeledTextField.m */,
-				8C515746B863D7ECC0A52638F4F5FC02 /* JVFloatLabeledTextView.h */,
-				CA847032CB6C8E99637974C77065448F /* JVFloatLabeledTextView.m */,
-				9EBD18509B0094A6319350ECDE751F55 /* NSString+TextDirectionality.h */,
-				9DA826EEEEF4D6177CF4C2119017B954 /* NSString+TextDirectionality.m */,
-				02CCB2D43CB2D07B6C92F9C3A68D0EEE /* Support Files */,
-			);
-			name = JVFloatLabeledTextField;
-			path = JVFloatLabeledTextField;
-			sourceTree = "<group>";
-		};
-		2F02F39B79F116102ED48A2619255FBE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF7F30E4F58C4378E1D7D8A1DE6FFD55 /* AFNetworking.xcconfig */,
-				A6FAF6AB9B3F214D18A84A2488A53D4D /* AFNetworking-dummy.m */,
-				840ADCEA27804F175ADA293FD400AC0E /* AFNetworking-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		3B556DCDD8BDC607C34F8B6EA1448A0C /* XLData */ = {
-			isa = PBXGroup;
-			children = (
-				6A60290AE712D580CAF1E6E0282601FB /* Core */,
-				8A8B5BCF984C43B7B74C8B084FC7C885 /* CoreData */,
-				7DD8547E3C127371BFFAD5AD184F0811 /* CoreRemote */,
-				79F14F35392300146BF1C8EBD972BBAF /* DataStore */,
-				9D97E92217FE01B9D083295870825888 /* RemoteCoreData */,
-				597750028A0C36137A9C13966E9E2B8F /* RemoteDataStore */,
-				C188A7CEC7F5BE369B973507D86BFD2E /* Support Files */,
+				4DF31E9C5604D25BD1216101D66A0481 /* Core */,
+				54489A20C37D774A7044AC5D128F827F /* CoreData */,
+				E5A11E038C3BE5A463AFDD6B626296BF /* CoreRemote */,
+				A3799FE58272D017513FFC1CC8A3ED3C /* DataStore */,
+				39445E7FDC5FF07AD66A80978069E6C9 /* RemoteCoreData */,
+				9269109B19DF8F449BB5F6FB17923378 /* RemoteDataStore */,
+				49FCB5267C3D1567AEB6AEDD09EFBB6F /* Support Files */,
 			);
 			name = XLData;
 			path = XLData;
 			sourceTree = "<group>";
 		};
-		3CAD0F33A712E6F7D585182A028CE285 /* NSURLConnection */ = {
+		319354F69AE8157553A453926B8A8987 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42011EB02A0DD0D8D221294D60E313F0 /* AFHTTPRequestOperation.h */,
-				633CD4EE1F408DC8140E14E392E45142 /* AFHTTPRequestOperation.m */,
-				CDD9927121D14EF3422D2DA9C1744404 /* AFHTTPRequestOperationManager.h */,
-				B21BE4067180EB603A8399D377FFBA28 /* AFHTTPRequestOperationManager.m */,
-				F5A33BC3B020ED5C0AC1E7DC6CF6C376 /* AFURLConnectionOperation.h */,
-				6FA12ACD7F210E25CDDCD932AD20BB1A /* AFURLConnectionOperation.m */,
+				5F45B5139E2E2E07D87E6D538307A8C2 /* XLForm.bundle */,
 			);
-			name = NSURLConnection;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		380C9B89CF31491EBA173B43253AD8F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				923B588126ED6EB552CA9DEA26DCBD57 /* AFNetworking.xcconfig */,
+				178C5B76D7869965A404CCB0DE5F4F07 /* AFNetworking-dummy.m */,
+				56FB87747D61279CF3FA9B2008DDEF33 /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		39445E7FDC5FF07AD66A80978069E6C9 /* RemoteCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9F57533C572479FB94AA2FBA3361BC69 /* XLRemoteCoreDataController.h */,
+				4DB9EFA67B53A8ADE580F5ED0196462B /* XLRemoteCoreDataController.m */,
+			);
+			name = RemoteCoreData;
 			sourceTree = "<group>";
 		};
 		45FB80523495B5B8621044EC0C30B57F /* Support Files */ = {
@@ -442,76 +570,110 @@
 			path = "Pods/Target Support Files/SplicerClient-Ios";
 			sourceTree = "<group>";
 		};
-		597750028A0C36137A9C13966E9E2B8F /* RemoteDataStore */ = {
+		48ECCFECED7D29D80535E9D096EBA52B /* JVFloatLabeledTextField */ = {
 			isa = PBXGroup;
 			children = (
-				3BB39F517C3A36206C25C22C4E4C2213 /* XLRemoteDataStoreController.h */,
-				BF265552114BC5818165C4CC599DB10E /* XLRemoteDataStoreController.m */,
+				912496C802C272EAC48441B6E693508F /* JVFloatLabeledTextField.h */,
+				6F409A40073CAE9DE4447C3B97168F8A /* JVFloatLabeledTextField.m */,
+				C713A87A3ABC55B6C80A6EDFAAF26E36 /* JVFloatLabeledTextView.h */,
+				154367B18D3AC5F41D40D6A94E9EE783 /* JVFloatLabeledTextView.m */,
+				FA7F3E954006FF74F2E21503F8D6B660 /* NSString+TextDirectionality.h */,
+				0D16BC6EB0AFD1ADFB064F36D8A37E37 /* NSString+TextDirectionality.m */,
+				DDDBF8858379FDE7B44228D15527AB8C /* Support Files */,
 			);
-			name = RemoteDataStore;
+			name = JVFloatLabeledTextField;
+			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
-		6A60290AE712D580CAF1E6E0282601FB /* Core */ = {
+		49FCB5267C3D1567AEB6AEDD09EFBB6F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A4946F56FBB5C807E6661642C787776 /* UIScrollView+SVInfiniteScrolling.h */,
-				41E2EFB1E0BDFBA4B4BA360C45552E6F /* UIScrollView+SVInfiniteScrolling.m */,
-				CFF9DB413CAEC7FB93B1687C222631F0 /* XLData.h */,
-				C1EC397BB7688C528BDA9E88656B0AE0 /* XLData.m */,
-				B33BE3147F3A50842776ABD5B9CCAB9E /* XLDataSectionStore.h */,
-				C2B36C9726CF2D88226FA1B8F25C52B3 /* XLDataSectionStore.m */,
-				FD2B7A53F8DA9C5A390158DDEA5D0837 /* XLDataStore.h */,
-				8A2D84C12D84F9208720341CE3D03A49 /* XLDataStore.m */,
-				CB1BBD8C1BBF1B690ECD0F9A72D9BF40 /* XLNetworkStatusView.h */,
-				127AFA79F052BEF7D36657AF30DEABDD /* XLNetworkStatusView.m */,
-				53DD135243481F099B7197015BA454F6 /* XLSearchBar.h */,
-				325FB305A755C782F1DE745A07F5796F /* XLSearchBar.m */,
+				C10BC9422BE38B6EFC533A67BDFEB3B8 /* XLData.xcconfig */,
+				6B892D156CD09DDB9D5D9A84B1B8B9CA /* XLData-dummy.m */,
+				7C83D5B237D4FBD98307A384AD596681 /* XLData-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLData";
+			sourceTree = "<group>";
+		};
+		4C7160FFE0FB78F9101D346090CF12D7 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				9AF6A1721342A48E5094BE72C4611B77 /* AFURLRequestSerialization.h */,
+				D3C03C98EBE72CD23D3A3F530491F1DA /* AFURLRequestSerialization.m */,
+				F711E4E1728A9188905D9917F9ED036B /* AFURLResponseSerialization.h */,
+				8E340895DC00D729654EB9EBD2CFD176 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		4DF31E9C5604D25BD1216101D66A0481 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9E59374A1AFAD7AB84AFA3ADEB4CC28C /* UIScrollView+SVInfiniteScrolling.h */,
+				73868FF1AB912923A817A84B398E47E7 /* UIScrollView+SVInfiniteScrolling.m */,
+				817633BFE6B63ABA5F0728E4EEF967E2 /* XLData.h */,
+				2AB626716035663468C24BFC76F15663 /* XLData.m */,
+				9681648CD9ABB4AD668C468B151A2508 /* XLDataSectionStore.h */,
+				132AFF301D26A2EED49B92F92DD0D60A /* XLDataSectionStore.m */,
+				C85285527A8305C387B525C7284BEF1D /* XLDataStore.h */,
+				5AB5B26D22A2C60C895047458DEC2C05 /* XLDataStore.m */,
+				CD54EB03A5EF7FC4ED30B874D0E38A69 /* XLNetworkStatusView.h */,
+				BB6C830A0B8A1079D030A4806AC064EA /* XLNetworkStatusView.m */,
+				4B2B42F6663057AFCE5F9B1C69BF38D7 /* XLSearchBar.h */,
+				4B18F429562CC870937470F7E59A5AB4 /* XLSearchBar.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		725690AA19646FA1F375319B7B36DA96 /* UIKit */ = {
+		4FD906DF6BC28A3BC1E8D596657712C1 /* Pods-SplicerClient-Ios */ = {
 			isa = PBXGroup;
 			children = (
-				BC5C48B51B0D5FA1DB91AAE843F9B1AC /* AFNetworkActivityIndicatorManager.h */,
-				6ED0742BF49804095B9484829636D1EF /* AFNetworkActivityIndicatorManager.m */,
-				66947F820F59BECB35A6A489B53F7388 /* UIActivityIndicatorView+AFNetworking.h */,
-				5190C7A81611EF0AE6C485AFC74B6509 /* UIActivityIndicatorView+AFNetworking.m */,
-				FA094CED7FCDDFD6FA0B2353FABC972F /* UIAlertView+AFNetworking.h */,
-				895B232865BF3DF3BF2BA8C05A7ED12D /* UIAlertView+AFNetworking.m */,
-				E6CF8A91A0374099A941AD0A51309221 /* UIButton+AFNetworking.h */,
-				EC473771095757957F9B49D609401D09 /* UIButton+AFNetworking.m */,
-				8C4365968128C217CDB6479747845183 /* UIImage+AFNetworking.h */,
-				956BD6C1A6074D9AE690270FAF853E86 /* UIImageView+AFNetworking.h */,
-				CEE9EEB04BA62A2C9A2779BB88CAFA8A /* UIImageView+AFNetworking.m */,
-				0AE3B1BE40B10974E26B6DD3913310DF /* UIKit+AFNetworking.h */,
-				5A1F0CEFF0D461F6AEDF20BD8E13DEB7 /* UIProgressView+AFNetworking.h */,
-				7EDDCF0E8EF3BF1960610DA873077845 /* UIProgressView+AFNetworking.m */,
-				D0D578478119AB01E7769114D93D1063 /* UIRefreshControl+AFNetworking.h */,
-				A325BFEA4575129CE340C4A313526BE5 /* UIRefreshControl+AFNetworking.m */,
-				69EC4EFE3E2F046A54AD875C930B0315 /* UIWebView+AFNetworking.h */,
-				4F9D1C69818376178452293F133EB7E5 /* UIWebView+AFNetworking.m */,
+				EFDC61EBD7A247CF01FF74F4384AE645 /* Pods-SplicerClient-Ios-acknowledgements.markdown */,
+				E12395F166B16937EAD654D28BA77A0E /* Pods-SplicerClient-Ios-acknowledgements.plist */,
+				816644CB28A63B3ADFF766FAD293D233 /* Pods-SplicerClient-Ios-dummy.m */,
+				94CE70E764DB6786CE7C19E2F6395084 /* Pods-SplicerClient-Ios-resources.sh */,
+				DE624E86431063A19F6C9121329FBF36 /* Pods-SplicerClient-Ios.debug.xcconfig */,
+				7DA16AF9A4A18FAF6F8C7FBD3C46D3B0 /* Pods-SplicerClient-Ios.release.xcconfig */,
 			);
-			name = UIKit;
+			name = "Pods-SplicerClient-Ios";
+			path = "Target Support Files/Pods-SplicerClient-Ios";
 			sourceTree = "<group>";
 		};
-		79F14F35392300146BF1C8EBD972BBAF /* DataStore */ = {
+		54489A20C37D774A7044AC5D128F827F /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				3056CAB7A3E24AF73C700A1E8A381A71 /* XLDataStoreController.h */,
-				700C5C6AF6E1823C49699132EEDAE6EF /* XLDataStoreController.m */,
+				925A508C9FDE181362306CE14E7A3D11 /* XLCoreDataController.h */,
+				CC844435E763892D9719B20B70752972 /* XLCoreDataController.m */,
 			);
-			name = DataStore;
+			name = CoreData;
 			sourceTree = "<group>";
 		};
-		7DD8547E3C127371BFFAD5AD184F0811 /* CoreRemote */ = {
+		5ABBC8D9DE07893D983841DB063B39F6 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				9744A1896026AF9DDED013CFFD96F425 /* XLDataLoader.h */,
-				C1AB3F8AEE87E9219EB17581FFA77E37 /* XLDataLoader.m */,
-				051F0ADA831BFAF969E004F32C1C3DE4 /* XLRemoteControllerDelegate.h */,
+				606043AB1228490735AD3FE4D8E0299F /* AFNetworking.h */,
+				AF317A4FEE1BF8996F59AD5C89BC2EEF /* NSURLConnection */,
+				BF81F9433F48A351E02E4ACB892FEF92 /* NSURLSession */,
+				17B8D7EE8D04EE9D5638A76F84FF60BE /* Reachability */,
+				182A562C01D8667C6E50564AB6940DD5 /* Security */,
+				4C7160FFE0FB78F9101D346090CF12D7 /* Serialization */,
+				380C9B89CF31491EBA173B43253AD8F2 /* Support Files */,
+				B0BBB8A7009BC8B6C0E53A35310FB721 /* UIKit */,
 			);
-			name = CoreRemote;
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		78AC2F4E5DBF61773BEEE052647BFABB /* AXRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				9B5ADD83802AD91520DB826028EB2AB2 /* AXRatingView.h */,
+				0DD9F2F854AD599FCF28B6E1477C9F77 /* AXRatingView.m */,
+				E9C3D72D57F2D41115AD3FFA8278163A /* Support Files */,
+			);
+			name = AXRatingView;
+			path = AXRatingView;
 			sourceTree = "<group>";
 		};
 		834168F11BB7A3D7554F5016FAC62802 /* SplicerClient-Ios */ = {
@@ -524,39 +686,161 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		8A8B5BCF984C43B7B74C8B084FC7C885 /* CoreData */ = {
+		85D0D5D2B3E73EF11A7494232108488C /* XLForm */ = {
 			isa = PBXGroup;
 			children = (
-				364C03BF48E9E4B0DF4B95D618DE3D81 /* XLCoreDataController.h */,
-				245EAA1FC1D129C07F0831A43503F5FC /* XLCoreDataController.m */,
+				8EA76F6558C8319B83FD3A9C887BACC4 /* NSArray+XLFormAdditions.h */,
+				DA24F69D66086D3117054FD8299A2729 /* NSArray+XLFormAdditions.m */,
+				796A66C2BB9E648EE6A6B922C9E5D689 /* NSExpression+XLFormAdditions.h */,
+				AA92FFE5614229936FB150CA4E18E236 /* NSExpression+XLFormAdditions.m */,
+				64A7B5CB1E4D85D6559405D51BC2066A /* NSObject+XLFormAdditions.h */,
+				7412D0E2725094CB6A4B83E5D7D51096 /* NSObject+XLFormAdditions.m */,
+				B7117DAEAF4DE29EA426A86935CDDE46 /* NSPredicate+XLFormAdditions.h */,
+				768FE9A2C2EF5071630000C44F1004D6 /* NSPredicate+XLFormAdditions.m */,
+				1FE363CDB3BA57C5FADB16A379FF7D89 /* NSString+XLFormAdditions.h */,
+				B12EA951E9130CCB0983B5606E495863 /* NSString+XLFormAdditions.m */,
+				AAEC540AAFD77A385C2E3E8AC4B8FBE3 /* UIView+XLFormAdditions.h */,
+				BADA68C136A579DCBF39FF15CD3690DC /* UIView+XLFormAdditions.m */,
+				082FF260454A255BECCADF9972F99A30 /* XLForm.h */,
+				B15D9934235AD091CDBA3EBD1B927C3D /* XLForm.m */,
+				9A2E7B325C8C08E48EB27550B816ECD8 /* XLFormBaseCell.h */,
+				93C08FE9CB7AAA3E8F75222FBDE16832 /* XLFormBaseCell.m */,
+				1C75E3C15A15BA1F6380647B4D550532 /* XLFormButtonCell.h */,
+				E2188479D690529595866F2C73232ECA /* XLFormButtonCell.m */,
+				8C53D427F7832C89B04C7FA739E1441C /* XLFormCheckCell.h */,
+				C91E09131A95E0443C76C76A19AC22CD /* XLFormCheckCell.m */,
+				DDE7CCB8820C1C6D4DD31E61FE16BEAF /* XLFormDateCell.h */,
+				29AA46703EBECFB1A23CA7A59A796D8C /* XLFormDateCell.m */,
+				45A8615F9E475FFB8B719A6DA76F1DC5 /* XLFormDatePickerCell.h */,
+				C355B5BD2A1F2A53995BEF1A99D71450 /* XLFormDatePickerCell.m */,
+				D35BB260D80438DCA1F44243A2AE6A5C /* XLFormDescriptor.h */,
+				6F6FBD74BB64C277E196DBB0A4120F8A /* XLFormDescriptor.m */,
+				2470E2DA7249D56B6107D9A35312FEBD /* XLFormDescriptorCell.h */,
+				33A91EFB6214011AFBFF21DEEC1B7F0F /* XLFormDescriptorDelegate.h */,
+				133B297A7A7A49D650EEA98EAA4C908F /* XLFormImageCell.h */,
+				1854E983CD99EE69EA8D058CD264E09E /* XLFormImageCell.m */,
+				9915217536D1ACE8E289CB22518710B7 /* XLFormInlineRowDescriptorCell.h */,
+				8DE6E73604281B69FD25DB3231CDDE53 /* XLFormInlineSelectorCell.h */,
+				CB9D4B0A3C34E19B62A9C1C00092F2AC /* XLFormInlineSelectorCell.m */,
+				0FD469E62984F595E041C36FF7B97735 /* XLFormLeftRightSelectorCell.h */,
+				42BCBBC0769880C20A45BFA64153443C /* XLFormLeftRightSelectorCell.m */,
+				2CD04B26D7D5DAEB3B381DD13D49E4EB /* XLFormOptionsObject.h */,
+				3AA9DB7F63002B72B8E6F905627E2486 /* XLFormOptionsObject.m */,
+				47BF89F9AC831A76C290CFB777DB357B /* XLFormOptionsViewController.h */,
+				21DC795FF37F2BD0DF8099571F2C4B94 /* XLFormOptionsViewController.m */,
+				ACEE28D2753A27BB3B12F12AB100A26A /* XLFormPickerCell.h */,
+				540DE4F97A18F7ECA3D254E56D9D1296 /* XLFormPickerCell.m */,
+				E536503DAA19D5419AE042EE5CCB75CA /* XLFormRegexValidator.h */,
+				1A1EBD43F9797D88868AA692261EC99C /* XLFormRegexValidator.m */,
+				2D204AFFF3805B3A8ECACB17FA66CCDD /* XLFormRightDetailCell.h */,
+				8AFF3FB15F6E1217EA01873FF60469B9 /* XLFormRightDetailCell.m */,
+				FC3DABE6C1CC25C96AEC51EA02B1B18D /* XLFormRightImageButton.h */,
+				332AAD5F771147DB0C0552C7C0EA994E /* XLFormRightImageButton.m */,
+				791DE049202DBF9CC3A25056B290521B /* XLFormRowDescriptor.h */,
+				DF122646A93ABF8E9761F7D57357A384 /* XLFormRowDescriptor.m */,
+				C21554EED15A6C7BB1A7E0836B8B3D17 /* XLFormRowDescriptorViewController.h */,
+				7244274775F8934F7C3EFE2EF2E5E4DC /* XLFormRowNavigationAccessoryView.h */,
+				9BFA72AAFFE1A1158A4EBCFD16F1F646 /* XLFormRowNavigationAccessoryView.m */,
+				9B35A5244E67F4A7EB54AC059C0F6FB4 /* XLFormSectionDescriptor.h */,
+				604AF44224057E1A168A419172EE3D76 /* XLFormSectionDescriptor.m */,
+				E244F2CD4692DE6294DBA45B0C7D04DC /* XLFormSegmentedCell.h */,
+				00A18B15867FD4F0BE44137524190878 /* XLFormSegmentedCell.m */,
+				09CEFBAC0859FF1BDE2F33553BFCEDBB /* XLFormSelectorCell.h */,
+				0DFE300F7A267C2C64B8A32C1E9F1489 /* XLFormSelectorCell.m */,
+				0D6B4D0BE33CD33A2BE6C4465C70BF09 /* XLFormSliderCell.h */,
+				DDE3ACA1B4BCD21BE1DD985392EA1B1C /* XLFormSliderCell.m */,
+				0947132947DECF8D4110F51A42C2EF1E /* XLFormStepCounterCell.h */,
+				07955ABD9A0F46A91A7F49A1A3A02B53 /* XLFormStepCounterCell.m */,
+				E11B2BEBA1AFC156445231B43AC1FEF4 /* XLFormSwitchCell.h */,
+				953AD10E461A3AD31571630FD065AF76 /* XLFormSwitchCell.m */,
+				7F6746C15AF111884C1A315C39600B07 /* XLFormTextFieldCell.h */,
+				8F08D9819441C6354FC2E47319550A13 /* XLFormTextFieldCell.m */,
+				F732B2BBFDDBFEF6541CD1EDC8FDFCEB /* XLFormTextView.h */,
+				B9A794E8EA1BE8962C3A3E430C4B4742 /* XLFormTextView.m */,
+				37DC6E3A5E6BA99CE5044F2230BCE5C1 /* XLFormTextViewCell.h */,
+				EE7CCC2A33A9F1931AD71C68313A994B /* XLFormTextViewCell.m */,
+				CA26520665334292AA717F0F21660A44 /* XLFormValidationStatus.h */,
+				62430B3B0EDE79AF1D968FCC8A863716 /* XLFormValidationStatus.m */,
+				600553E260A32C4062907C40CF021003 /* XLFormValidator.h */,
+				971A16ECBBCBE636AC482CFE6D2047BF /* XLFormValidator.m */,
+				1BA4B3192DA18F84F3629C8CC9516542 /* XLFormValidatorProtocol.h */,
+				BD3E096E2A30224B567C74256B50FB3B /* XLFormViewController.h */,
+				011B0BD38C15E23052198E21FFC105E1 /* XLFormViewController.m */,
+				319354F69AE8157553A453926B8A8987 /* Resources */,
+				BBD581E48F62EFDEF052D86C5CC0367C /* Support Files */,
 			);
-			name = CoreData;
+			name = XLForm;
+			path = XLForm;
 			sourceTree = "<group>";
 		};
-		9A7E6624EBBDE23CC4D554A176942D00 /* Security */ = {
+		8AC60460D78BEA7A9C9571D5B46C2A65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A66D6D4F200BC250CAAD2F4F2717B4E3 /* AFSecurityPolicy.h */,
-				A30881F4DF33B5A3F2BBEE460891D68C /* AFSecurityPolicy.m */,
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
+				919D2341879D75837BAE9E9FEC37B198 /* libAXRatingView.a */,
+				9397FC51AE6A52618C8B2B99C6C05845 /* libJVFloatLabeledTextField.a */,
+				E70371B9EFA50AEB9D99276B2302A19E /* libPods-SplicerClient-Ios.a */,
+				8697DF77E582CDE28A692A57A64D16FB /* libSHSPhoneComponent.a */,
+				02F8FA1923BAE2CE689095C2FD4FD6EF /* libXLData.a */,
+				8EB79196BD6382741168AD6F0E476F50 /* libXLForm.a */,
 			);
-			name = Security;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		9D2FD3759F9E7A88640A1965BAE3705E /* Targets Support Files */ = {
+		9269109B19DF8F449BB5F6FB17923378 /* RemoteDataStore */ = {
 			isa = PBXGroup;
 			children = (
-				BA3E6F1E3E0B16C236DA3F515F220AFF /* Pods-SplicerClient-Ios */,
+				C0A3C702B34DCB7F240882000FECD587 /* XLRemoteDataStoreController.h */,
+				4AC742B363E563B07F294F4B4C7E12B4 /* XLRemoteDataStoreController.m */,
 			);
-			name = "Targets Support Files";
+			name = RemoteDataStore;
 			sourceTree = "<group>";
 		};
-		9D97E92217FE01B9D083295870825888 /* RemoteCoreData */ = {
+		A3799FE58272D017513FFC1CC8A3ED3C /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
-				15110E607AAD699D56C53B34E76A2D2E /* XLRemoteCoreDataController.h */,
-				4873D7105BC81CF2C55EC43E8FC07ED6 /* XLRemoteCoreDataController.m */,
+				931B397FBFEACB4051276D552E2E4D17 /* XLDataStoreController.h */,
+				C4580DBE7DBB81DEA038EAF381DD7DC1 /* XLDataStoreController.m */,
 			);
-			name = RemoteCoreData;
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		AF317A4FEE1BF8996F59AD5C89BC2EEF /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				9508710DA10F72ED63F4DB7AA297C715 /* AFHTTPRequestOperation.h */,
+				E6F2277915D1245B7F7656B0E22039AD /* AFHTTPRequestOperation.m */,
+				034230607D0C6332CB6402F8E6656C04 /* AFHTTPRequestOperationManager.h */,
+				EDFB318EA8EAB497CCCB9D1701C13C07 /* AFHTTPRequestOperationManager.m */,
+				28948C0DA8631DD64BB69C5F3DCBA0CA /* AFURLConnectionOperation.h */,
+				6D975419D73BC90630D8FC5FC2F4C4F8 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		B0BBB8A7009BC8B6C0E53A35310FB721 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5E991A27C23FA2AB4362CDB198213D82 /* AFNetworkActivityIndicatorManager.h */,
+				9D311EE9F13DF89BCC647FD5FAC52B26 /* AFNetworkActivityIndicatorManager.m */,
+				B2BE24C42D36FF7A80ECAF38D849D014 /* UIActivityIndicatorView+AFNetworking.h */,
+				8E7BE1F5E7F0C12305A9B0E12C4E81E2 /* UIActivityIndicatorView+AFNetworking.m */,
+				E062AA1615958E488A536E162FFF89EA /* UIAlertView+AFNetworking.h */,
+				074C711061AA5ABAFCFB6620CFE86246 /* UIAlertView+AFNetworking.m */,
+				CEE6F3FAF0199A6EAF9D05E649E436BB /* UIButton+AFNetworking.h */,
+				A0AEDB9B1DD6D1C434E6499FF3774B09 /* UIButton+AFNetworking.m */,
+				DEA2A29649C5FEB0C56E077E464F4C77 /* UIImage+AFNetworking.h */,
+				E4F9B04A369001D114FAE9D1E705D148 /* UIImageView+AFNetworking.h */,
+				F0474429025BD900F7A41CB68BDEE1F0 /* UIImageView+AFNetworking.m */,
+				37A8190AAE4ABE35D9F5ACB62192FEE1 /* UIKit+AFNetworking.h */,
+				30FA336D62F6F1068459267F6E09CCAB /* UIProgressView+AFNetworking.h */,
+				1DC0AFB4D7B5960137816895CF3DC3CA /* UIProgressView+AFNetworking.m */,
+				4729227D38AEB2A8807481BF06F65095 /* UIRefreshControl+AFNetworking.h */,
+				ECCDD368C39814D7206A77B5B9E9CFFB /* UIRefreshControl+AFNetworking.m */,
+				8097A77E4EC2A0C197E5E7439A12640C /* UIWebView+AFNetworking.h */,
+				50713B50F22D3D384AD5EFE6DEA7322F /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 		B4DADF74360947AAF509FEDF889BD184 /* Pod */ = {
@@ -569,60 +853,37 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		B690B3BFB7CA9102C95A952F5B6122E7 /* SHSPhoneComponent */ = {
+		BBD581E48F62EFDEF052D86C5CC0367C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0995A7A2B9F8EDBF53BC5A349D6D0045 /* SHSFlagAccessoryView.h */,
-				8EB093FDA37B52BFC5C0FE6B810C5FFC /* SHSFlagAccessoryView.m */,
-				CE0F9C895F7419C930E4FEE21D2F3CAB /* SHSPhoneLibrary.h */,
-				8A4178E27CDAC6D86E7419A695D75B38 /* SHSPhoneLogic.h */,
-				1A64E35F26F73ABD765D85C10030253E /* SHSPhoneLogic.m */,
-				5A58111D91928E85B1E7DEAF49CF2C49 /* SHSPhoneNumberFormatter.h */,
-				18C9A00457AF83D947465005B7DD251E /* SHSPhoneNumberFormatter.m */,
-				CA12E094B980AE6C6BA705CAA648D5AF /* SHSPhoneNumberFormatter+UserConfig.h */,
-				884B9BCE5BEECB936CFEC24095A306A5 /* SHSPhoneNumberFormatter+UserConfig.m */,
-				AA73A37784BB76E570DCFC9E573FD39A /* SHSPhoneTextField.h */,
-				6F1AF4FA59D2FC3E235DF9A158F68E9B /* SHSPhoneTextField.m */,
-				04883678F6080D85C36292907395AF82 /* Support Files */,
-			);
-			name = SHSPhoneComponent;
-			path = SHSPhoneComponent;
-			sourceTree = "<group>";
-		};
-		B6F764ADED9F408E976D51C64A97994D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				092B36252EFCC35AF2D40CD093CC3695 /* AFNetworking */,
-				E5630BC4876BF824E7092CD4A74F699B /* AXRatingView */,
-				27A1B9525D77F7D129A0E9F784AAA456 /* JVFloatLabeledTextField */,
-				B690B3BFB7CA9102C95A952F5B6122E7 /* SHSPhoneComponent */,
-				3B556DCDD8BDC607C34F8B6EA1448A0C /* XLData */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BA3E6F1E3E0B16C236DA3F515F220AFF /* Pods-SplicerClient-Ios */ = {
-			isa = PBXGroup;
-			children = (
-				A1513289AFBA2C09E0530B476F53E3B9 /* Pods-SplicerClient-Ios-acknowledgements.markdown */,
-				533C8D82BCF2A304ED06B56669C3E0BE /* Pods-SplicerClient-Ios-acknowledgements.plist */,
-				B03F58775BDDC0162AC01B50982A5E05 /* Pods-SplicerClient-Ios-dummy.m */,
-				5125F8960C4CA6E02E2106C8DD6808BB /* Pods-SplicerClient-Ios.debug.xcconfig */,
-				BB36511DCBCC6BF6C20422A85C1488F5 /* Pods-SplicerClient-Ios.release.xcconfig */,
-			);
-			name = "Pods-SplicerClient-Ios";
-			path = "Target Support Files/Pods-SplicerClient-Ios";
-			sourceTree = "<group>";
-		};
-		C188A7CEC7F5BE369B973507D86BFD2E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3ED6DBDFF1EB8305193B8FC5DDDF4378 /* XLData.xcconfig */,
-				6339C4430066266BF9A54C56BA39D649 /* XLData-dummy.m */,
-				09148FA35C20B33134ABC094C1F32B98 /* XLData-prefix.pch */,
+				6C445144A1E12108088FC0A1CA88155B /* XLForm.xcconfig */,
+				07D1A8EC64DB846AB32B5BFACA7BC82A /* XLForm-dummy.m */,
+				09E278118E80A04A6ECD0EB7F9F8EFED /* XLForm-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/XLData";
+			path = "../Target Support Files/XLForm";
+			sourceTree = "<group>";
+		};
+		BF81F9433F48A351E02E4ACB892FEF92 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				7A3B044639EF980A8596D542DDB952EA /* AFHTTPSessionManager.h */,
+				18E640E35143263FA6605CB61FF3CAFD /* AFHTTPSessionManager.m */,
+				A3B75F9A990A2F829C4C80B46B05ECFA /* AFURLSessionManager.h */,
+				F4732CE81F2DFBD148B8DC610E2DAEE5 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		C65F480536E499CA39EF1F34D1641EB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				191960DC1E18585000E8DD917C715D0A /* SHSPhoneComponent.xcconfig */,
+				F38AA034FA5D08E5BCA928ABC62E491D /* SHSPhoneComponent-dummy.m */,
+				D3D7422C39BE4A6F000B431F8FB09B5B /* SHSPhoneComponent-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SHSPhoneComponent";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -631,21 +892,10 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				FF825C0210AB1B1156DC94934C3811B8 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				B6F764ADED9F408E976D51C64A97994D /* Pods */,
-				166331E69263409437BCBCD0D604CD35 /* Products */,
-				9D2FD3759F9E7A88640A1965BAE3705E /* Targets Support Files */,
+				F5BD08ACAD9285915D1624A3A59A2396 /* Pods */,
+				8AC60460D78BEA7A9C9571D5B46C2A65 /* Products */,
+				087F74E603761BE21920AA7C28BE6B6F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D663AEE3AA6077F95F98D9030775EE0B /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				698CB30C67BE1D9E85C97DA6911692DB /* AFHTTPSessionManager.h */,
-				2BBA23BFF60430B31CB4AA53F981FDE7 /* AFHTTPSessionManager.m */,
-				58E9FBE10FCF97B654D13E8ED68B0B54 /* AFURLSessionManager.h */,
-				5B53AB82E39B1AC9A6C7B52FAF28FB7F /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -655,35 +905,69 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2B01D12F62F93E97BAB5B4E8C8059D7 /* Reachability */ = {
+		DDDBF8858379FDE7B44228D15527AB8C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A1245A6254180C603BA32B8B7B0008DD /* AFNetworkReachabilityManager.h */,
-				1AFEE34D4E38ECBF293D6C6EDF111B9B /* AFNetworkReachabilityManager.m */,
+				698C4F845ECB53011E4E6B7BA372EBAE /* JVFloatLabeledTextField.xcconfig */,
+				A166A0A730E853A85DE9CFD3425607D1 /* JVFloatLabeledTextField-dummy.m */,
+				A2EB3D737F1647FE876D06913ADAFD17 /* JVFloatLabeledTextField-prefix.pch */,
 			);
-			name = Reachability;
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
 			sourceTree = "<group>";
 		};
-		E5630BC4876BF824E7092CD4A74F699B /* AXRatingView */ = {
+		E32D69A3E80A4EE47973EDEE81E4D19D /* SHSPhoneComponent */ = {
 			isa = PBXGroup;
 			children = (
-				28BDF0A32DBA1B1039CAF1F563F85192 /* AXRatingView.h */,
-				B39D533CF7BDDF27D6BB904ACF86A60F /* AXRatingView.m */,
-				1E3AD398E9CD819CDFCFCBBB73364625 /* Support Files */,
+				B2609A40947A8BF08D3FDB7063694760 /* SHSFlagAccessoryView.h */,
+				FE3FF5D7C4102E9726352BA69EE0503D /* SHSFlagAccessoryView.m */,
+				E2BF68C53896C7A2FD26ED0B34E03E12 /* SHSPhoneLibrary.h */,
+				1C192856E1957B940E0D451703ADD1E7 /* SHSPhoneLogic.h */,
+				1677A71FA3B1B1E302740DB2DA90D835 /* SHSPhoneLogic.m */,
+				F86A5B54348BE0BB0A1FF345EE1393B3 /* SHSPhoneNumberFormatter.h */,
+				ABAA1385AE5E6626C027B76A498130FA /* SHSPhoneNumberFormatter.m */,
+				F0AD0B2423B47B89D83E928DFAF63DF2 /* SHSPhoneNumberFormatter+UserConfig.h */,
+				17C0A03CFA5273823673F2B0CDEA3F64 /* SHSPhoneNumberFormatter+UserConfig.m */,
+				FC21A9C40FE0D693C081540D3515F12D /* SHSPhoneTextField.h */,
+				B2802A73B237389118214259C760BD4B /* SHSPhoneTextField.m */,
+				C65F480536E499CA39EF1F34D1641EB9 /* Support Files */,
 			);
-			name = AXRatingView;
-			path = AXRatingView;
+			name = SHSPhoneComponent;
+			path = SHSPhoneComponent;
 			sourceTree = "<group>";
 		};
-		EA38327476BB6B8FB6D9635F5CAEF388 /* Serialization */ = {
+		E5A11E038C3BE5A463AFDD6B626296BF /* CoreRemote */ = {
 			isa = PBXGroup;
 			children = (
-				24CDB717C5D9CCC5ADB7B051E7E7CB7E /* AFURLRequestSerialization.h */,
-				0397E83968CA9C327A5CBB8034E454B4 /* AFURLRequestSerialization.m */,
-				055865A048FE0A9AE1156686A0AA241D /* AFURLResponseSerialization.h */,
-				C31B449B3A5B210888E4B5B5A1571046 /* AFURLResponseSerialization.m */,
+				674BFBE5751539E1355DDD11CC2E6054 /* XLDataLoader.h */,
+				C6308CBF0D28E8506F63C40A0E81713D /* XLDataLoader.m */,
+				F32C4F50A122F0F8DD8E2D78B953E5EF /* XLRemoteControllerDelegate.h */,
 			);
-			name = Serialization;
+			name = CoreRemote;
+			sourceTree = "<group>";
+		};
+		E9C3D72D57F2D41115AD3FFA8278163A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD311C323341F28F4CB11C94D70BB136 /* AXRatingView.xcconfig */,
+				D4C223156363EDA29AE6479DEC1D1489 /* AXRatingView-dummy.m */,
+				0B6FA150A39525A4314CD2907C2DC803 /* AXRatingView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AXRatingView";
+			sourceTree = "<group>";
+		};
+		F5BD08ACAD9285915D1624A3A59A2396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ABBC8D9DE07893D983841DB063B39F6 /* AFNetworking */,
+				78AC2F4E5DBF61773BEEE052647BFABB /* AXRatingView */,
+				48ECCFECED7D29D80535E9D096EBA52B /* JVFloatLabeledTextField */,
+				E32D69A3E80A4EE47973EDEE81E4D19D /* SHSPhoneComponent */,
+				2FB594C468AC2B8E0E3301ADFFC619D1 /* XLData */,
+				85D0D5D2B3E73EF11A7494232108488C /* XLForm */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FF825C0210AB1B1156DC94934C3811B8 /* Development Pods */ = {
@@ -774,10 +1058,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDACCCD97564AB71F18E62EA0DDC39D3 /* Headers */ = {
+		AAC4EC1A0558CF4D8BBCFFE1A06442B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0ECC1B0A17A9E953FEAEAE2C8BC4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC279EC691E2992AA8F0CD3C7A379A96 /* NSArray+XLFormAdditions.h in Headers */,
+				F375CF27E6173B0E71B2A2FF6125C00C /* NSExpression+XLFormAdditions.h in Headers */,
+				09464F50AED49FF1617BF91E186945CC /* NSObject+XLFormAdditions.h in Headers */,
+				6059C4A7C6EB91D436A0C1716FD40B36 /* NSPredicate+XLFormAdditions.h in Headers */,
+				B7FF4DBD19FBC4BEB561A030E41EB22C /* NSString+XLFormAdditions.h in Headers */,
+				4704C5011DC7F905CE7DFEE482B24D38 /* UIView+XLFormAdditions.h in Headers */,
+				97613804466C585F12DB4837B5BF8EB9 /* XLForm.h in Headers */,
+				35CD5EFF019FE1BEE6C93631D3110F0D /* XLFormBaseCell.h in Headers */,
+				0934F45881B58CD4978E3FB069B11D79 /* XLFormButtonCell.h in Headers */,
+				A6C1C35DDDE9F036AAF45428A6FAC37B /* XLFormCheckCell.h in Headers */,
+				0A277EC370AFBF3B12AAB73AC5F70DB1 /* XLFormDateCell.h in Headers */,
+				C44C1474DBB12112A432985EA0CF82CE /* XLFormDatePickerCell.h in Headers */,
+				F5EF7BF915782070BC37B22DA9A44509 /* XLFormDescriptor.h in Headers */,
+				F26FBDF216B51F74FBD7E682A4B8E05B /* XLFormDescriptorCell.h in Headers */,
+				27D948ACE6B418D7A18A09E74034C346 /* XLFormDescriptorDelegate.h in Headers */,
+				FCC9C444DF172A9CA89EA06A767477D3 /* XLFormImageCell.h in Headers */,
+				249AF5F22260D738474FC546B690D584 /* XLFormInlineRowDescriptorCell.h in Headers */,
+				C751762653F30DD64B7A2A1D4E925C2C /* XLFormInlineSelectorCell.h in Headers */,
+				CF9F21C9F7A33FC62E5CB6C89A49FE78 /* XLFormLeftRightSelectorCell.h in Headers */,
+				5F9BC6B2DDCBC0F2663F354124EE9EA4 /* XLFormOptionsObject.h in Headers */,
+				CD025ED420544FAE4667EE2B4FB17637 /* XLFormOptionsViewController.h in Headers */,
+				FFD85A999B8DD45966E57F4C30FFED9B /* XLFormPickerCell.h in Headers */,
+				DD54951C584F56E6D476B1B18C4918E5 /* XLFormRegexValidator.h in Headers */,
+				59DC9029D3E93F86B8811FEFAD57FECD /* XLFormRightDetailCell.h in Headers */,
+				08594D940F87CCC1EC8E0213D4364199 /* XLFormRightImageButton.h in Headers */,
+				AF39FF2288BF46418B743028EE69AF9A /* XLFormRowDescriptor.h in Headers */,
+				3F04FAB383E439E6E3BD99D5A24A750C /* XLFormRowDescriptorViewController.h in Headers */,
+				5141F417289D4458B8D800EC646E34A3 /* XLFormRowNavigationAccessoryView.h in Headers */,
+				83F21790021BF6F5D2D2286A33F7DC0C /* XLFormSectionDescriptor.h in Headers */,
+				4F9838FDB8DEEE8D2BEFF7EE19087046 /* XLFormSegmentedCell.h in Headers */,
+				F538AAA006844AE9EE3856CE51CC380B /* XLFormSelectorCell.h in Headers */,
+				D42420A3D5C4CF064E88C731925F577D /* XLFormSliderCell.h in Headers */,
+				707E411EC82246E16504FC1ACD7D9111 /* XLFormStepCounterCell.h in Headers */,
+				52CB5DC65ED22F85CF7CA70362C2792D /* XLFormSwitchCell.h in Headers */,
+				CDF28EAD8EE2875BFD5102C383D134D4 /* XLFormTextFieldCell.h in Headers */,
+				CB1E90A2B5ECBB27E26CD279A7D2331B /* XLFormTextView.h in Headers */,
+				6A726214807605F6BA328581D24039E0 /* XLFormTextViewCell.h in Headers */,
+				BD63D8773C1FC73669BC0BFE8AB6E9A5 /* XLFormValidationStatus.h in Headers */,
+				6C2FF970E1E17E3427E74DEE69E4B68B /* XLFormValidator.h in Headers */,
+				3D5F71BBC81425D16C246101A8913E97 /* XLFormValidatorProtocol.h in Headers */,
+				FEDD6354BA743F7A7D827378A3018F6B /* XLFormViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,23 +1133,41 @@
 			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3AD84EA98A846A6E82ACC25CC13CFE3D /* Pods-SplicerClient-Ios */ = {
+		127E692FF724D4C929D1AF5ADFC90C6C /* XLForm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 314A031BF36196AF54013B51E4DEDC5B /* Build configuration list for PBXNativeTarget "Pods-SplicerClient-Ios" */;
+			buildConfigurationList = 5FC68664F54FDDC98D142FECB88FE07D /* Build configuration list for PBXNativeTarget "XLForm" */;
 			buildPhases = (
-				FDACCCD97564AB71F18E62EA0DDC39D3 /* Headers */,
-				900D8A014A767530E8FD7B9E12EFF1FC /* Sources */,
-				EF7AF835F1A4439B6261FC0CAEB98AC7 /* Frameworks */,
+				DFF0ECC1B0A17A9E953FEAEAE2C8BC4B /* Headers */,
+				A135F941FA28C9B91FFEA826F21C7E83 /* Sources */,
+				42D8CF29438E564CDCF52AB348E57F94 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA24DD6C84663586753D5EB16DD36773 /* PBXTargetDependency */,
-				0896218D691D7CEAE6B6E739AF49988E /* PBXTargetDependency */,
-				CED83797DADCC526D1883579528CF7CC /* PBXTargetDependency */,
-				64E749822CCD95A0E627BA70019D52BC /* PBXTargetDependency */,
-				7D65962995E3CA2B68A01FB090760F2C /* PBXTargetDependency */,
-				D03108A3465D73AF375DD0660CC8AE25 /* PBXTargetDependency */,
+			);
+			name = XLForm;
+			productName = XLForm;
+			productReference = 8EB79196BD6382741168AD6F0E476F50 /* libXLForm.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3AD84EA98A846A6E82ACC25CC13CFE3D /* Pods-SplicerClient-Ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469739617322EB0F7FFFD6160DCCF84F /* Build configuration list for PBXNativeTarget "Pods-SplicerClient-Ios" */;
+			buildPhases = (
+				AAC4EC1A0558CF4D8BBCFFE1A06442B5 /* Headers */,
+				C15EC158299A196AC76BE3E22A9205CF /* Sources */,
+				54F1858FC3591CF8B9794AC94F1D2766 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB9FDF35C9B861F62B7504ADCE96612 /* PBXTargetDependency */,
+				3119488ABD07E1E42D6B90F81D654FE2 /* PBXTargetDependency */,
+				DD88AA5C51D311722A7646E6A9599079 /* PBXTargetDependency */,
+				907F0A3A021022CCA0152075E4F22407 /* PBXTargetDependency */,
+				7DFCF813D577A412CF3CA442EB077933 /* PBXTargetDependency */,
+				472269E6075C69001FE4FB00D67D1B12 /* PBXTargetDependency */,
+				6FFF083CF1932A3EF7D5DA7FF0C84338 /* PBXTargetDependency */,
 			);
 			name = "Pods-SplicerClient-Ios";
 			productName = "Pods-SplicerClient-Ios";
@@ -910,7 +1260,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 166331E69263409437BCBCD0D604CD35 /* Products */;
+			productRefGroup = 8AC60460D78BEA7A9C9571D5B46C2A65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -921,6 +1271,7 @@
 				F571007502E8D291701B742839653EB5 /* SHSPhoneComponent */,
 				D3FDD061F7BDEDB21FDF2BADD48A6E32 /* SplicerClient-Ios */,
 				EDBB1A585DEBC338805A9B958369E7A1 /* XLData */,
+				127E692FF724D4C929D1AF5ADFC90C6C /* XLForm */,
 			);
 		};
 /* End PBXProject section */
@@ -990,11 +1341,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		900D8A014A767530E8FD7B9E12EFF1FC /* Sources */ = {
+		A135F941FA28C9B91FFEA826F21C7E83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A04B101B82E9816AFB14949121BD16E /* Pods-SplicerClient-Ios-dummy.m in Sources */,
+				0B2D36226B076C24475495760B3C9C0F /* NSArray+XLFormAdditions.m in Sources */,
+				4E83AAB44D18E766B1DAEEED33625A5B /* NSExpression+XLFormAdditions.m in Sources */,
+				74DA1D7A5E443A84E36F7424E58AA4FD /* NSObject+XLFormAdditions.m in Sources */,
+				2B3C9BFBE691B806909F073C558690B4 /* NSPredicate+XLFormAdditions.m in Sources */,
+				F5DEED54654E7F1355A958F997E8E9A1 /* NSString+XLFormAdditions.m in Sources */,
+				BCD367BF6C119A492E37D7F7918AA343 /* UIView+XLFormAdditions.m in Sources */,
+				D1E01E48F3D96B6FE1E0187F2E67EC1E /* XLForm-dummy.m in Sources */,
+				16C7C7909B8DED08EC62501E3BFA6390 /* XLForm.m in Sources */,
+				088C99AFD294C770E53D2594456AA6F4 /* XLFormBaseCell.m in Sources */,
+				4A8B70E2A18A9D783DC7D94EC593C339 /* XLFormButtonCell.m in Sources */,
+				842332093FAC4E02DF337B555F5A44F4 /* XLFormCheckCell.m in Sources */,
+				EE5005BF06D67370ECDC40E426DBC3BA /* XLFormDateCell.m in Sources */,
+				0CD0142B4B2D8C7EEBFBC6DCE9752749 /* XLFormDatePickerCell.m in Sources */,
+				4D7ACEBCE2B9EEE6C535084F10C9981B /* XLFormDescriptor.m in Sources */,
+				C080353542047CF57EA11609BD4A1113 /* XLFormImageCell.m in Sources */,
+				03A542E82A020337A88B87D062921817 /* XLFormInlineSelectorCell.m in Sources */,
+				8140612C3CD414B77F5D7C835BE95E14 /* XLFormLeftRightSelectorCell.m in Sources */,
+				CD6FF8EF5752A0108F61897A795A6CAA /* XLFormOptionsObject.m in Sources */,
+				677B9FA6C2C4579F4359620E595A0072 /* XLFormOptionsViewController.m in Sources */,
+				76BBAB8BE63575FAE8241AB26975DE74 /* XLFormPickerCell.m in Sources */,
+				C38B13AA3265F10A8E6CEE6436333933 /* XLFormRegexValidator.m in Sources */,
+				B7EC17C833044404EF0C459BB7100AFD /* XLFormRightDetailCell.m in Sources */,
+				25A738831137020AABFE71A514B8E02A /* XLFormRightImageButton.m in Sources */,
+				28C0743CD1F3487E048B51C3F29B1677 /* XLFormRowDescriptor.m in Sources */,
+				7A775074E7A07974F2BEF679B64AAD11 /* XLFormRowNavigationAccessoryView.m in Sources */,
+				5E2CD60B01E87226F380AF5640B5F0FB /* XLFormSectionDescriptor.m in Sources */,
+				02AE3E0E3AE743ED40846B7B48740DF6 /* XLFormSegmentedCell.m in Sources */,
+				A741EC17EB2C7F97FAC35549ED17111D /* XLFormSelectorCell.m in Sources */,
+				72501FD07480402D9124E6EA99C2BCB6 /* XLFormSliderCell.m in Sources */,
+				83ECC0FA03DC225941DFE8B876547E1E /* XLFormStepCounterCell.m in Sources */,
+				CCEDACEBD74614EE30FB0556FA92F9EE /* XLFormSwitchCell.m in Sources */,
+				F8ACCA5944639ECD36E07A94E42F403E /* XLFormTextFieldCell.m in Sources */,
+				0D020E0846DA210141514C569927A2FD /* XLFormTextView.m in Sources */,
+				6292774D5602629301574DB64EF0451A /* XLFormTextViewCell.m in Sources */,
+				3C6433E1DD73C67B6BE6465B1526EC89 /* XLFormValidationStatus.m in Sources */,
+				D4C676D26D3A85D86DFC9B4FBCDBB3BD /* XLFormValidator.m in Sources */,
+				7E6BAC9D9F75BFEA67FB5AC19C84C80E /* XLFormViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15EC158299A196AC76BE3E22A9205CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F7B630CE693E9693B0EA81B4C621B0 /* Pods-SplicerClient-Ios-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1014,17 +1409,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0896218D691D7CEAE6B6E739AF49988E /* PBXTargetDependency */ = {
+		3119488ABD07E1E42D6B90F81D654FE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AXRatingView;
 			target = 949AB0CA1AE4B2CFFBDC370A6FB1143D /* AXRatingView */;
-			targetProxy = 25FCCD728BAD1DD7037CA560AD7EC4AC /* PBXContainerItemProxy */;
+			targetProxy = 033D2977510C832B6E0589CBADEF201C /* PBXContainerItemProxy */;
 		};
-		64E749822CCD95A0E627BA70019D52BC /* PBXTargetDependency */ = {
+		472269E6075C69001FE4FB00D67D1B12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SHSPhoneComponent;
-			target = F571007502E8D291701B742839653EB5 /* SHSPhoneComponent */;
-			targetProxy = 4795CE208A2B884E143461B8C360BBD9 /* PBXContainerItemProxy */;
+			name = XLData;
+			target = EDBB1A585DEBC338805A9B958369E7A1 /* XLData */;
+			targetProxy = EEE77A0063B8A40EC961953A904F1D4D /* PBXContainerItemProxy */;
+		};
+		5EB9FDF35C9B861F62B7504ADCE96612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 21E134795A03E769641A051116BA7C80 /* PBXContainerItemProxy */;
+		};
+		6FFF083CF1932A3EF7D5DA7FF0C84338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLForm;
+			target = 127E692FF724D4C929D1AF5ADFC90C6C /* XLForm */;
+			targetProxy = E395AD4CE56ADDF2F8CB03490C9AD745 /* PBXContainerItemProxy */;
 		};
 		7AA37B8A13CE8D56F554E326E931E873 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1032,36 +1439,30 @@
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
 			targetProxy = C6B220F8968EFE5EF5AF478920B8A22E /* PBXContainerItemProxy */;
 		};
-		7D65962995E3CA2B68A01FB090760F2C /* PBXTargetDependency */ = {
+		7DFCF813D577A412CF3CA442EB077933 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SplicerClient-Ios";
 			target = D3FDD061F7BDEDB21FDF2BADD48A6E32 /* SplicerClient-Ios */;
-			targetProxy = 33492B46D39331D2A7C496D9A5117E2A /* PBXContainerItemProxy */;
+			targetProxy = A4C61FBEF8DD588FDA339C1DD31C02C1 /* PBXContainerItemProxy */;
 		};
-		CED83797DADCC526D1883579528CF7CC /* PBXTargetDependency */ = {
+		907F0A3A021022CCA0152075E4F22407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHSPhoneComponent;
+			target = F571007502E8D291701B742839653EB5 /* SHSPhoneComponent */;
+			targetProxy = 845762A6E2EC342FFCBD5B0D85ED7E33 /* PBXContainerItemProxy */;
+		};
+		DD88AA5C51D311722A7646E6A9599079 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVFloatLabeledTextField;
 			target = D50AE83DD721C55CB9B772BCBA4FDAF4 /* JVFloatLabeledTextField */;
-			targetProxy = 38E39AA6ED9BEFA847C624BEF8223B94 /* PBXContainerItemProxy */;
-		};
-		D03108A3465D73AF375DD0660CC8AE25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XLData;
-			target = EDBB1A585DEBC338805A9B958369E7A1 /* XLData */;
-			targetProxy = 478C5822A8307F810C4BB24DD44922BD /* PBXContainerItemProxy */;
-		};
-		EA24DD6C84663586753D5EB16DD36773 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 293128D7589CF9F8102658F79C9B1733 /* PBXContainerItemProxy */;
+			targetProxy = 9DB761BA0BA545EF03A715B9602F3BD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0D737B5EEB5E1FE9C00048DDE48BE3D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE74473C74EAA3C3CF3EA9E717DE863D /* SHSPhoneComponent.xcconfig */;
+			baseConfigurationReference = 191960DC1E18585000E8DD917C715D0A /* SHSPhoneComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1086,7 +1487,7 @@
 		};
 		1BEB6AB59D1E18C3E315BA1C01374B5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED6DBDFF1EB8305193B8FC5DDDF4378 /* XLData.xcconfig */;
+			baseConfigurationReference = C10BC9422BE38B6EFC533A67BDFEB3B8 /* XLData.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1110,7 +1511,7 @@
 		};
 		1DD6F939C15688654F4012FEBA772EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF7F30E4F58C4378E1D7D8A1DE6FFD55 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 923B588126ED6EB552CA9DEA26DCBD57 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1135,7 +1536,7 @@
 		};
 		1E414E3EEF76129F328823FDABF0D550 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6618366C49E325A08F7E6BC1A0B3E492 /* AXRatingView.xcconfig */;
+			baseConfigurationReference = DD311C323341F28F4CB11C94D70BB136 /* AXRatingView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1160,7 +1561,7 @@
 		};
 		2BAAF219BB33F260ADDC946883F19E1A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED6DBDFF1EB8305193B8FC5DDDF4378 /* XLData.xcconfig */;
+			baseConfigurationReference = C10BC9422BE38B6EFC533A67BDFEB3B8 /* XLData.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1198,7 +1599,7 @@
 		};
 		38910E70394050B634C072DF1672BAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BDBE7E05B1D28B0F0C85F0F973790F2 /* JVFloatLabeledTextField.xcconfig */;
+			baseConfigurationReference = 698C4F845ECB53011E4E6B7BA372EBAE /* JVFloatLabeledTextField.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1221,9 +1622,33 @@
 			};
 			name = Debug;
 		};
+		3E162511E3716890E75AB85BD5281D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C445144A1E12108088FC0A1CA88155B /* XLForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XLForm/XLForm-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XLForm;
+				PRODUCT_NAME = XLForm;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		65B98104D8D712D4AE3D300BE958590B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF7F30E4F58C4378E1D7D8A1DE6FFD55 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 923B588126ED6EB552CA9DEA26DCBD57 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1244,6 +1669,31 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		7372E2636F173F207ED62A1E25B41F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C445144A1E12108088FC0A1CA88155B /* XLForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XLForm/XLForm-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XLForm;
+				PRODUCT_NAME = XLForm;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		7491C6771083DD94D890D8AD048016D4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1383,31 +1833,9 @@
 			};
 			name = Debug;
 		};
-		99ECAE94EE292FDD0FC2AA21F66E3482 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB36511DCBCC6BF6C20422A85C1488F5 /* Pods-SplicerClient-Ios.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		BCA1138DC85883F3FAD9A6373BF692E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE74473C74EAA3C3CF3EA9E717DE863D /* SHSPhoneComponent.xcconfig */;
+			baseConfigurationReference = 191960DC1E18585000E8DD917C715D0A /* SHSPhoneComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1431,7 +1859,7 @@
 		};
 		BD166A451715FB07D4A76E5F6BB62F92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BDBE7E05B1D28B0F0C85F0F973790F2 /* JVFloatLabeledTextField.xcconfig */;
+			baseConfigurationReference = 698C4F845ECB53011E4E6B7BA372EBAE /* JVFloatLabeledTextField.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1455,9 +1883,30 @@
 			};
 			name = Release;
 		};
+		C4FA94B59EF4D60F5D8890FE99FD8045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE624E86431063A19F6C9121329FBF36 /* Pods-SplicerClient-Ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		DA747EC51E525EE178A5FEB4BCE6801F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6618366C49E325A08F7E6BC1A0B3E492 /* AXRatingView.xcconfig */;
+			baseConfigurationReference = DD311C323341F28F4CB11C94D70BB136 /* AXRatingView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1481,9 +1930,9 @@
 			};
 			name = Release;
 		};
-		DDCD70A9FFE9474288A195436A636B01 /* Debug */ = {
+		DEB6DF00552221B21EE1F2CAAA261D60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5125F8960C4CA6E02E2106C8DD6808BB /* Pods-SplicerClient-Ios.debug.xcconfig */;
+			baseConfigurationReference = 7DA16AF9A4A18FAF6F8C7FBD3C46D3B0 /* Pods-SplicerClient-Ios.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1499,8 +1948,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1514,11 +1964,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		314A031BF36196AF54013B51E4DEDC5B /* Build configuration list for PBXNativeTarget "Pods-SplicerClient-Ios" */ = {
+		469739617322EB0F7FFFD6160DCCF84F /* Build configuration list for PBXNativeTarget "Pods-SplicerClient-Ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDCD70A9FFE9474288A195436A636B01 /* Debug */,
-				99ECAE94EE292FDD0FC2AA21F66E3482 /* Release */,
+				C4FA94B59EF4D60F5D8890FE99FD8045 /* Debug */,
+				DEB6DF00552221B21EE1F2CAAA261D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1537,6 +1987,15 @@
 			buildConfigurations = (
 				BCA1138DC85883F3FAD9A6373BF692E0 /* Debug */,
 				0D737B5EEB5E1FE9C00048DDE48BE3D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC68664F54FDDC98D142FECB88FE07D /* Build configuration list for PBXNativeTarget "XLForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E162511E3716890E75AB85BD5281D4C /* Debug */,
+				7372E2636F173F207ED62A1E25B41F94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

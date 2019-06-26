@@ -4,7 +4,7 @@
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "NO"
-      buildImplicitDependencies = "NO">
+      buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E267FD1F1BE8048900F86B42"
-               BuildableName = "XLForm.framework"
-               BlueprintName = "XLForm"
-               ReferencedContainer = "container:../XLForm/XLForm.xcodeproj">
+               BlueprintIdentifier = "C19E9DC31A17CF7D00507F5E"
+               BuildableName = "JumboModClient-Ios.app"
+               BlueprintName = "JumboModClient-Ios"
+               ReferencedContainer = "container:JumboModClient-Ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry

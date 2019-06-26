@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		9F099D6EAAD171D4E6628D5B /* libPods-SplicerClient-Ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */; };
 		C14897E122C29BC2001F1AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14897E022C29BC2001F1AAF /* ViewController.swift */; };
+		C15D5BA122C2FBB200289DB2 /* BasicPredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5B9A22C2FBB200289DB2 /* BasicPredicateViewController.m */; };
+		C15D5BA222C2FBB200289DB2 /* BlogExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5B9C22C2FBB200289DB2 /* BlogExampleViewController.m */; };
+		C15D5BA322C2FBB200289DB2 /* PredicateFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5B9E22C2FBB200289DB2 /* PredicateFormViewController.m */; };
+		C15D5BA422C2FBB200289DB2 /* XLFormPredicates.gif in Resources */ = {isa = PBXBuildFile; fileRef = C15D5B9F22C2FBB200289DB2 /* XLFormPredicates.gif */; };
+		C15D5BA522C2FBB200289DB2 /* XLFormPredicatesBasic.gif in Resources */ = {isa = PBXBuildFile; fileRef = C15D5BA022C2FBB200289DB2 /* XLFormPredicatesBasic.gif */; };
+		C15D5BAC22C2FCE900289DB2 /* DateAndTimeValueTrasformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5BA822C2FCE900289DB2 /* DateAndTimeValueTrasformer.m */; };
+		C15D5BAD22C2FCE900289DB2 /* DatesFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5BAA22C2FCE900289DB2 /* DatesFormViewController.m */; };
+		C15D5BAE22C2FCE900289DB2 /* XLForm-Dates.gif in Resources */ = {isa = PBXBuildFile; fileRef = C15D5BAB22C2FCE900289DB2 /* XLForm-Dates.gif */; };
+		C15D5BC022C2FD1200289DB2 /* CustomRowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5BB122C2FD1200289DB2 /* CustomRowsViewController.m */; };
+		C15D5BC122C2FD1200289DB2 /* FloatLabeledTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5BB422C2FD1200289DB2 /* FloatLabeledTextFieldCell.m */; };
+		C15D5BC222C2FD1200289DB2 /* XLRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5BB822C2FD1200289DB2 /* XLRatingView.m */; };
+		C15D5BC322C2FD1200289DB2 /* XLFormRatingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5BBA22C2FD1200289DB2 /* XLFormRatingCell.m */; };
+		C15D5BC422C2FD1200289DB2 /* XLFormRatingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15D5BBB22C2FD1200289DB2 /* XLFormRatingCell.xib */; };
+		C15D5BC522C2FD1200289DB2 /* XLFormWeekDaysCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D5BBE22C2FD1200289DB2 /* XLFormWeekDaysCell.m */; };
+		C15D5BC622C2FD1200289DB2 /* XLFormWeekDaysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15D5BBF22C2FD1200289DB2 /* XLFormWeekDaysCell.xib */; };
 		C160DE2422C284F2009F04CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2322C284F2009F04CC /* AppDelegate.swift */; };
 		C160DE2622C284F2009F04CC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2522C284F2009F04CC /* FirstViewController.swift */; };
 		C160DE2822C284F2009F04CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE2722C284F2009F04CC /* SecondViewController.swift */; };
@@ -19,16 +34,6 @@
 		C160DE4622C284F2009F04CC /* SplicerClient_IosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C160DE4522C284F2009F04CC /* SplicerClient_IosUITests.swift */; };
 		C1AF36A422C2E7250032D12D /* AccessoryViewFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF363B22C2E7250032D12D /* AccessoryViewFormViewController.m */; };
 		C1AF36A522C2E7250032D12D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF363D22C2E7250032D12D /* AppDelegate.m */; };
-		C1AF36A622C2E7250032D12D /* CustomRowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF364022C2E7250032D12D /* CustomRowsViewController.m */; };
-		C1AF36A722C2E7250032D12D /* FloatLabeledTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF364322C2E7250032D12D /* FloatLabeledTextFieldCell.m */; };
-		C1AF36A822C2E7250032D12D /* XLRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF364722C2E7250032D12D /* XLRatingView.m */; };
-		C1AF36A922C2E7250032D12D /* XLFormRatingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF364922C2E7250032D12D /* XLFormRatingCell.m */; };
-		C1AF36AA22C2E7250032D12D /* XLFormRatingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1AF364A22C2E7250032D12D /* XLFormRatingCell.xib */; };
-		C1AF36AB22C2E7250032D12D /* XLFormWeekDaysCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF364D22C2E7250032D12D /* XLFormWeekDaysCell.m */; };
-		C1AF36AC22C2E7250032D12D /* XLFormWeekDaysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1AF364E22C2E7250032D12D /* XLFormWeekDaysCell.xib */; };
-		C1AF36AD22C2E7250032D12D /* DateAndTimeValueTrasformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF365122C2E7250032D12D /* DateAndTimeValueTrasformer.m */; };
-		C1AF36AE22C2E7250032D12D /* DatesFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF365322C2E7250032D12D /* DatesFormViewController.m */; };
-		C1AF36AF22C2E7250032D12D /* XLForm-Dates.gif in Resources */ = {isa = PBXBuildFile; fileRef = C1AF365422C2E7250032D12D /* XLForm-Dates.gif */; };
 		C1AF36B022C2E7250032D12D /* ExamplesFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF365622C2E7250032D12D /* ExamplesFormViewController.m */; };
 		C1AF36B122C2E7250032D12D /* FormattersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF365922C2E7250032D12D /* FormattersViewController.m */; };
 		C1AF36B222C2E7250032D12D /* InputsFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF365C22C2E7250032D12D /* InputsFormViewController.m */; };
@@ -104,13 +109,6 @@
 			remoteGlobalIDString = C19E9DEB1A17CF7D00507F5E;
 			remoteInfo = "JumboModClient-IosTests";
 		};
-		C1AF36DA22C2E75C0032D12D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1AF36D622C2E75C0032D12D /* XLForm.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E267FD201BE8048900F86B42;
-			remoteInfo = XLForm;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +116,31 @@
 		618470988E3ED383EE3AED04 /* Pods-SplicerClient-Ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplicerClient-Ios.debug.xcconfig"; path = "Target Support Files/Pods-SplicerClient-Ios/Pods-SplicerClient-Ios.debug.xcconfig"; sourceTree = "<group>"; };
 		A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SplicerClient-Ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14897E022C29BC2001F1AAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../J2OBJCBase/J2OBJCBase/ViewController.swift; sourceTree = "<group>"; };
+		C15D5B9922C2FBB200289DB2 /* BasicPredicateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPredicateViewController.h; sourceTree = "<group>"; };
+		C15D5B9A22C2FBB200289DB2 /* BasicPredicateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPredicateViewController.m; sourceTree = "<group>"; };
+		C15D5B9B22C2FBB200289DB2 /* BlogExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogExampleViewController.h; sourceTree = "<group>"; };
+		C15D5B9C22C2FBB200289DB2 /* BlogExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogExampleViewController.m; sourceTree = "<group>"; };
+		C15D5B9D22C2FBB200289DB2 /* PredicateFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredicateFormViewController.h; sourceTree = "<group>"; };
+		C15D5B9E22C2FBB200289DB2 /* PredicateFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredicateFormViewController.m; sourceTree = "<group>"; };
+		C15D5B9F22C2FBB200289DB2 /* XLFormPredicates.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLFormPredicates.gif; sourceTree = "<group>"; };
+		C15D5BA022C2FBB200289DB2 /* XLFormPredicatesBasic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XLFormPredicatesBasic.gif; sourceTree = "<group>"; };
+		C15D5BA722C2FCE900289DB2 /* DateAndTimeValueTrasformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateAndTimeValueTrasformer.h; sourceTree = "<group>"; };
+		C15D5BA822C2FCE900289DB2 /* DateAndTimeValueTrasformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateAndTimeValueTrasformer.m; sourceTree = "<group>"; };
+		C15D5BA922C2FCE900289DB2 /* DatesFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatesFormViewController.h; sourceTree = "<group>"; };
+		C15D5BAA22C2FCE900289DB2 /* DatesFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatesFormViewController.m; sourceTree = "<group>"; };
+		C15D5BAB22C2FCE900289DB2 /* XLForm-Dates.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "XLForm-Dates.gif"; sourceTree = "<group>"; };
+		C15D5BB022C2FD1200289DB2 /* CustomRowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRowsViewController.h; sourceTree = "<group>"; };
+		C15D5BB122C2FD1200289DB2 /* CustomRowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRowsViewController.m; sourceTree = "<group>"; };
+		C15D5BB322C2FD1200289DB2 /* FloatLabeledTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatLabeledTextFieldCell.h; sourceTree = "<group>"; };
+		C15D5BB422C2FD1200289DB2 /* FloatLabeledTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatLabeledTextFieldCell.m; sourceTree = "<group>"; };
+		C15D5BB722C2FD1200289DB2 /* XLRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRatingView.h; sourceTree = "<group>"; };
+		C15D5BB822C2FD1200289DB2 /* XLRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRatingView.m; sourceTree = "<group>"; };
+		C15D5BB922C2FD1200289DB2 /* XLFormRatingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRatingCell.h; sourceTree = "<group>"; };
+		C15D5BBA22C2FD1200289DB2 /* XLFormRatingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRatingCell.m; sourceTree = "<group>"; };
+		C15D5BBB22C2FD1200289DB2 /* XLFormRatingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLFormRatingCell.xib; sourceTree = "<group>"; };
+		C15D5BBD22C2FD1200289DB2 /* XLFormWeekDaysCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormWeekDaysCell.h; sourceTree = "<group>"; };
+		C15D5BBE22C2FD1200289DB2 /* XLFormWeekDaysCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormWeekDaysCell.m; sourceTree = "<group>"; };
+		C15D5BBF22C2FD1200289DB2 /* XLFormWeekDaysCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLFormWeekDaysCell.xib; sourceTree = "<group>"; };
 		C160DE2022C284F2009F04CC /* SplicerClient-Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplicerClient-Ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C160DE2322C284F2009F04CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C160DE2522C284F2009F04CC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -139,23 +162,6 @@
 		C1AF363B22C2E7250032D12D /* AccessoryViewFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoryViewFormViewController.m; sourceTree = "<group>"; };
 		C1AF363C22C2E7250032D12D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1AF363D22C2E7250032D12D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1AF363F22C2E7250032D12D /* CustomRowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRowsViewController.h; sourceTree = "<group>"; };
-		C1AF364022C2E7250032D12D /* CustomRowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRowsViewController.m; sourceTree = "<group>"; };
-		C1AF364222C2E7250032D12D /* FloatLabeledTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatLabeledTextFieldCell.h; sourceTree = "<group>"; };
-		C1AF364322C2E7250032D12D /* FloatLabeledTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatLabeledTextFieldCell.m; sourceTree = "<group>"; };
-		C1AF364622C2E7250032D12D /* XLRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRatingView.h; sourceTree = "<group>"; };
-		C1AF364722C2E7250032D12D /* XLRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRatingView.m; sourceTree = "<group>"; };
-		C1AF364822C2E7250032D12D /* XLFormRatingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRatingCell.h; sourceTree = "<group>"; };
-		C1AF364922C2E7250032D12D /* XLFormRatingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRatingCell.m; sourceTree = "<group>"; };
-		C1AF364A22C2E7250032D12D /* XLFormRatingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLFormRatingCell.xib; sourceTree = "<group>"; };
-		C1AF364C22C2E7250032D12D /* XLFormWeekDaysCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormWeekDaysCell.h; sourceTree = "<group>"; };
-		C1AF364D22C2E7250032D12D /* XLFormWeekDaysCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormWeekDaysCell.m; sourceTree = "<group>"; };
-		C1AF364E22C2E7250032D12D /* XLFormWeekDaysCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLFormWeekDaysCell.xib; sourceTree = "<group>"; };
-		C1AF365022C2E7250032D12D /* DateAndTimeValueTrasformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateAndTimeValueTrasformer.h; sourceTree = "<group>"; };
-		C1AF365122C2E7250032D12D /* DateAndTimeValueTrasformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateAndTimeValueTrasformer.m; sourceTree = "<group>"; };
-		C1AF365222C2E7250032D12D /* DatesFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatesFormViewController.h; sourceTree = "<group>"; };
-		C1AF365322C2E7250032D12D /* DatesFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatesFormViewController.m; sourceTree = "<group>"; };
-		C1AF365422C2E7250032D12D /* XLForm-Dates.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "XLForm-Dates.gif"; sourceTree = "<group>"; };
 		C1AF365522C2E7250032D12D /* ExamplesFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesFormViewController.h; sourceTree = "<group>"; };
 		C1AF365622C2E7250032D12D /* ExamplesFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesFormViewController.m; sourceTree = "<group>"; };
 		C1AF365822C2E7250032D12D /* FormattersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormattersViewController.h; sourceTree = "<group>"; };
@@ -207,7 +213,7 @@
 		C1AF36A122C2E7250032D12D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1AF36A222C2E7250032D12D /* XLForm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XLForm-Info.plist"; sourceTree = "<group>"; };
 		C1AF36A322C2E7250032D12D /* XLForm-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLForm-Prefix.pch"; sourceTree = "<group>"; };
-		C1AF36D622C2E75C0032D12D /* XLForm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XLForm.xcodeproj; path = ../XLForm/XLForm.xcodeproj; sourceTree = "<group>"; };
+		C1CD7DA522C2FFDB00C0009C /* XLForm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLForm-Prefix.pch"; sourceTree = "<group>"; };
 		C1EE04D822C2943F00E12E77 /* .placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .placeholder; sourceTree = "<group>"; };
 		C1EE04D922C2943F00E12E77 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
 		C1EE04DA22C2943F00E12E77 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
@@ -260,10 +266,87 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C15D5B9822C2FBB200289DB2 /* PredicateExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C15D5B9922C2FBB200289DB2 /* BasicPredicateViewController.h */,
+				C15D5B9A22C2FBB200289DB2 /* BasicPredicateViewController.m */,
+				C15D5B9B22C2FBB200289DB2 /* BlogExampleViewController.h */,
+				C15D5B9C22C2FBB200289DB2 /* BlogExampleViewController.m */,
+				C15D5B9D22C2FBB200289DB2 /* PredicateFormViewController.h */,
+				C15D5B9E22C2FBB200289DB2 /* PredicateFormViewController.m */,
+				C15D5B9F22C2FBB200289DB2 /* XLFormPredicates.gif */,
+				C15D5BA022C2FBB200289DB2 /* XLFormPredicatesBasic.gif */,
+			);
+			path = PredicateExamples;
+			sourceTree = "<group>";
+		};
+		C15D5BA622C2FCE900289DB2 /* Dates */ = {
+			isa = PBXGroup;
+			children = (
+				C15D5BA722C2FCE900289DB2 /* DateAndTimeValueTrasformer.h */,
+				C15D5BA822C2FCE900289DB2 /* DateAndTimeValueTrasformer.m */,
+				C15D5BA922C2FCE900289DB2 /* DatesFormViewController.h */,
+				C15D5BAA22C2FCE900289DB2 /* DatesFormViewController.m */,
+				C15D5BAB22C2FCE900289DB2 /* XLForm-Dates.gif */,
+			);
+			path = Dates;
+			sourceTree = "<group>";
+		};
+		C15D5BAF22C2FD1200289DB2 /* CustomRows */ = {
+			isa = PBXGroup;
+			children = (
+				C15D5BB022C2FD1200289DB2 /* CustomRowsViewController.h */,
+				C15D5BB122C2FD1200289DB2 /* CustomRowsViewController.m */,
+				C15D5BB222C2FD1200289DB2 /* FloatLabeledTextField */,
+				C15D5BB522C2FD1200289DB2 /* Rating */,
+				C15D5BBC22C2FD1200289DB2 /* Weekdays */,
+			);
+			path = CustomRows;
+			sourceTree = "<group>";
+		};
+		C15D5BB222C2FD1200289DB2 /* FloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C15D5BB322C2FD1200289DB2 /* FloatLabeledTextFieldCell.h */,
+				C15D5BB422C2FD1200289DB2 /* FloatLabeledTextFieldCell.m */,
+			);
+			path = FloatLabeledTextField;
+			sourceTree = "<group>";
+		};
+		C15D5BB522C2FD1200289DB2 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				C15D5BB622C2FD1200289DB2 /* RatingView */,
+				C15D5BB922C2FD1200289DB2 /* XLFormRatingCell.h */,
+				C15D5BBA22C2FD1200289DB2 /* XLFormRatingCell.m */,
+				C15D5BBB22C2FD1200289DB2 /* XLFormRatingCell.xib */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		C15D5BB622C2FD1200289DB2 /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				C15D5BB722C2FD1200289DB2 /* XLRatingView.h */,
+				C15D5BB822C2FD1200289DB2 /* XLRatingView.m */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		C15D5BBC22C2FD1200289DB2 /* Weekdays */ = {
+			isa = PBXGroup;
+			children = (
+				C15D5BBD22C2FD1200289DB2 /* XLFormWeekDaysCell.h */,
+				C15D5BBE22C2FD1200289DB2 /* XLFormWeekDaysCell.m */,
+				C15D5BBF22C2FD1200289DB2 /* XLFormWeekDaysCell.xib */,
+			);
+			path = Weekdays;
+			sourceTree = "<group>";
+		};
 		C160DE1722C284F2009F04CC = {
 			isa = PBXGroup;
 			children = (
-				C1AF36D622C2E75C0032D12D /* XLForm.xcodeproj */,
 				C173F29322C2D79B0081CA32 /* JumboModClient-Ios.xcodeproj */,
 				C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */,
 				C160DE2222C284F2009F04CC /* SplicerClient-Ios */,
@@ -288,6 +371,7 @@
 		C160DE2222C284F2009F04CC /* SplicerClient-Ios */ = {
 			isa = PBXGroup;
 			children = (
+				C1CD7DA522C2FFDB00C0009C /* XLForm-Prefix.pch */,
 				C1AF363822C2E7250032D12D /* Examples */,
 				C1AF369B22C2E7250032D12D /* XLForm */,
 				C17BC32C22C2DB9500CCD1A0 /* J2OBJCBase-Bridging-Header.h */,
@@ -342,11 +426,12 @@
 		C1AF363822C2E7250032D12D /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				C15D5BAF22C2FD1200289DB2 /* CustomRows */,
+				C15D5BA622C2FCE900289DB2 /* Dates */,
+				C15D5B9822C2FBB200289DB2 /* PredicateExamples */,
 				C1AF363922C2E7250032D12D /* AccessoryViews */,
 				C1AF363C22C2E7250032D12D /* AppDelegate.h */,
 				C1AF363D22C2E7250032D12D /* AppDelegate.m */,
-				C1AF363E22C2E7250032D12D /* CustomRows */,
-				C1AF364F22C2E7250032D12D /* Dates */,
 				C1AF365522C2E7250032D12D /* ExamplesFormViewController.h */,
 				C1AF365622C2E7250032D12D /* ExamplesFormViewController.m */,
 				C1AF365722C2E7250032D12D /* Formatters */,
@@ -369,69 +454,6 @@
 				C1AF363B22C2E7250032D12D /* AccessoryViewFormViewController.m */,
 			);
 			path = AccessoryViews;
-			sourceTree = "<group>";
-		};
-		C1AF363E22C2E7250032D12D /* CustomRows */ = {
-			isa = PBXGroup;
-			children = (
-				C1AF363F22C2E7250032D12D /* CustomRowsViewController.h */,
-				C1AF364022C2E7250032D12D /* CustomRowsViewController.m */,
-				C1AF364122C2E7250032D12D /* FloatLabeledTextField */,
-				C1AF364422C2E7250032D12D /* Rating */,
-				C1AF364B22C2E7250032D12D /* Weekdays */,
-			);
-			path = CustomRows;
-			sourceTree = "<group>";
-		};
-		C1AF364122C2E7250032D12D /* FloatLabeledTextField */ = {
-			isa = PBXGroup;
-			children = (
-				C1AF364222C2E7250032D12D /* FloatLabeledTextFieldCell.h */,
-				C1AF364322C2E7250032D12D /* FloatLabeledTextFieldCell.m */,
-			);
-			path = FloatLabeledTextField;
-			sourceTree = "<group>";
-		};
-		C1AF364422C2E7250032D12D /* Rating */ = {
-			isa = PBXGroup;
-			children = (
-				C1AF364522C2E7250032D12D /* RatingView */,
-				C1AF364822C2E7250032D12D /* XLFormRatingCell.h */,
-				C1AF364922C2E7250032D12D /* XLFormRatingCell.m */,
-				C1AF364A22C2E7250032D12D /* XLFormRatingCell.xib */,
-			);
-			path = Rating;
-			sourceTree = "<group>";
-		};
-		C1AF364522C2E7250032D12D /* RatingView */ = {
-			isa = PBXGroup;
-			children = (
-				C1AF364622C2E7250032D12D /* XLRatingView.h */,
-				C1AF364722C2E7250032D12D /* XLRatingView.m */,
-			);
-			path = RatingView;
-			sourceTree = "<group>";
-		};
-		C1AF364B22C2E7250032D12D /* Weekdays */ = {
-			isa = PBXGroup;
-			children = (
-				C1AF364C22C2E7250032D12D /* XLFormWeekDaysCell.h */,
-				C1AF364D22C2E7250032D12D /* XLFormWeekDaysCell.m */,
-				C1AF364E22C2E7250032D12D /* XLFormWeekDaysCell.xib */,
-			);
-			path = Weekdays;
-			sourceTree = "<group>";
-		};
-		C1AF364F22C2E7250032D12D /* Dates */ = {
-			isa = PBXGroup;
-			children = (
-				C1AF365022C2E7250032D12D /* DateAndTimeValueTrasformer.h */,
-				C1AF365122C2E7250032D12D /* DateAndTimeValueTrasformer.m */,
-				C1AF365222C2E7250032D12D /* DatesFormViewController.h */,
-				C1AF365322C2E7250032D12D /* DatesFormViewController.m */,
-				C1AF365422C2E7250032D12D /* XLForm-Dates.gif */,
-			);
-			path = Dates;
 			sourceTree = "<group>";
 		};
 		C1AF365722C2E7250032D12D /* Formatters */ = {
@@ -601,14 +623,6 @@
 			path = XLForm;
 			sourceTree = "<group>";
 		};
-		C1AF36D722C2E75C0032D12D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C1AF36DB22C2E75C0032D12D /* XLForm.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C1EE04D722C2943F00E12E77 /* generated */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,6 +649,7 @@
 				C160DE1C22C284F2009F04CC /* Sources */,
 				C160DE1D22C284F2009F04CC /* Frameworks */,
 				C160DE1E22C284F2009F04CC /* Resources */,
+				D65FA8450992713610400222 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -727,10 +742,6 @@
 					ProductGroup = C173F29422C2D79B0081CA32 /* Products */;
 					ProjectRef = C173F29322C2D79B0081CA32 /* JumboModClient-Ios.xcodeproj */;
 				},
-				{
-					ProductGroup = C1AF36D722C2E75C0032D12D /* Products */;
-					ProjectRef = C1AF36D622C2E75C0032D12D /* XLForm.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -763,13 +774,6 @@
 			remoteRef = C173F29C22C2D79B0081CA32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C1AF36DB22C2E75C0032D12D /* XLForm.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = XLForm.framework;
-			remoteRef = C1AF36DA22C2E75C0032D12D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -778,13 +782,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1AF36CD22C2E7250032D12D /* XLForm-Selectors.gif in Resources */,
+				C15D5BA522C2FBB200289DB2 /* XLFormPredicatesBasic.gif in Resources */,
 				C160DE3022C284F2009F04CC /* LaunchScreen.storyboard in Resources */,
+				C15D5BC622C2FD1200289DB2 /* XLFormWeekDaysCell.xib in Resources */,
 				C1EE04DF22C2943F00E12E77 /* .placeholder in Resources */,
 				C1AF36B522C2E7250032D12D /* XLForm-MultiValuedSections.gif in Resources */,
-				C1AF36AF22C2E7250032D12D /* XLForm-Dates.gif in Resources */,
 				C1AF36C122C2E7250032D12D /* XLForm.gif in Resources */,
+				C15D5BAE22C2FCE900289DB2 /* XLForm-Dates.gif in Resources */,
+				C15D5BA422C2FBB200289DB2 /* XLFormPredicates.gif in Resources */,
 				C1AF36BA22C2E7250032D12D /* XLForm-stepCounter.gif in Resources */,
 				C1AF36D122C2E7250032D12D /* InfoPlist.strings in Resources */,
+				C15D5BC422C2FD1200289DB2 /* XLFormRatingCell.xib in Resources */,
 				C1AF36D222C2E7250032D12D /* Localizable.strings in Resources */,
 				C160DE2D22C284F2009F04CC /* Assets.xcassets in Resources */,
 				C1AF36CE22C2E7250032D12D /* iPhoneStoryboard.storyboard in Resources */,
@@ -792,8 +800,6 @@
 				C1AF36B322C2E7250032D12D /* XLForm-Inputs.gif in Resources */,
 				C1AF36D322C2E7250032D12D /* Images.xcassets in Resources */,
 				C1AF36C622C2E7250032D12D /* XLForm-map-custom-selector.gif in Resources */,
-				C1AF36AC22C2E7250032D12D /* XLFormWeekDaysCell.xib in Resources */,
-				C1AF36AA22C2E7250032D12D /* XLFormRatingCell.xib in Resources */,
 				C1AF36C922C2E7250032D12D /* XLForm-dynamic-custom-selector.gif in Resources */,
 				C1AF36D522C2E7250032D12D /* XLForm-Info.plist in Resources */,
 				C1AF36C522C2E7250032D12D /* MapViewController.xib in Resources */,
@@ -836,6 +842,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D65FA8450992713610400222 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplicerClient-Ios/Pods-SplicerClient-Ios-resources.sh",
+				"${PODS_ROOT}/XLForm/XLForm/XLForm.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLForm.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplicerClient-Ios/Pods-SplicerClient-Ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -844,39 +868,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1EE04E222C2943F00E12E77 /* DisplayDriver.m in Sources */,
+				C15D5BC222C2FD1200289DB2 /* XLRatingView.m in Sources */,
 				C1AF36B622C2E7250032D12D /* XLFormCustomCell.m in Sources */,
 				C1AF36B422C2E7250032D12D /* MultivaluedFormViewController.m in Sources */,
 				C1AF36B222C2E7250032D12D /* InputsFormViewController.m in Sources */,
-				C1AF36A822C2E7250032D12D /* XLRatingView.m in Sources */,
 				C1AF36D422C2E7250032D12D /* main.m in Sources */,
+				C15D5BAC22C2FCE900289DB2 /* DateAndTimeValueTrasformer.m in Sources */,
 				C1AF36CF22C2E7250032D12D /* UICustomizationFormViewController.m in Sources */,
 				C1EE04E122C2943F00E12E77 /* Cell.m in Sources */,
 				C1AF36B122C2E7250032D12D /* FormattersViewController.m in Sources */,
 				C1AF36C722C2E7250032D12D /* DynamicSelectorsFormViewController.m in Sources */,
-				C1AF36A722C2E7250032D12D /* FloatLabeledTextFieldCell.m in Sources */,
-				C1AF36A922C2E7250032D12D /* XLFormRatingCell.m in Sources */,
 				C1AF36A522C2E7250032D12D /* AppDelegate.m in Sources */,
 				C1AF36C822C2E7250032D12D /* UsersTableViewController.m in Sources */,
 				C1AF36A422C2E7250032D12D /* AccessoryViewFormViewController.m in Sources */,
 				C160DE2822C284F2009F04CC /* SecondViewController.swift in Sources */,
 				C1AF36D022C2E7250032D12D /* ValidationExamplesFormViewController.m in Sources */,
+				C15D5BA222C2FBB200289DB2 /* BlogExampleViewController.m in Sources */,
+				C15D5BC322C2FD1200289DB2 /* XLFormRatingCell.m in Sources */,
 				C1AF36B022C2E7250032D12D /* ExamplesFormViewController.m in Sources */,
+				C15D5BC122C2FD1200289DB2 /* FloatLabeledTextFieldCell.m in Sources */,
 				C1AF36C222C2E7250032D12D /* CustomSelectorsFormViewController.m in Sources */,
-				C1AF36AE22C2E7250032D12D /* DatesFormViewController.m in Sources */,
 				C1AF36CA22C2E7250032D12D /* Model.xcdatamodeld in Sources */,
 				C1AF36C322C2E7250032D12D /* CLLocationValueTrasformer.m in Sources */,
 				C1AF36CC22C2E7250032D12D /* SelectorsFormViewController.m in Sources */,
 				C160DE2422C284F2009F04CC /* AppDelegate.swift in Sources */,
-				C1AF36A622C2E7250032D12D /* CustomRowsViewController.m in Sources */,
 				C14897E122C29BC2001F1AAF /* ViewController.swift in Sources */,
 				C1AF36C022C2E7250032D12D /* NativeEventFormViewController.m in Sources */,
+				C15D5BA322C2FBB200289DB2 /* PredicateFormViewController.m in Sources */,
+				C15D5BA122C2FBB200289DB2 /* BasicPredicateViewController.m in Sources */,
+				C15D5BAD22C2FCE900289DB2 /* DatesFormViewController.m in Sources */,
 				C1AF36CB22C2E7250032D12D /* HTTPSessionManager.m in Sources */,
-				C1AF36AD22C2E7250032D12D /* DateAndTimeValueTrasformer.m in Sources */,
 				C1EE04E022C2943F00E12E77 /* Board.m in Sources */,
 				C1AF36B822C2E7250032D12D /* OthersFormViewController.m in Sources */,
-				C1AF36AB22C2E7250032D12D /* XLFormWeekDaysCell.m in Sources */,
+				C15D5BC022C2FD1200289DB2 /* CustomRowsViewController.m in Sources */,
 				C1AF36C422C2E7250032D12D /* MapViewController.m in Sources */,
 				C1AF36B722C2E7250032D12D /* XLFormImageSelectorCell.m in Sources */,
+				C15D5BC522C2FD1200289DB2 /* XLFormWeekDaysCell.m in Sources */,
 				C160DE2622C284F2009F04CC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1047,6 +1074,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/frameworks";
+				GCC_PREFIX_HEADER = "SplicerClient-Ios/XLForm-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1055,18 +1083,17 @@
 					"\"${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField\"",
 					"\"${PODS_ROOT}/Headers/Public/SHSPhoneComponent\"",
 					"\"${PODS_ROOT}/Headers/Public/XLData\"",
-					"\"${PODS_ROOT}/Headers/Public/XLForm\"",
+					"/Users/aaronjevans/work/DdmWorkspace/SplicerClient-Ios/Pods/Headers/Public/XLForm",
 				);
-				"HEADER_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/include";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"${J2OBJC_HOME}/include",
+					"/Users/aaronjevans/work/DdmWorkspace/SplicerClient-Ios/Pods/Headers/Public/XLForm",
+				);
 				INFOPLIST_FILE = "SplicerClient-Ios/Info.plist";
 				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
-				"OTHER_LDFLAGS[arch=*]" = (
-					"-ljre_emul",
-					"-ljre_util",
-					"-liconv",
-				);
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SplicerClient-Ios/J2OBJCBase-Bridging-Header.h";
@@ -1080,6 +1107,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/frameworks";
+				GCC_PREFIX_HEADER = "SplicerClient-Ios/XLForm-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1089,17 +1117,16 @@
 					"\"${PODS_ROOT}/Headers/Public/SHSPhoneComponent\"",
 					"\"${PODS_ROOT}/Headers/Public/XLData\"",
 					"\"${PODS_ROOT}/Headers/Public/XLForm\"",
+					"/Users/aaronjevans/work/DdmWorkspace/SplicerClient-Ios/Pods/Headers/Public/XLForm",
 				);
-				"HEADER_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/include";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"${J2OBJC_HOME}/include",
+					"/Users/aaronjevans/work/DdmWorkspace/SplicerClient-Ios/Pods/Headers/Public/XLForm",
+				);
 				INFOPLIST_FILE = "SplicerClient-Ios/Info.plist";
 				J2OBJC_HOME = "../j2objc-2.4";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "${J2OBJC_HOME}/lib";
-				"OTHER_LDFLAGS[arch=*]" = (
-					"-ljre_emul",
-					"-ljre_util",
-					"-liconv",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Jumbo-Mobile.SplicerClient-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SplicerClient-Ios/J2OBJCBase-Bridging-Header.h";

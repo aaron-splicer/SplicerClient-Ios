@@ -53,10 +53,20 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>XLForm.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0130B3724283586C0E9D2A112D4F2AA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>127E692FF724D4C929D1AF5ADFC90C6C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

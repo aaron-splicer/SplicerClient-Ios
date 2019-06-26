@@ -11,4 +11,6 @@ pod 'XLData', :git => 'https://github.com/xmartlabs/XLData.git', :commit => '1f9
 pod 'JVFloatLabeledTextField', '1.0.2', :inhibit_warnings => true
 pod 'AXRatingView', '1.0.3', :inhibit_warnings => true
 pod 'SHSPhoneComponent'
+pod 'AFNetworking', '~> 2.0', :inhibit_warnings => true
+pod 'XLForm', :git => 'https://github.com/xmartlabs/XLForm.git', :tag => '4.0.1', :inhibit_warnings => true 
 end
