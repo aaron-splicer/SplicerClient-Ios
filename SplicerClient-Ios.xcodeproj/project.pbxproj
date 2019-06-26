@@ -67,6 +67,11 @@
 		C1AF36D322C2E7250032D12D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AF36A022C2E7250032D12D /* Images.xcassets */; };
 		C1AF36D422C2E7250032D12D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AF36A122C2E7250032D12D /* main.m */; };
 		C1AF36D522C2E7250032D12D /* XLForm-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1AF36A222C2E7250032D12D /* XLForm-Info.plist */; };
+		C1BCD17522C3108400044731 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCD17122C3108400044731 /* CoreData.framework */; };
+		C1BCD17622C3108400044731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCD17222C3108400044731 /* Foundation.framework */; };
+		C1BCD17722C3108400044731 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCD17322C3108400044731 /* CoreGraphics.framework */; };
+		C1BCD17822C3108400044731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCD17422C3108400044731 /* UIKit.framework */; };
+		C1BCD17C22C310FD00044731 /* XLFormInlineSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BCD17B22C310FD00044731 /* XLFormInlineSegmentedCell.m */; };
 		C1EE04DF22C2943F00E12E77 /* .placeholder in Resources */ = {isa = PBXBuildFile; fileRef = C1EE04D822C2943F00E12E77 /* .placeholder */; };
 		C1EE04E022C2943F00E12E77 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EE04DA22C2943F00E12E77 /* Board.m */; };
 		C1EE04E122C2943F00E12E77 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EE04DC22C2943F00E12E77 /* Cell.m */; };
@@ -108,6 +113,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = C19E9DEB1A17CF7D00507F5E;
 			remoteInfo = "JumboModClient-IosTests";
+		};
+		C1BCD16F22C3106B00044731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BCD16822C3106B00044731 /* XLForm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2850C5F818D0F706002B7D0A;
+			remoteInfo = XLForm;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -213,6 +225,13 @@
 		C1AF36A122C2E7250032D12D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1AF36A222C2E7250032D12D /* XLForm-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "XLForm-Info.plist"; sourceTree = "<group>"; };
 		C1AF36A322C2E7250032D12D /* XLForm-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLForm-Prefix.pch"; sourceTree = "<group>"; };
+		C1BCD16822C3106B00044731 /* XLForm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XLForm.xcodeproj; path = "../XLForm/Examples/Objective-C/XLForm.xcodeproj"; sourceTree = "<group>"; };
+		C1BCD17122C3108400044731 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1BCD17222C3108400044731 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1BCD17322C3108400044731 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1BCD17422C3108400044731 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1BCD17A22C310FD00044731 /* XLFormInlineSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormInlineSegmentedCell.h; sourceTree = "<group>"; };
+		C1BCD17B22C310FD00044731 /* XLFormInlineSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormInlineSegmentedCell.m; sourceTree = "<group>"; };
 		C1CD7DA522C2FFDB00C0009C /* XLForm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLForm-Prefix.pch"; sourceTree = "<group>"; };
 		C1EE04D822C2943F00E12E77 /* .placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .placeholder; sourceTree = "<group>"; };
 		C1EE04D922C2943F00E12E77 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
@@ -228,7 +247,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BCD17722C3108400044731 /* CoreGraphics.framework in Frameworks */,
 				9F099D6EAAD171D4E6628D5B /* libPods-SplicerClient-Ios.a in Frameworks */,
+				C1BCD17622C3108400044731 /* Foundation.framework in Frameworks */,
+				C1BCD17522C3108400044731 /* CoreData.framework in Frameworks */,
+				C1BCD17822C3108400044731 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +275,10 @@
 		2A31B5890D64697495A357F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1BCD17122C3108400044731 /* CoreData.framework */,
+				C1BCD17222C3108400044731 /* Foundation.framework */,
+				C1BCD17322C3108400044731 /* CoreGraphics.framework */,
+				C1BCD17422C3108400044731 /* UIKit.framework */,
 				A422EDCE92AF13601B9783D8 /* libPods-SplicerClient-Ios.a */,
 			);
 			name = Frameworks;
@@ -347,6 +374,7 @@
 		C160DE1722C284F2009F04CC = {
 			isa = PBXGroup;
 			children = (
+				C1BCD16822C3106B00044731 /* XLForm.xcodeproj */,
 				C173F29322C2D79B0081CA32 /* JumboModClient-Ios.xcodeproj */,
 				C160DE5422C28AA9009F04CC /* J2OBJCBase.xcodeproj */,
 				C160DE2222C284F2009F04CC /* SplicerClient-Ios */,
@@ -371,6 +399,7 @@
 		C160DE2222C284F2009F04CC /* SplicerClient-Ios */ = {
 			isa = PBXGroup;
 			children = (
+				C1BCD17922C310FD00044731 /* Inline Segmented */,
 				C1CD7DA522C2FFDB00C0009C /* XLForm-Prefix.pch */,
 				C1AF363822C2E7250032D12D /* Examples */,
 				C1AF369B22C2E7250032D12D /* XLForm */,
@@ -623,6 +652,24 @@
 			path = XLForm;
 			sourceTree = "<group>";
 		};
+		C1BCD16922C3106B00044731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BCD17022C3106B00044731 /* XLForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BCD17922C310FD00044731 /* Inline Segmented */ = {
+			isa = PBXGroup;
+			children = (
+				C1BCD17A22C310FD00044731 /* XLFormInlineSegmentedCell.h */,
+				C1BCD17B22C310FD00044731 /* XLFormInlineSegmentedCell.m */,
+			);
+			name = "Inline Segmented";
+			path = "../../XLForm/Examples/Objective-C/Inline Segmented";
+			sourceTree = "<group>";
+		};
 		C1EE04D722C2943F00E12E77 /* generated */ = {
 			isa = PBXGroup;
 			children = (
@@ -742,6 +789,10 @@
 					ProductGroup = C173F29422C2D79B0081CA32 /* Products */;
 					ProjectRef = C173F29322C2D79B0081CA32 /* JumboModClient-Ios.xcodeproj */;
 				},
+				{
+					ProductGroup = C1BCD16922C3106B00044731 /* Products */;
+					ProjectRef = C1BCD16822C3106B00044731 /* XLForm.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -772,6 +823,13 @@
 			fileType = wrapper.cfbundle;
 			path = "JumboModClient-IosTests.xctest";
 			remoteRef = C173F29C22C2D79B0081CA32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C1BCD17022C3106B00044731 /* XLForm.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = XLForm.app;
+			remoteRef = C1BCD16F22C3106B00044731 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -887,6 +945,7 @@
 				C15D5BC322C2FD1200289DB2 /* XLFormRatingCell.m in Sources */,
 				C1AF36B022C2E7250032D12D /* ExamplesFormViewController.m in Sources */,
 				C15D5BC122C2FD1200289DB2 /* FloatLabeledTextFieldCell.m in Sources */,
+				C1BCD17C22C310FD00044731 /* XLFormInlineSegmentedCell.m in Sources */,
 				C1AF36C222C2E7250032D12D /* CustomSelectorsFormViewController.m in Sources */,
 				C1AF36CA22C2E7250032D12D /* Model.xcdatamodeld in Sources */,
 				C1AF36C322C2E7250032D12D /* CLLocationValueTrasformer.m in Sources */,
