@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <RestKit/RestKit.h>
-#import <RestKit/RKURL.h>
+//#import <RestKit/RKURL.h>
 
 #import "JsonFetcher.h"
 #import "ModelRootControllerService.h"
@@ -9,35 +9,89 @@
 
 @synthesize objectManager;
 @synthesize mapping;
+@synthesize users;
+@synthesize tableView;
 
--(void)setup:(NSString *)baseUrl rootClass:(Class)rootClass
+-(void)setup:(NSString *)baseUrl rootClass:(Class)rootClass path:(NSString *)path usrs:(NSArray *)usrs
 {
-    RKLogInitialize();
+    users = usrs;
+    // initialize AFNetworking HTTPClient
+    NSURL *baseURL = baseUrl;//[NSURL URLWithString:@"https://api.foursquare.com"];
+    AFRKHTTPClient *client = [[AFRKHTTPClient alloc] initWithBaseURL:baseURL];
     
-    //[[RKClient sharedClient] setBaseURL:@"http://127.0.0.1:9000"];
+    // initialize RestKit
+    objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
     
-    RKLogConfigureByName("RestKit/Network", RKLogLevelTrace);
+    //from sample: https://www.raywenderlich.com/2476-introduction-to-restkit-tutorial
+    // setup object mappings
+    /*
+    RKObjectMapping *venueMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_User class]];
     
-    objectManager = [RKObjectManager new];
+    [venueMapping addAttributeMappingsFromArray:@[@"name"]];
+     */
     
-    RKURL* url = [RKURL URLWithString:baseUrl];
+    //map's aaron's original way
+    RKObjectMapping* venueMapping = [self mapComplexTypes];
+    //mapping = [objectManager.mappingProvider objectMappingForClass:rootClass];
     
-    [objectManager initWithBaseURL:url];
+    // register mappings with the provider using a response descriptor
+    RKResponseDescriptor *responseDescriptor =
+    [RKResponseDescriptor responseDescriptorWithMapping:venueMapping
+                                                 method:RKRequestMethodGET
+                                            //pathPattern:@"/v2/venues/search"
+                                            pathPattern:path //@"/api/splicer/User/list"]
+                                            //keyPath:@"response.venues"
+                                            keyPath:@""
+                                            statusCodes:[NSIndexSet indexSetWithIndex:200]];
     
-    
-    RKObjectMapping* rootMapping = [self mapComplexTypes];
-    
-    //User object array is the root:
-    [objectManager.mappingProvider addObjectMapping:rootMapping]; // note this just stores our 
-
-    mapping = [objectManager.mappingProvider objectMappingForClass:rootClass];
+    [objectManager addResponseDescriptor:responseDescriptor];
 }
-
-- (void)execute:(id<RKObjectLoaderDelegate>)delegate path:(NSString *)path 
+/*
+- (void)loadVenues
 {
+    NSString *latLon = @"37.33,-122.03"; // approximate latLon of The Mothership (a.k.a Apple headquarters)
+    NSString *clientID = kCLIENTID;
+    NSString *clientSecret = kCLIENTSECRET;
+    
+    NSDictionary *queryParams = @{@"ll" : latLon,
+                                  @"client_id" : clientID,
+                                  @"client_secret" : clientSecret,
+                                  @"categoryId" : @"4bf58dd8d48988d1e0931735",
+                                  @"v" : @"20140118"};
+    
+    [[RKObjectManager sharedManager] getObjectsAtPath:@"/v2/venues/search"
+                                           parameters:queryParams
+                                              success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+                                                  users = mappingResult.array;
+                                                  //[self.tableView.reloadData];
+                                                  [self.tableView reloadData];
+                                              }
+                                              failure:^(RKObjectRequestOperation *operation, NSError *error) {
+                                                  NSLog(@"What do you mean by 'there is no coffee?': %@", error);
+                                              }];
+}*/
+
+- (void)execute:(NSString *)path;
+{
+    //aaron's orig (0.1.0 or earlier)
+    /*
     RKObjectLoader* loader = [objectManager objectLoaderWithResourcePath:path delegate:delegate];
     loader.objectMapping = mapping; // Here's the key. We're telling RestKit to use the MyItem mapping for the objects in the root.
     [loader send];
+     */
+    
+    NSDictionary *queryParams = @{@"dummy":@"dummyParam"};
+    
+    [[RKObjectManager sharedManager] getObjectsAtPath:path//@"/v2/venues/search"
+                                           parameters:queryParams
+                                              success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+                                                  users = mappingResult.array;
+                                                  [self.tableView reloadData];
+                                              }
+                                              failure:^(RKObjectRequestOperation *operation, NSError *error) {
+                                                  NSLog(@"What do you mean by 'there is no coffee?': %@", error);
+                                              }];
+
 }
 
 //this actually gets called even though the real callback we want is didLoadObjects. Disabling for now.

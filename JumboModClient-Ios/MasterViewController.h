@@ -7,13 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
-@class DetailViewController;
-@class JsonFetcher;
-
-@protocol RKObjectLoaderDelegate; 
-
-@interface MasterViewController : UITableViewController<RKObjectLoaderDelegate>
+@interface MasterViewController : UITableViewController
 
 + (void)initialize;
 //- (void)initJsonFetcher;

@@ -1484,10 +1484,14 @@ parameters:(ModelRootControllerService_listObjects *)aParameters
 								}
                                                                 else if (xmlStrEqual(bodyNode->ns->prefix, (const xmlChar *) "soap") && 
                                                                          xmlStrEqual(bodyNode->name, (const xmlChar *) "Fault")) {
+                                                                    //disabled 7-4-19 due to linker error
+                                                                    /*
 									SOAPFault *bodyObject = [SOAPFault deserializeNode:bodyNode];
 									//NSAssert1(bodyObject != nil, @"Errors while parsing body %s", bodyNode->name);
 									if (bodyObject != nil) [responseBodyParts addObject:bodyObject];
+                                                                    */
                                                                 }
+                                
 							}
 						}
 						
@@ -1577,10 +1581,14 @@ parameters:(ModelRootControllerService_findObject *)aParameters
 								}
                                                                 else if (xmlStrEqual(bodyNode->ns->prefix, (const xmlChar *) "soap") && 
                                                                          xmlStrEqual(bodyNode->name, (const xmlChar *) "Fault")) {
+                                                                    //disabled 7-4-19 due to linker error
+                                                                    /*
 									SOAPFault *bodyObject = [SOAPFault deserializeNode:bodyNode];
 									//NSAssert1(bodyObject != nil, @"Errors while parsing body %s", bodyNode->name);
 									if (bodyObject != nil) [responseBodyParts addObject:bodyObject];
+                                                                     */
                                                                 }
+                                                                     
 							}
 						}
 						

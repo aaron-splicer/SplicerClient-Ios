@@ -202,21 +202,21 @@ static JsonFetcher *_usersFetcher;
 
 //** RKObjectLoaderDelegate (network) callbacks
 //*** THIS IS THE KEY METHOD: this gets called-back with our array of objects retieved from the server.  Now that we have the updated model, simply invalidate the view and then let the view components display the model (via reloadData method below).
+//7-4-19: handled by jsonfetcher now
+/*
 - (void)objectLoader:(RKObjectLoader*)objectLoader didLoadObjects:
 (NSArray*)objects {
     NSLog(@"Objects delivered from network. Invalidating the view.");
     users = objects;
     [self.tableView reloadData];
-    /*
-    for (NSObject* ob in objects) {
-        if ([ob isKindOfClass:[UserControllerService_User class]]) {
-            UserControllerService_User* device = (UserControllerService_User*)ob;
-            NSLog(@"Found User w/ pk: %@", device.Id_);
-        } else {
-            NSLog(@"hmm.. got a %@", ob);
-        }
-    }
-     */
+//    for (NSObject* ob in objects) {
+//        if ([ob isKindOfClass:[UserControllerService_User class]]) {
+//            UserControllerService_User* device = (UserControllerService_User*)ob;
+//            NSLog(@"Found User w/ pk: %@", device.Id_);
+//        } else {
+//            NSLog(@"hmm.. got a %@", ob);
+//        }
+//    }
 }
 
 - (void)objectLoader:(RKObjectLoader *)objectLoader didFailWithError:(NSError *)error{
@@ -224,5 +224,6 @@ static JsonFetcher *_usersFetcher;
     NSLog(@"Inside didFailWithError error: %@.", error);
 
 }
+*/
 
 @end
