@@ -17,6 +17,6 @@
 //- (id)initWithStyle:(UITableViewStyle)style;
 @property (strong, nonatomic) DetailViewController *detailViewController;
 //@property (strong, nonatomic) JsonFetcher * usersFetcher;
-@property (nonatomic, strong) NSArray *users;
+//@property (nonatomic, strong) NSArray *users;
 
 @end

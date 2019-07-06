@@ -17,7 +17,7 @@
 
 @property (strong, nonatomic) RKObjectManager *objectManager;// = [RKObjectManager new];
 @property (strong, nonatomic) RKObjectMapping* mapping;
--(void)setup:(NSString *)baseUrl rootClass:(Class)clazz;
+-(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path users:(NSArray *)usrs;
 //would be nice to switch the first 2 params around to be similar to droid structure
 //- (void)execute:(id<RKObjectLoaderDelegate>)delegate path:(NSString *)path;
 - (void)execute:(NSString *)path;

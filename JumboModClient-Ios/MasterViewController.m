@@ -22,7 +22,8 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
 
 @synthesize detailViewController;
 //@synthesize usersFetcher;
-@synthesize users;
+//@synthesize users;
+NSArray *users;
 
 static JsonFetcher *_usersFetcher;
 
@@ -30,7 +31,7 @@ static JsonFetcher *_usersFetcher;
 {
     //[self initJsonFetcher];
     _usersFetcher = [[JsonFetcher alloc] init];
-    [_usersFetcher setup:SERVER_BASE_URL rootClass:[ModelRootControllerService_User class]];
+    [_usersFetcher setup:SERVER_BASE_URL rootClass:[ModelRootControllerService_User class] path:@"/api/splicer/User/list" users:users];
 }
 
 - (void)awakeFromNib
@@ -60,7 +61,7 @@ static JsonFetcher *_usersFetcher;
     }
     
     //[_usersFetcher execute:self ];
-    [_usersFetcher execute:self path:@"/api/splicer/User/list"];
+    [_usersFetcher execute:@"/api/splicer/User/list"];
  
 }
 
@@ -171,7 +172,7 @@ static JsonFetcher *_usersFetcher;
                 reuseIdentifier:CellIdentifier];
     }
     
-    ModelRootControllerService_User *user = [self.users 
+    ModelRootControllerService_User *user = [users 
                                          objectAtIndex: [indexPath row]];
     
      NSLog(@"Displaying User w/ pk: %@", user.Id_);

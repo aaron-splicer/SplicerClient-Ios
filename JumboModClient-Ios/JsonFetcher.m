@@ -12,11 +12,11 @@
 @synthesize users;
 @synthesize tableView;
 
--(void)setup:(NSString *)baseUrl rootClass:(Class)rootClass path:(NSString *)path usrs:(NSArray *)usrs
+-(void)setup:(NSString *)baseUrl rootClass:(Class)rootClass path:(NSString *)path users:(NSArray *)usrs
 {
     users = usrs;
     // initialize AFNetworking HTTPClient
-    NSURL *baseURL = baseUrl;//[NSURL URLWithString:@"https://api.foursquare.com"];
+    NSURL *baseURL = [NSURL URLWithString:baseUrl];//[NSURL URLWithString:@"https://api.foursquare.com"];
     AFRKHTTPClient *client = [[AFRKHTTPClient alloc] initWithBaseURL:baseURL];
     
     // initialize RestKit
@@ -89,7 +89,8 @@
                                                   [self.tableView reloadData];
                                               }
                                               failure:^(RKObjectRequestOperation *operation, NSError *error) {
-                                                  NSLog(@"What do you mean by 'there is no coffee?': %@", error);
+                                                  NSLog(@"Failure of GET:/user with error %@.", error);
+                                                  //NSLog(@"What do you mean by 'there is no coffee?': %@", error);
                                               }];
 
 }
