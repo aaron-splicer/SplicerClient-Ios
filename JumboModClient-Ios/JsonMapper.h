@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <RestKit/RestKit.h>
 
-@interface JsonMapper : NSObject
+@interface JsonMapper : UITableViewController
 - (RKObjectMapping *)mapComplexTypes;
 @end

@@ -17,13 +17,21 @@
   
     RKObjectMapping *UserMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_User class]];
     [UserMapping addAttributeMappingsFromDictionary:@{
-                                                      @"id": @"Id_"
+                                                      @"id": @"Id_",
+                                                      @"lastname": @"lastName"
                                                       }];
      //mapKeyPath:@"id" toAttribute:@"Id_"];
       /*
     [UserMapping mapKeyPath:@"firstName" toAttribute:@"firstName"];
     [UserMapping mapKeyPath:@"lastName" toAttribute:@"lastName"];
+       */
     RKObjectMapping *AddressMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_Address class]];
+    [AddressMapping addAttributeMappingsFromDictionary:@{
+                                                      @"id": @"Id_",
+                                                      @"zip": @"zip"
+                                                      }];
+
+    /*
     [AddressMapping mapKeyPath:@"id" toAttribute:@"Id_"];
     [AddressMapping mapKeyPath:@"state" toAttribute:@"state"];
     [AddressMapping mapKeyPath:@"street1" toAttribute:@"street1"];
@@ -32,6 +40,7 @@
     [AddressMapping mapKeyPath:@"zip" toAttribute:@"zip"];
        */
     [ModelRootMapping addRelationshipMappingWithSourceKeyPath:@"user" mapping:UserMapping];
+    [UserMapping addRelationshipMappingWithSourceKeyPath:@"address" mapping:AddressMapping];
      //mapKeyPath:@"user" toRelationship:@"user" withMapping:UserMapping];
     //[UserMapping mapKeyPath:@"address" toRelationship:@"address" withMapping:AddressMapping];
 

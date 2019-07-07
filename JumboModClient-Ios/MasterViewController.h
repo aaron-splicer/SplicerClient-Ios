@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "DetailViewController.h"
+#import <Foundation/Foundation.h>
+#import "JsonMapper.h"
+#import "ModelRootControllerService.h"
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : JsonMapper
 
 + (void)initialize;
 //- (void)initJsonFetcher;
@@ -18,5 +21,20 @@
 @property (strong, nonatomic) DetailViewController *detailViewController;
 //@property (strong, nonatomic) JsonFetcher * usersFetcher;
 //@property (nonatomic, strong) NSArray *users;
+
+//from orig jsonfetcher
+@property (nonatomic, strong) NSArray *users;
+//@property (nonatomic, strong) UITableView *tableView;
+
+@property (strong, nonatomic) RKObjectManager *objectManager;// = [RKObjectManager new];
+@property (strong, nonatomic) RKObjectMapping* mapping;
+-(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path;
+//-(void)setup:(NSString *)baseUrl;
+//would be nice to switch the first 2 params around to be similar to droid structure
+//- (void)execute:(id<RKObjectLoaderDelegate>)delegate path:(NSString *)path;
+- (void)execute:(NSString *)path;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end

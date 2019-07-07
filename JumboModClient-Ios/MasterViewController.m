@@ -12,8 +12,8 @@
 #import <Foundation/Foundation.h>
 #import <RestKit/RestKit.h>
 
-#import "ModelRootControllerService.h"
-#import "JsonFetcher.h"
+//#import "ModelRootControllerService.h"
+//#import "JsonFetcher.h"
 
 //static NSString * const SERVER_BASE_URL = @"http://splicer.io";
 static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
@@ -22,16 +22,24 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
 
 @synthesize detailViewController;
 //@synthesize usersFetcher;
-//@synthesize users;
-NSArray *users;
+@synthesize users;
+//NSArray *users;
 
-static JsonFetcher *_usersFetcher;
+//from orig jsonfetcher
+
+@synthesize objectManager;
+@synthesize mapping;
+//@synthesize users;
+//@synthesize tableView;
+
+//static JsonFetcher *_usersFetcher;
 
 + (void)initialize
 {
     //[self initJsonFetcher];
-    _usersFetcher = [[JsonFetcher alloc] init];
-    [_usersFetcher setup:SERVER_BASE_URL rootClass:[ModelRootControllerService_User class] path:@"/api/splicer/User/list" users:users];
+    //_usersFetcher = [[JsonFetcher alloc] init];
+    //[self setup:SERVER_BASE_URL];
+    //[self setup:SERVER_BASE_URL];// rootClass:[ModelRootControllerService_User class] path:@"/api/splicer/User/list"];
 }
 
 - (void)awakeFromNib
@@ -61,7 +69,8 @@ static JsonFetcher *_usersFetcher;
     }
     
     //[_usersFetcher execute:self ];
-    [_usersFetcher execute:@"/api/splicer/User/list"];
+    [self setup:SERVER_BASE_URL rootClass:[ModelRootControllerService_User class] path:@"/api/splicer/User/list"];
+    [self execute:@"/api/splicer/User/list"];
  
 }
 
@@ -152,6 +161,7 @@ static JsonFetcher *_usersFetcher;
 {
     //*** WARNING: DEMO PURPOSES ONLY/POTENTIAL BUG: In this prototype, we manuually added 9 rows to the storyboard; since we could not figure out how to dynamically build the rows, so we can only display up to 9 items of the array of retrieved data. Please contact us if you have questions about the implications here.
     NSInteger count = users.count;
+    
     if(count < 9){
         return count;
     }else{
@@ -161,6 +171,7 @@ static JsonFetcher *_usersFetcher;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView 
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+   
     
     static NSString *CellIdentifier = @"Cell";
     
@@ -171,9 +182,8 @@ static JsonFetcher *_usersFetcher;
                 initWithStyle:UITableViewCellStyleDefault
                 reuseIdentifier:CellIdentifier];
     }
-    
-    ModelRootControllerService_User *user = [users 
-                                         objectAtIndex: [indexPath row]];
+//    NSLog(@"Object count: %@", users.count);
+    ModelRootControllerService_User *user = [users objectAtIndex: [indexPath row]];
     
      NSLog(@"Displaying User w/ pk: %@", user.Id_);
     //cell.textLabel.text = venue.surName;
@@ -226,5 +236,90 @@ static JsonFetcher *_usersFetcher;
 
 }
 */
+
+
+-(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path;
+{
+    //users = usrs;
+    // initialize AFNetworking HTTPClient
+    NSURL *baseURL = [NSURL URLWithString:baseUrl];//[NSURL URLWithString:@"https://api.foursquare.com"];
+    AFRKHTTPClient *client = [[AFRKHTTPClient alloc] initWithBaseURL:baseURL];
+    
+    // initialize RestKit
+    objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
+    
+    //from sample: https://www.raywenderlich.com/2476-introduction-to-restkit-tutorial
+    // setup object mappings
+    /*
+     RKObjectMapping *venueMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_User class]];
+     
+     [venueMapping addAttributeMappingsFromArray:@[@"name"]];
+     */
+    
+    //map's aaron's original way
+    RKObjectMapping* venueMapping = [self mapComplexTypes];
+    //mapping = [objectManager.mappingProvider objectMappingForClass:rootClass];
+    
+    // register mappings with the provider using a response descriptor
+    RKResponseDescriptor *responseDescriptor =
+    [RKResponseDescriptor responseDescriptorWithMapping:venueMapping
+                                                 method:RKRequestMethodGET
+     //pathPattern:@"/v2/venues/search"
+                                            pathPattern:path //@"/api/splicer/User/list"]
+     //keyPath:@"response.venues"
+                                                keyPath:@""
+                                            statusCodes:[NSIndexSet indexSetWithIndex:200]];
+    
+    [objectManager addResponseDescriptor:responseDescriptor];
+}
+/*
+ - (void)loadVenues
+ {
+ NSString *latLon = @"37.33,-122.03"; // approximate latLon of The Mothership (a.k.a Apple headquarters)
+ NSString *clientID = kCLIENTID;
+ NSString *clientSecret = kCLIENTSECRET;
+ 
+ NSDictionary *queryParams = @{@"ll" : latLon,
+ @"client_id" : clientID,
+ @"client_secret" : clientSecret,
+ @"categoryId" : @"4bf58dd8d48988d1e0931735",
+ @"v" : @"20140118"};
+ 
+ [[RKObjectManager sharedManager] getObjectsAtPath:@"/v2/venues/search"
+ parameters:queryParams
+ success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+ users = mappingResult.array;
+ //[self.tableView.reloadData];
+ [self.tableView reloadData];
+ }
+ failure:^(RKObjectRequestOperation *operation, NSError *error) {
+ NSLog(@"What do you mean by 'there is no coffee?': %@", error);
+ }];
+ }*/
+
+- (void)execute:(NSString *)path;
+{
+    //aaron's orig (0.1.0 or earlier)
+    /*
+     RKObjectLoader* loader = [objectManager objectLoaderWithResourcePath:path delegate:delegate];
+     loader.objectMapping = mapping; // Here's the key. We're telling RestKit to use the MyItem mapping for the objects in the root.
+     [loader send];
+     */
+    
+    NSDictionary *queryParams = @{@"dummy":@"dummyParam"};
+    
+    [[RKObjectManager sharedManager] getObjectsAtPath:path//@"/v2/venues/search"
+                                           parameters:queryParams
+                                              success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+                                                  users = [mappingResult.array retain];
+                                                  [self.tableView reloadData];
+                                              }
+                                              failure:^(RKObjectRequestOperation *operation, NSError *error) {
+                                                  NSLog(@"Failure of GET:/user with error %@.", error);
+                                                  //NSLog(@"What do you mean by 'there is no coffee?': %@", error);
+                                              }];
+    
+}
+
 
 @end
