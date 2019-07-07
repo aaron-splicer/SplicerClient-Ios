@@ -38,8 +38,8 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
 {
     //[self initJsonFetcher];
     //_usersFetcher = [[JsonFetcher alloc] init];
-    //[self setup:SERVER_BASE_URL];
-    //[self setup:SERVER_BASE_URL];// rootClass:[ModelsSplicerUser class] path:@"/api/splicer/User/list"];
+    
+    //could not get setup call to work here at least initially
 }
 
 - (void)awakeFromNib
@@ -223,7 +223,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
     objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
     
     //from sample: https://www.raywenderlich.com/2476-introduction-to-restkit-tutorial
-    // setup object mappings
+    // from sample: setup object mappings
     /*
      RKObjectMapping *venueMapping = [RKObjectMapping mappingForClass:[ModelsSplicerUser class]];
      
@@ -232,16 +232,14 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
     
     //map's aaron's original way
     RKObjectMapping* venueMapping = [self mapComplexTypes];
-    //mapping = [objectManager.mappingProvider objectMappingForClass:rootClass];
     
     // register mappings with the provider using a response descriptor
     RKResponseDescriptor *responseDescriptor =
     [RKResponseDescriptor responseDescriptorWithMapping:venueMapping
-                                                 method:RKRequestMethodGET
-     //pathPattern:@"/v2/venues/search"
+                                            method:RKRequestMethodGET
                                             pathPattern:path //@"/api/splicer/User/list"]
-     //keyPath:@"response.venues"
-                                                keyPath:@""
+                                            //from sample: keyPath:@"response.venues"
+                                            keyPath:@""
                                             statusCodes:[NSIndexSet indexSetWithIndex:200]];
     
     [objectManager addResponseDescriptor:responseDescriptor];
@@ -266,7 +264,6 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
                                               }
                                               failure:^(RKObjectRequestOperation *operation, NSError *error) {
                                                   NSLog(@"Failure of GET:/user with error %@.", error);
-                                                  //NSLog(@"What do you mean by 'there is no coffee?': %@", error);
                                               }];
     
 }
