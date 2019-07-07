@@ -12,7 +12,8 @@
 #import <Foundation/Foundation.h>
 #import <RestKit/RestKit.h>
 
-//#import "ModelRootControllerService.h"
+//#import "User.h"
+#import "SplicerClient-Swift-Bridging-Header.h"
 //#import "JsonFetcher.h"
 
 //static NSString * const SERVER_BASE_URL = @"http://splicer.io";
@@ -39,7 +40,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
     //[self initJsonFetcher];
     //_usersFetcher = [[JsonFetcher alloc] init];
     //[self setup:SERVER_BASE_URL];
-    //[self setup:SERVER_BASE_URL];// rootClass:[ModelRootControllerService_User class] path:@"/api/splicer/User/list"];
+    //[self setup:SERVER_BASE_URL];// rootClass:[ModelsSplicerUser class] path:@"/api/splicer/User/list"];
 }
 
 - (void)awakeFromNib
@@ -69,7 +70,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
     }
     
     //[_usersFetcher execute:self ];
-    [self setup:SERVER_BASE_URL rootClass:[ModelRootControllerService_User class] path:@"/api/splicer/User/list"];
+    [self setup:SERVER_BASE_URL rootClass:[ModelsSplicerUser class] path:@"/api/splicer/User/list"];
     [self execute:@"/api/splicer/User/list"];
  
 }
@@ -183,12 +184,13 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
                 reuseIdentifier:CellIdentifier];
     }
 //    NSLog(@"Object count: %@", users.count);
-    ModelRootControllerService_User *user = [users objectAtIndex: [indexPath row]];
+    ModelsSplicerUser *user = [users objectAtIndex: [indexPath row]];
     
-     NSLog(@"Displaying User w/ pk: %@", user.Id_);
+     NSLog(@"Displaying User w/ pk: %lld", [user getId]);
     //cell.textLabel.text = venue.surName;
-    cell.textLabel.text = [NSString stringWithFormat:@"%@%@%@%@%@", [user.Id_ stringValue], @": ", user.lastName, @"@", user.address.zip];//.surName;
-
+  
+    cell.textLabel.text = [NSString stringWithFormat:@"%lld%@%@%@%@", [user getId], @": ", [user getLastname], @"@", [[user getAddress] getZip]];
+    
     return cell;    
 } 
 
@@ -251,7 +253,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
     //from sample: https://www.raywenderlich.com/2476-introduction-to-restkit-tutorial
     // setup object mappings
     /*
-     RKObjectMapping *venueMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_User class]];
+     RKObjectMapping *venueMapping = [RKObjectMapping mappingForClass:[ModelsSplicerUser class]];
      
      [venueMapping addAttributeMappingsFromArray:@[@"name"]];
      */
@@ -311,7 +313,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
     [[RKObjectManager sharedManager] getObjectsAtPath:path//@"/v2/venues/search"
                                            parameters:queryParams
                                               success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-                                                  users = [mappingResult.array retain];
+                                                  users = mappingResult.array;
                                                   [self.tableView reloadData];
                                               }
                                               failure:^(RKObjectRequestOperation *operation, NSError *error) {

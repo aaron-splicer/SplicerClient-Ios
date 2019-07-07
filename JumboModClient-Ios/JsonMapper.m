@@ -2,34 +2,42 @@
 //
 
 #import "JsonMapper.h"
-#import "ModelRootControllerService.h"
+/*
+#import "User.h"
+#import "SplicerRoot.h"
+#import "Address.h"
+ */
+#import "SplicerClient-Swift-Bridging-Header.h"
 
 @implementation JsonMapper
 
 - (RKObjectMapping *)mapComplexTypes
 {
     //generated
-    RKObjectMapping *ModelRootMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_ModelRoot class]];
+    RKObjectMapping *ModelRootMapping = [RKObjectMapping mappingForClass:[ModelsSplicerSplicerRoot class]];
     [ModelRootMapping addAttributeMappingsFromDictionary:@{
-                                                           @"id": @"Id_"
+                                                           @"id": @"id__"
                                                            }];
      //mapKeyPath:@"id" toAttribute:@"Id_"];
   
-    RKObjectMapping *UserMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_User class]];
+    RKObjectMapping *UserMapping = [RKObjectMapping mappingForClass:[ModelsSplicerUser class]];
     [UserMapping addAttributeMappingsFromDictionary:@{
-                                                      @"id": @"Id_",
-                                                      @"lastname": @"lastName"
+                                                      @"id": @"id__",
+                                                      @"lastname": @"lastname_"
                                                       }];
      //mapKeyPath:@"id" toAttribute:@"Id_"];
       /*
     [UserMapping mapKeyPath:@"firstName" toAttribute:@"firstName"];
     [UserMapping mapKeyPath:@"lastName" toAttribute:@"lastName"];
        */
-    RKObjectMapping *AddressMapping = [RKObjectMapping mappingForClass:[ModelRootControllerService_Address class]];
+    
+    
+    RKObjectMapping *AddressMapping = [RKObjectMapping mappingForClass:[ModelsSplicerAddress class]];
     [AddressMapping addAttributeMappingsFromDictionary:@{
-                                                      @"id": @"Id_",
-                                                      @"zip": @"zip"
+                                                      @"id": @"id__",
+                                                      @"zip": @"zip_"
                                                       }];
+     
 
     /*
     [AddressMapping mapKeyPath:@"id" toAttribute:@"Id_"];
@@ -40,8 +48,14 @@
     [AddressMapping mapKeyPath:@"zip" toAttribute:@"zip"];
        */
     [ModelRootMapping addRelationshipMappingWithSourceKeyPath:@"user" mapping:UserMapping];
-    [UserMapping addRelationshipMappingWithSourceKeyPath:@"address" mapping:AddressMapping];
-     //mapKeyPath:@"user" toRelationship:@"user" withMapping:UserMapping];
+    
+    
+   // [UserMapping addRelationshipMappingWithSourceKeyPath:@"address" mapping:AddressMapping];
+    
+    [UserMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"address" toKeyPath:@"address_" withMapping:AddressMapping]];
+    
+    
+    //mapKeyPath:@"user" toRelationship:@"user" withMapping:UserMapping];
     //[UserMapping mapKeyPath:@"address" toRelationship:@"address" withMapping:AddressMapping];
 
     //end generated

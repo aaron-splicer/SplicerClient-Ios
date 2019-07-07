@@ -10,7 +10,7 @@
 #import "DetailViewController.h"
 #import <Foundation/Foundation.h>
 #import "JsonMapper.h"
-#import "ModelRootControllerService.h"
+//#import "ModelRootControllerService.h"
 
 @interface MasterViewController : JsonMapper
 
