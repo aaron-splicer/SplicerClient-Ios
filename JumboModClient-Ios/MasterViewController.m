@@ -27,7 +27,6 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
 //NSArray *users;
 
 //from orig jsonfetcher
-
 @synthesize objectManager;
 @synthesize mapping;
 //@synthesize users;
@@ -212,34 +211,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
  }
 */
 
-
-//** RKObjectLoaderDelegate (network) callbacks
-//*** THIS IS THE KEY METHOD: this gets called-back with our array of objects retieved from the server.  Now that we have the updated model, simply invalidate the view and then let the view components display the model (via reloadData method below).
-//7-4-19: handled by jsonfetcher now
-/*
-- (void)objectLoader:(RKObjectLoader*)objectLoader didLoadObjects:
-(NSArray*)objects {
-    NSLog(@"Objects delivered from network. Invalidating the view.");
-    users = objects;
-    [self.tableView reloadData];
-//    for (NSObject* ob in objects) {
-//        if ([ob isKindOfClass:[UserControllerService_User class]]) {
-//            UserControllerService_User* device = (UserControllerService_User*)ob;
-//            NSLog(@"Found User w/ pk: %@", device.Id_);
-//        } else {
-//            NSLog(@"hmm.. got a %@", ob);
-//        }
-//    }
-}
-
-- (void)objectLoader:(RKObjectLoader *)objectLoader didFailWithError:(NSError *)error{
-    
-    NSLog(@"Inside didFailWithError error: %@.", error);
-
-}
-*/
-
-
+//below from orig jsonfetcher
 -(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path;
 {
     //users = usrs;
@@ -274,30 +246,6 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
     
     [objectManager addResponseDescriptor:responseDescriptor];
 }
-/*
- - (void)loadVenues
- {
- NSString *latLon = @"37.33,-122.03"; // approximate latLon of The Mothership (a.k.a Apple headquarters)
- NSString *clientID = kCLIENTID;
- NSString *clientSecret = kCLIENTSECRET;
- 
- NSDictionary *queryParams = @{@"ll" : latLon,
- @"client_id" : clientID,
- @"client_secret" : clientSecret,
- @"categoryId" : @"4bf58dd8d48988d1e0931735",
- @"v" : @"20140118"};
- 
- [[RKObjectManager sharedManager] getObjectsAtPath:@"/v2/venues/search"
- parameters:queryParams
- success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
- users = mappingResult.array;
- //[self.tableView.reloadData];
- [self.tableView reloadData];
- }
- failure:^(RKObjectRequestOperation *operation, NSError *error) {
- NSLog(@"What do you mean by 'there is no coffee?': %@", error);
- }];
- }*/
 
 - (void)execute:(NSString *)path;
 {
