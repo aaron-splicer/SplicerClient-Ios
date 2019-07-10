@@ -23,7 +23,10 @@
 //@property (nonatomic, strong) NSArray *users;
 
 //from orig jsonfetcher
-@property (nonatomic, strong) NSArray *users;
+
+//@property (nonatomic, strong) NSArray *users;
+extern NSArray *users;
+
 //@property (nonatomic, strong) UITableView *tableView;
 
 @property (strong, nonatomic) RKObjectManager *objectManager;// = [RKObjectManager new];

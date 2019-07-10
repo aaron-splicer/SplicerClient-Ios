@@ -23,8 +23,8 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
 
 @synthesize detailViewController;
 //@synthesize usersFetcher;
-@synthesize users;
-//NSArray *users;
+//@synthesize users;
+NSArray *users;
 
 //from orig jsonfetcher
 @synthesize objectManager;
