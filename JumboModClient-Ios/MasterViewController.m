@@ -17,7 +17,7 @@
 //#import "JsonFetcher.h"
 
 //static NSString * const SERVER_BASE_URL = @"http://splicer.io";
-static NSString * const SERVER_BASE_URL = @"http://localhost:9000";
+static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 
 @implementation MasterViewController
 
