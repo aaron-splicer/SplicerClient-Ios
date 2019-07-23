@@ -83,7 +83,9 @@ NSString * const SERVER_BASE_URL = @"http://localhost:9400";
                                            parameters:queryParams
                                               success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
                                                   users = mappingResult.array;
+                                                  //FIXME: Need a way to invalidate the caller from this thread.
                                                   //[self.tableView reloadData];
+                                                  
                                               }
                                               failure:^(RKObjectRequestOperation *operation, NSError *error) {
                                                   NSLog(@"Failure of GET:/user with error %@.", error);

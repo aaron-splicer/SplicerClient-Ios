@@ -22,7 +22,7 @@
 @implementation MasterViewController
 
 @synthesize detailViewController;
-//@synthesize usersFetcher;
+@synthesize usersFetcher;
 //@synthesize users;
 //NSArray *users;
 
@@ -37,7 +37,7 @@
 + (void)initialize
 {
     //[self initJsonFetcher];
-    //_usersFetcher = [[JsonFetcher alloc] init];
+    
     
     //could not get setup call to work here at least initially
 }
@@ -67,10 +67,13 @@
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
     }
-    
+    usersFetcher = [[JsonFetcher alloc] init];
     //[_usersFetcher execute:self ];
-    [self setup:SERVER_BASE_URL rootClass:[ModelsSplicerUser class] path:@"/api/splicer/User/list"];
-    [self execute:@"/api/splicer/User/list"];
+    [usersFetcher  setup:SERVER_BASE_URL rootClass:[ModelsSplicerUser class] path:@"/api/splicer/User/list"];
+    [usersFetcher  execute:@"/api/splicer/User/list"];
+    //these don't work
+    //[self.tableView reloadData];
+    //[self.tableView setNeedsDisplay];
  
 }
 
