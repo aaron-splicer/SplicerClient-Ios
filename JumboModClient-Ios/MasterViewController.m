@@ -24,7 +24,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 @synthesize detailViewController;
 //@synthesize usersFetcher;
 //@synthesize users;
-NSArray *users;
+//NSArray *users;
 
 //from orig jsonfetcher
 @synthesize objectManager;
@@ -192,81 +192,6 @@ NSArray *users;
     
     return cell;    
 } 
-
-
-//if you disable the above methods, you can then click the top master record to view the detail screen.  We did not have time to make this work with our dynamic data, but found the following code though we did not have time to try it (from: http://stackoverflow.com/questions/12464164/pushing-to-a-detail-view-from-a-table-view-cell-using-xcode-storyboard):
-/*
- - (void)tableView:(UITableView *)tableView 
- didSelectRowAtIndexPath:(NSIndexPath*)indexPath {
- 
- //Build a segue string based on the selected cell
- NSString *segueString = [NSString stringWithFormat:@"%@Segue",
- [users objectAtIndex:indexPath.row]];
- //Since contentArray is an array of strings, we can use it to build a unique 
- //identifier for each segue.
- 
- //Perform a segue.
- [self performSegueWithIdentifier:segueString
- sender:[users objectAtIndex:indexPath.row]];
- }
-*/
-
-//below from orig jsonfetcher
--(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path;
-{
-    //users = usrs;
-    // initialize AFNetworking HTTPClient
-    NSURL *baseURL = [NSURL URLWithString:baseUrl];//[NSURL URLWithString:@"https://api.foursquare.com"];
-    AFRKHTTPClient *client = [[AFRKHTTPClient alloc] initWithBaseURL:baseURL];
-    
-    // initialize RestKit
-    objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
-    
-    //from sample: https://www.raywenderlich.com/2476-introduction-to-restkit-tutorial
-    // from sample: setup object mappings
-    /*
-     RKObjectMapping *venueMapping = [RKObjectMapping mappingForClass:[ModelsSplicerUser class]];
-     
-     [venueMapping addAttributeMappingsFromArray:@[@"name"]];
-     */
-    
-    //map's aaron's original way
-    RKObjectMapping* venueMapping = [self mapComplexTypes];
-    
-    // register mappings with the provider using a response descriptor
-    RKResponseDescriptor *responseDescriptor =
-    [RKResponseDescriptor responseDescriptorWithMapping:venueMapping
-                                            method:RKRequestMethodGET
-                                            pathPattern:path //@"/api/splicer/User/list"]
-                                            //from sample: keyPath:@"response.venues"
-                                            keyPath:@""
-                                            statusCodes:[NSIndexSet indexSetWithIndex:200]];
-    
-    [objectManager addResponseDescriptor:responseDescriptor];
-}
-
-- (void)execute:(NSString *)path;
-{
-    //aaron's orig (0.1.0 or earlier)
-    /*
-     RKObjectLoader* loader = [objectManager objectLoaderWithResourcePath:path delegate:delegate];
-     loader.objectMapping = mapping; // Here's the key. We're telling RestKit to use the MyItem mapping for the objects in the root.
-     [loader send];
-     */
-    
-    NSDictionary *queryParams = @{@"dummy":@"dummyParam"};
-    
-    [[RKObjectManager sharedManager] getObjectsAtPath:path//@"/v2/venues/search"
-                                           parameters:queryParams
-                                              success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-                                                  users = mappingResult.array;
-                                                  [self.tableView reloadData];
-                                              }
-                                              failure:^(RKObjectRequestOperation *operation, NSError *error) {
-                                                  NSLog(@"Failure of GET:/user with error %@.", error);
-                                              }];
-    
-}
 
 
 @end

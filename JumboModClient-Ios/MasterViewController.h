@@ -10,9 +10,10 @@
 #import "DetailViewController.h"
 #import <Foundation/Foundation.h>
 #import "JsonMapper.h"
+#import "JsonFetcher.h"
 //#import "ModelRootControllerService.h"
 
-@interface MasterViewController : JsonMapper
+@interface MasterViewController : JsonFetcher
 
 + (void)initialize;
 //- (void)initJsonFetcher;
@@ -25,12 +26,12 @@
 //from orig jsonfetcher
 
 //@property (nonatomic, strong) NSArray *users;
-extern NSArray *users;
+//extern NSArray *users;
 
 //@property (nonatomic, strong) UITableView *tableView;
 
-@property (strong, nonatomic) RKObjectManager *objectManager;// = [RKObjectManager new];
-@property (strong, nonatomic) RKObjectMapping* mapping;
+//@property (strong, nonatomic) RKObjectManager *objectManager;// = [RKObjectManager new];
+//@property (strong, nonatomic) RKObjectMapping* mapping;
 -(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path;
 //-(void)setup:(NSString *)baseUrl;
 //would be nice to switch the first 2 params around to be similar to droid structure
