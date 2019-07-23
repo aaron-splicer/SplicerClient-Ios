@@ -17,7 +17,7 @@
 //#import "JsonFetcher.h"
 
 //static NSString * const SERVER_BASE_URL = @"http://splicer.io";
-static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
+//static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 
 @implementation JsonFetcher
 
@@ -25,6 +25,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 //@synthesize usersFetcher;
 //@synthesize users;
 NSArray *users;
+NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 
 //from orig jsonfetcher
 @synthesize objectManager;
@@ -82,7 +83,7 @@ NSArray *users;
                                            parameters:queryParams
                                               success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
                                                   users = mappingResult.array;
-                                                  [self.tableView reloadData];
+                                                  //[self.tableView reloadData];
                                               }
                                               failure:^(RKObjectRequestOperation *operation, NSError *error) {
                                                   NSLog(@"Failure of GET:/user with error %@.", error);

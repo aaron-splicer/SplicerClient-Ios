@@ -17,7 +17,7 @@
 //#import "JsonFetcher.h"
 
 //static NSString * const SERVER_BASE_URL = @"http://splicer.io";
-static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
+
 
 @implementation MasterViewController
 
@@ -45,7 +45,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 - (void)awakeFromNib
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        self.clearsSelectionOnViewWillAppear = NO;
+        //self.clearsSelectionOnViewWillAppear = NO;
         self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
     }
     [super awakeFromNib];
@@ -65,7 +65,7 @@ static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 	// Do any additional setup after loading the view, typically from a nib.
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
+        //[self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
     }
     
     //[_usersFetcher execute:self ];
