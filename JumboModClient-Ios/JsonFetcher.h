@@ -26,11 +26,15 @@
 
 //@property (nonatomic, strong) NSArray *users;
 extern NSArray *users;
+extern NSString * const SERVER_BASE_URL;// = @"http://localhost:9400";
 
 //@property (nonatomic, strong) UITableView *tableView;
 
 @property (strong, nonatomic) RKObjectManager *objectManager;// = [RKObjectManager new];
 @property (strong, nonatomic) RKObjectMapping* mapping;
+
+-(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path;
+- (void)execute:(NSString *)path;
 
 
 @end
