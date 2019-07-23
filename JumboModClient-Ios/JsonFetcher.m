@@ -24,7 +24,7 @@
 //@synthesize detailViewController;
 //@synthesize usersFetcher;
 //@synthesize users;
-NSArray *users;
+NSArray *objects;
 NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 
 //from orig jsonfetcher
@@ -82,8 +82,11 @@ NSString * const SERVER_BASE_URL = @"http://localhost:9400";
     [[RKObjectManager sharedManager] getObjectsAtPath:path//@"/v2/venues/search"
                                            parameters:queryParams
                                               success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-                                                  users = mappingResult.array;
+                                                  //FIXME also need a callback where this type gets created.  Or perhaps you can just typecast it
+                                                  objects = mappingResult.array;
+                                                  //FIXME: Need a way to invalidate the caller from this thread.
                                                   //[self.tableView reloadData];
+                                                  
                                               }
                                               failure:^(RKObjectRequestOperation *operation, NSError *error) {
                                                   NSLog(@"Failure of GET:/user with error %@.", error);
