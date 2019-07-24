@@ -25,7 +25,7 @@
 //from orig jsonfetcher
 
 //@property (nonatomic, strong) NSArray *users;
-extern NSArray *users;
+extern NSArray *objects;
 
 //@property (nonatomic, strong) UITableView *tableView;
 

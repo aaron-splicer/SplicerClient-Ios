@@ -24,7 +24,7 @@
 //@synthesize detailViewController;
 //@synthesize usersFetcher;
 //@synthesize users;
-NSArray *users;
+NSArray *objects;
 
 //from orig jsonfetcher
 @synthesize objectManager;
@@ -81,8 +81,9 @@ NSArray *users;
     [[RKObjectManager sharedManager] getObjectsAtPath:path//@"/v2/venues/search"
                                            parameters:queryParams
                                               success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-                                                  users = mappingResult.array;
-                                                  [self.tableView reloadData];
+                                                  objects = mappingResult.array;
+                                                  [self.view setNeedsDisplay];
+                                                  [self.view setNeedsLayout];
                                               }
                                               failure:^(RKObjectRequestOperation *operation, NSError *error) {
                                                   NSLog(@"Failure of GET:/user with error %@.", error);
