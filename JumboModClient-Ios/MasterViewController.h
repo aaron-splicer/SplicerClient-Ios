@@ -13,7 +13,7 @@
 #import "JsonFetcher.h"
 //#import "ModelRootControllerService.h"
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : JsonFetcher
 
 + (void)initialize;
 //- (void)initJsonFetcher;

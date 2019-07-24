@@ -25,8 +25,7 @@
 //from orig jsonfetcher
 
 //@property (nonatomic, strong) NSArray *users;
-extern NSArray *objects;
-extern NSString * const SERVER_BASE_URL;// = @"http://localhost:9400";
+extern NSArray *users;
 
 //@property (nonatomic, strong) UITableView *tableView;
 
@@ -34,6 +33,8 @@ extern NSString * const SERVER_BASE_URL;// = @"http://localhost:9400";
 @property (strong, nonatomic) RKObjectMapping* mapping;
 
 -(void)setup:(NSString *)baseUrl rootClass:(Class)clazz path:(NSString *)path;
+
+
 - (void)execute:(NSString *)path;
 
 

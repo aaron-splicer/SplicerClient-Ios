@@ -17,7 +17,7 @@
 //#import "JsonFetcher.h"
 
 //static NSString * const SERVER_BASE_URL = @"http://splicer.io";
-
+static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 
 @implementation MasterViewController
 
@@ -27,8 +27,8 @@
 //NSArray *users;
 
 //from orig jsonfetcher
-//@synthesize objectManager;
-//@synthesize mapping;
+@synthesize objectManager;
+@synthesize mapping;
 //@synthesize users;
 //@synthesize tableView;
 
