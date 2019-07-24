@@ -163,7 +163,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
 {
     //*** WARNING: DEMO PURPOSES ONLY/POTENTIAL BUG: In this prototype, we manuually added 9 rows to the storyboard; since we could not figure out how to dynamically build the rows, so we can only display up to 9 items of the array of retrieved data. Please contact us if you have questions about the implications here.
-    NSInteger count = objects.count;
+    NSInteger count = testUsers.count;
     
     if(count < 9){
         return count;
@@ -186,7 +186,7 @@
                 reuseIdentifier:CellIdentifier];
     }
 //    NSLog(@"Object count: %@", users.count);
-    ModelsSplicerUser *user = [objects objectAtIndex: [indexPath row]];
+    ModelsSplicerUser *user = [testUsers objectAtIndex: [indexPath row]];
     
      NSLog(@"Displaying User w/ pk: %lld", [user getId]);
     //cell.textLabel.text = venue.surName;

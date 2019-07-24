@@ -24,7 +24,7 @@
 //@synthesize detailViewController;
 //@synthesize usersFetcher;
 //@synthesize users;
-NSArray *objects;
+NSArray *testUsers;
 NSString * const SERVER_BASE_URL = @"http://localhost:9400";
 
 //from orig jsonfetcher

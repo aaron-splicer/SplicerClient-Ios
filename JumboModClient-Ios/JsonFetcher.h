@@ -25,7 +25,7 @@
 //from orig jsonfetcher
 
 //@property (nonatomic, strong) NSArray *users;
-extern NSArray *objects;
+extern NSArray *testUsers;
 extern NSString * const SERVER_BASE_URL;// = @"http://localhost:9400";
 
 //@property (nonatomic, strong) UITableView *tableView;
