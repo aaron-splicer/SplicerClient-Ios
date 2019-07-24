@@ -45,14 +45,6 @@ NSString * const SERVER_BASE_URL = @"http://localhost:9400";
     // initialize RestKit
     objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
     
-    //from sample: https://www.raywenderlich.com/2476-introduction-to-restkit-tutorial
-    // from sample: setup object mappings
-    /*
-     RKObjectMapping *venueMapping = [RKObjectMapping mappingForClass:[ModelsSplicerUser class]];
-     
-     [venueMapping addAttributeMappingsFromArray:@[@"name"]];
-     */
-    
     //map's aaron's original way
     RKObjectMapping* venueMapping = [self mapComplexTypes];
     
@@ -83,7 +75,7 @@ NSString * const SERVER_BASE_URL = @"http://localhost:9400";
                                            parameters:queryParams
                                               success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
                                                   //FIXME also need a callback where this type gets created.  Or perhaps you can just typecast it
-                                                  objects = mappingResult.array;
+                                                  testUsers = mappingResult.array;
                                                   //FIXME: Need a way to invalidate the caller from this thread.
                                                   //[self.tableView reloadData];
                                                   
