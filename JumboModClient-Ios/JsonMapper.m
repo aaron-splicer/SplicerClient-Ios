@@ -9,7 +9,7 @@
     RKObjectMapping *SplicerRootMapping = [RKObjectMapping mappingForClass:[ModelsSplicerSplicerRoot class]];
     [SplicerRootMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     RKObjectMapping *UserMapping = [RKObjectMapping mappingForClass:[ModelsSplicerUser class]];
-    [UserMapping addAttributeMappingsFromDictionary:@{@"firstname":@"firstname_" }];
+    [UserMapping addAttributeMappingsFromDictionary:@{@"firstName":@"firstName_" }];
     [UserMapping addAttributeMappingsFromDictionary:@{@"lastname":@"lastname_" }];
     [UserMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     RKObjectMapping *AddressMapping = [RKObjectMapping mappingForClass:[ModelsSplicerAddress class]];
