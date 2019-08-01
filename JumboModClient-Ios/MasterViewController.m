@@ -69,7 +69,7 @@
     }
     usersFetcher = [[JsonFetcher alloc] init];
     //[_usersFetcher execute:self ];
-    [usersFetcher  setup:SERVER_BASE_URL rootClass:[ModelsSplicerUser class] path:@"/api/splicer/User/list"];
+    [usersFetcher  setup:SERVER_BASE_URL rootClass:[ModelsSplicerPerson class] path:@"/api/splicer/User/list"];
     [usersFetcher  execute:@"/api/splicer/User/list"];
     //these don't work
     //[self.tableView reloadData];
@@ -186,12 +186,12 @@
                 reuseIdentifier:CellIdentifier];
     }
 //    NSLog(@"Object count: %@", users.count);
-    ModelsSplicerUser *user = [testUsers objectAtIndex: [indexPath row]];
+    ModelsSplicerPerson *user = [testUsers objectAtIndex: [indexPath row]];
     
      NSLog(@"Displaying User w/ pk: %lld", [user getId]);
     //cell.textLabel.text = venue.surName;
   
-    cell.textLabel.text = [NSString stringWithFormat:@"%lld%@%@%@%@", [user getId], @": ", [user getLastname], @"@", [[user getAddress] getZip]];
+    cell.textLabel.text = [NSString stringWithFormat:@"%lld%@%@%@%@", [user getId], @": ", [user getLastName], @"@", [[user getAddress] getZip]];
     
     return cell;    
 } 
