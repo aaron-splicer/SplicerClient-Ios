@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Jumbo Mobile. All rights reserved.
 //
 
-#import "MasterViewController.h"
+//#import "MasterViewController.h"
 #import "DetailViewController.h"
 
 #import <Foundation/Foundation.h>
@@ -14,7 +14,7 @@
 
 //#import "User.h"
 #import "SplicerClient-Swift-Bridging-Header.h"
-//#import "JsonFetcher.h"
+#import "JsonFetcher.h"
 
 //static NSString * const SERVER_BASE_URL = @"http://splicer.io";
 //static NSString * const SERVER_BASE_URL = @"http://localhost:9400";
