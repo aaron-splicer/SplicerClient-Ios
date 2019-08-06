@@ -137,7 +137,7 @@
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"person" toKeyPath:@"person_" withMapping:PersonMapping]];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"games" toKeyPath:@"games_" withMapping:GamesMapping]];
     [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"accounts_" withMapping:AccountsMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"memberships" toKeyPath:@"memberships_" withMapping:MembershipsMapping]];
+    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"memberships" toKeyPath:@"membershipList_" withMapping:MembershipsMapping]];
     [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisions_" withMapping:DivisionsMapping]];
     [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teams" toKeyPath:@"teams_" withMapping:TeamsMapping]];
     [MembershipsMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membershipsubscriptions" toKeyPath:@"membershipsubscriptions_" withMapping:MembershipSubscriptionsMapping]];
