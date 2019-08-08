@@ -136,10 +136,10 @@
     [LocationsMapping addAttributeMappingsFromDictionary:@{@"type":@"type_" }];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"person" toKeyPath:@"person_" withMapping:PersonMapping]];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"games" toKeyPath:@"games_" withMapping:GamesMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"accounts_" withMapping:AccountsMapping]];
+    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"accountList_" withMapping:AccountsMapping]];
     [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"memberships" toKeyPath:@"membershipList_" withMapping:MembershipsMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisions_" withMapping:DivisionsMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teams" toKeyPath:@"teams_" withMapping:TeamsMapping]];
+    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisionList_" withMapping:DivisionsMapping]];
+    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teams" toKeyPath:@"teamList_" withMapping:TeamsMapping]];
     [MembershipsMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membershipsubscriptions" toKeyPath:@"membershipsubscriptions_" withMapping:MembershipSubscriptionsMapping]];
     [GamesMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisions_" withMapping:DivisionsMapping]];
     [GamesMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teamscores" toKeyPath:@"teamscores_" withMapping:TeamScoresMapping]];
