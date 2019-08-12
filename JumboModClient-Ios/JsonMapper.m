@@ -8,40 +8,40 @@
     //generated
     RKObjectMapping *SportsRootMapping = [RKObjectMapping mappingForClass:[ModelsSportsSportsRoot class]];
     [SportsRootMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
-    RKObjectMapping *PersonMapping = [RKObjectMapping mappingForClass:[ModelsSportsPerson class]];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"alias":@"alias_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"allowFacebookPosts":@"allowFacebookPosts_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"allowGameNotifications":@"allowGameNotifications_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"avatarContentType":@"avatarContentType_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"avatarFileName":@"avatarFileName_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"avatarFileSize":@"avatarFileSize_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"avatarId":@"avatarId_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"avatarUpdatedAt":@"avatarUpdatedAt_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"businessPhone":@"businessPhone_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"city":@"city_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"country":@"country_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"createdAt":@"createdAt_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"dateOfBirth":@"dateOfBirth_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"email2":@"email2_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"fax":@"fax_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"firstName":@"firstName_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"gender":@"gender_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"hiddenLastName":@"hiddenLastName_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"isAdmin":@"isAdmin_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"lastName":@"lastName_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"latitude":@"latitude_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"longitude":@"longitude_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"middleInitial":@"middleInitial_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"mobile":@"mobile_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"notes":@"notes_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"otherPhone":@"otherPhone_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"parentId":@"parentId_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"phone":@"phone_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"state":@"state_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"updatedAt":@"updatedAt_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"website":@"website_" }];
-    [PersonMapping addAttributeMappingsFromDictionary:@{@"zip":@"zip_" }];
+    RKObjectMapping *PeopleMapping = [RKObjectMapping mappingForClass:[ModelsSportsPerson class]];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"alias":@"alias_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"allowFacebookPosts":@"allowFacebookPosts_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"allowGameNotifications":@"allowGameNotifications_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"avatarContentType":@"avatarContentType_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"avatarFileName":@"avatarFileName_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"avatarFileSize":@"avatarFileSize_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"avatarId":@"avatarId_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"avatarUpdatedAt":@"avatarUpdatedAt_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"businessPhone":@"businessPhone_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"city":@"city_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"country":@"country_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"createdAt":@"createdAt_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"dateOfBirth":@"dateOfBirth_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"email2":@"email2_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"fax":@"fax_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"firstName":@"firstName_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"gender":@"gender_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"hiddenLastName":@"hiddenLastName_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"isAdmin":@"isAdmin_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"lastName":@"lastName_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"latitude":@"latitude_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"longitude":@"longitude_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"middleInitial":@"middleInitial_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"mobile":@"mobile_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"notes":@"notes_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"otherPhone":@"otherPhone_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"parentId":@"parentId_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"phone":@"phone_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"state":@"state_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"updatedAt":@"updatedAt_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"website":@"website_" }];
+    [PeopleMapping addAttributeMappingsFromDictionary:@{@"zip":@"zip_" }];
     RKObjectMapping *AccountsMapping = [RKObjectMapping mappingForClass:[ModelsSportsAccounts class]];
     [AccountsMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     [AccountsMapping addAttributeMappingsFromDictionary:@{@"activationState":@"activationState_" }];
@@ -134,12 +134,12 @@
     [LocationsMapping addAttributeMappingsFromDictionary:@{@"search":@"search_" }];
     [LocationsMapping addAttributeMappingsFromDictionary:@{@"phoneNumber":@"phoneNumber_" }];
     [LocationsMapping addAttributeMappingsFromDictionary:@{@"type":@"type_" }];
-    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"person" toKeyPath:@"person_" withMapping:PersonMapping]];
+    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"games" toKeyPath:@"games_" withMapping:GamesMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"accountList_" withMapping:AccountsMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"memberships" toKeyPath:@"membershipList_" withMapping:MembershipsMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisionList_" withMapping:DivisionsMapping]];
-    [PersonMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teams" toKeyPath:@"teamList_" withMapping:TeamsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"accountList_" withMapping:AccountsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"memberships" toKeyPath:@"membershipList_" withMapping:MembershipsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisionList_" withMapping:DivisionsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teams" toKeyPath:@"teamList_" withMapping:TeamsMapping]];
     [MembershipsMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membershipsubscriptions" toKeyPath:@"membershipsubscriptions_" withMapping:MembershipSubscriptionsMapping]];
     [GamesMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisions_" withMapping:DivisionsMapping]];
     [GamesMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teamscores" toKeyPath:@"teamscores_" withMapping:TeamScoresMapping]];
@@ -149,7 +149,7 @@
 
     //end generated
 
-    return PersonMapping;
+    return PeopleMapping;
 }
 
 @end
