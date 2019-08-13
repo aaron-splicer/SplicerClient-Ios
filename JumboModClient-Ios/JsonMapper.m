@@ -8,7 +8,7 @@
     //generated
     RKObjectMapping *SportsRootMapping = [RKObjectMapping mappingForClass:[ModelsSportsSportsRoot class]];
     [SportsRootMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
-    RKObjectMapping *PeopleMapping = [RKObjectMapping mappingForClass:[ModelsSportsPerson class]];
+    RKObjectMapping *PeopleMapping = [RKObjectMapping mappingForClass:[ModelsSportsPeople class]];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"alias":@"alias_" }];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"allowFacebookPosts":@"allowFacebookPosts_" }];
