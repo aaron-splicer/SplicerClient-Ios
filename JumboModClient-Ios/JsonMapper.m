@@ -136,11 +136,11 @@
     [LocationsMapping addAttributeMappingsFromDictionary:@{@"type":@"type_" }];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"games" toKeyPath:@"games_" withMapping:GamesMapping]];
-    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"accountList_" withMapping:AccountsMapping]];
-    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"memberships" toKeyPath:@"membershipList_" withMapping:MembershipsMapping]];
-    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisionList_" withMapping:DivisionsMapping]];
-    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teams" toKeyPath:@"teamList_" withMapping:TeamsMapping]];
-    [MembershipsMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membershipsubscriptions" toKeyPath:@"membershipsubscriptions_" withMapping:MembershipSubscriptionsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"account_" withMapping:AccountsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"memberships" toKeyPath:@"membership_" withMapping:MembershipsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"division_" withMapping:DivisionsMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teams" toKeyPath:@"team_" withMapping:TeamsMapping]];
+    [MembershipsMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membershipSubscriptions" toKeyPath:@"membershipSubscription_" withMapping:MembershipSubscriptionsMapping]];
     [GamesMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"divisions" toKeyPath:@"divisions_" withMapping:DivisionsMapping]];
     [GamesMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teamscores" toKeyPath:@"teamscores_" withMapping:TeamScoresMapping]];
     [GamesMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"facilities" toKeyPath:@"facilities_" withMapping:FacilitiesMapping]];
