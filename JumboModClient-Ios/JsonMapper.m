@@ -134,8 +134,8 @@
     [LocationMapping addAttributeMappingsFromDictionary:@{@"search":@"search_" }];
     [LocationMapping addAttributeMappingsFromDictionary:@{@"phoneNumber":@"phoneNumber_" }];
     [LocationMapping addAttributeMappingsFromDictionary:@{@"type":@"type_" }];
-    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"game" toKeyPath:@"game_" withMapping:GameMapping]];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
+    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"game" toKeyPath:@"game_" withMapping:GameMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"account" toKeyPath:@"account_" withMapping:AccountMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membership" toKeyPath:@"membership_" withMapping:MembershipMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"division" toKeyPath:@"division_" withMapping:DivisionMapping]];
