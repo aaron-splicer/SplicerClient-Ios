@@ -6,8 +6,6 @@
 - (RKObjectMapping *)mapComplexTypes
 {
     //generated
-    RKObjectMapping *SportsRootMapping = [RKObjectMapping mappingForClass:[ModelsSportsSportsRoot class]];
-    [SportsRootMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     RKObjectMapping *PeopleMapping = [RKObjectMapping mappingForClass:[ModelsSportsPeople class]];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"alias":@"alias_" }];
@@ -42,23 +40,23 @@
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"updatedAt":@"updatedAt_" }];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"website":@"website_" }];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"zip":@"zip_" }];
-    RKObjectMapping *AccountMapping = [RKObjectMapping mappingForClass:[ModelsSportsAccount class]];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"activationState":@"activationState_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"activationToken":@"activationToken_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"activationTokenExpiresAt":@"activationTokenExpiresAt_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"createdAt":@"createdAt_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"crossDomainCode":@"crossDomainCode_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"cryptedPassword":@"cryptedPassword_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"email":@"email_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"loggedin":@"loggedin_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"oldCryptedPassword":@"oldCryptedPassword_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"rememberMeToken":@"rememberMeToken_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"rememberMeTokenExpiresAt":@"rememberMeTokenExpiresAt_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"resetPasswordEmailSentAt":@"resetPasswordEmailSentAt_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"resetPasswordToken":@"resetPasswordToken_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"salt":@"salt_" }];
-    [AccountMapping addAttributeMappingsFromDictionary:@{@"updatedAt":@"updatedAt_" }];
+    RKObjectMapping *AccountsMapping = [RKObjectMapping mappingForClass:[ModelsSportsAccounts class]];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"activationState":@"activationState_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"activationToken":@"activationToken_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"activationTokenExpiresAt":@"activationTokenExpiresAt_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"createdAt":@"createdAt_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"crossDomainCode":@"crossDomainCode_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"cryptedPassword":@"cryptedPassword_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"email":@"email_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"loggedin":@"loggedin_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"oldCryptedPassword":@"oldCryptedPassword_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"rememberMeToken":@"rememberMeToken_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"rememberMeTokenExpiresAt":@"rememberMeTokenExpiresAt_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"resetPasswordEmailSentAt":@"resetPasswordEmailSentAt_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"resetPasswordToken":@"resetPasswordToken_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"salt":@"salt_" }];
+    [AccountsMapping addAttributeMappingsFromDictionary:@{@"updatedAt":@"updatedAt_" }];
     RKObjectMapping *MembershipMapping = [RKObjectMapping mappingForClass:[ModelsSportsMembership class]];
     [MembershipMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     [MembershipMapping addAttributeMappingsFromDictionary:@{@"createdAt":@"createdAt_" }];
@@ -134,9 +132,9 @@
     [LocationMapping addAttributeMappingsFromDictionary:@{@"search":@"search_" }];
     [LocationMapping addAttributeMappingsFromDictionary:@{@"phoneNumber":@"phoneNumber_" }];
     [LocationMapping addAttributeMappingsFromDictionary:@{@"type":@"type_" }];
-    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
-    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"game" toKeyPath:@"game_" withMapping:GameMapping]];
-    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"account" toKeyPath:@"account_" withMapping:AccountMapping]];
+    RKObjectMapping *SportsRootMapping = [RKObjectMapping mappingForClass:[ModelsSportsSportsRoot class]];
+    [SportsRootMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"accounts" toKeyPath:@"account_" withMapping:AccountsMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membership" toKeyPath:@"membership_" withMapping:MembershipMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"division" toKeyPath:@"division_" withMapping:DivisionMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"team" toKeyPath:@"team_" withMapping:TeamMapping]];
@@ -146,6 +144,8 @@
     [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"facility" toKeyPath:@"facility_" withMapping:FacilityMapping]];
     [TeamScoreMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"team" toKeyPath:@"team_" withMapping:TeamMapping]];
     [FacilityMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"location" toKeyPath:@"location_" withMapping:LocationMapping]];
+    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
+    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"game" toKeyPath:@"game_" withMapping:GameMapping]];
 
     //end generated
 
