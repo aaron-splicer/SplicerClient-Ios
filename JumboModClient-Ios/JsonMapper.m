@@ -6,6 +6,8 @@
 - (RKObjectMapping *)mapComplexTypes
 {
     //generated
+    RKObjectMapping *SportsRootMapping = [RKObjectMapping mappingForClass:[ModelsSportsSportsRoot class]];
+    [SportsRootMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     RKObjectMapping *PeopleMapping = [RKObjectMapping mappingForClass:[ModelsSportsPeople class]];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
     [PeopleMapping addAttributeMappingsFromDictionary:@{@"alias":@"alias_" }];
@@ -131,20 +133,18 @@
     [LocationMapping addAttributeMappingsFromDictionary:@{@"search":@"search_" }];
     [LocationMapping addAttributeMappingsFromDictionary:@{@"phoneNumber":@"phoneNumber_" }];
     [LocationMapping addAttributeMappingsFromDictionary:@{@"type":@"type_" }];
-    RKObjectMapping *SportsRootMapping = [RKObjectMapping mappingForClass:[ModelsSportsSportsRoot class]];
-    [SportsRootMapping addAttributeMappingsFromDictionary:@{@"id":@"id__" }];
+    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
+    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"game" toKeyPath:@"game_" withMapping:GameMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"acct" toKeyPath:@"acct_" withMapping:AcctMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membership" toKeyPath:@"membership_" withMapping:MembershipMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"division" toKeyPath:@"division_" withMapping:DivisionMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"team" toKeyPath:@"team_" withMapping:TeamMapping]];
     [MembershipMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membershipSubscription" toKeyPath:@"membershipSubscription_" withMapping:MembershipSubscriptionMapping]];
+    [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"division" toKeyPath:@"division_" withMapping:DivisionMapping]];
     [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teamScore" toKeyPath:@"teamScore_" withMapping:TeamScoreMapping]];
     [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"facility" toKeyPath:@"facility_" withMapping:FacilityMapping]];
-    [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"division" toKeyPath:@"division_" withMapping:DivisionMapping]];
     [TeamScoreMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"team" toKeyPath:@"team_" withMapping:TeamMapping]];
     [FacilityMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"location" toKeyPath:@"location_" withMapping:LocationMapping]];
-    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"game" toKeyPath:@"game_" withMapping:GameMapping]];
-    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
 
     //end generated
 
