@@ -25,7 +25,8 @@
 //@synthesize usersFetcher;
 //@synthesize users;
 NSArray *testUsers;
-NSString * const SERVER_BASE_URL = @"http://localhost:9400";
+NSString * const SERVER_BASE_URL = @"http://localhost:9000";//http://localhost:9000/api/sports-roots
+NSString * const AUTH_HEADER = @"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU4ODYxNjY4NH0.Ln1M_VzMd_HXfR6J3EFDQfJudOBwqMf1JK32R3WlHZLvlf6wfgT9Cc7_I04Dotbi4Vp_EpHe0y4ZE9HVWQme0w";
 
 //from orig jsonfetcher
 @synthesize objectManager;
@@ -41,6 +42,8 @@ NSString * const SERVER_BASE_URL = @"http://localhost:9400";
     // initialize AFNetworking HTTPClient
     NSURL *baseURL = [NSURL URLWithString:baseUrl];//[NSURL URLWithString:@"https://api.foursquare.com"];
     AFRKHTTPClient *client = [[AFRKHTTPClient alloc] initWithBaseURL:baseURL];
+//    [client setDefaultHeader:@"Accept" value:RKMIMETypeJSON];
+    [client setDefaultHeader:@"Authorization" value:AUTH_HEADER];
     
     // initialize RestKit
     objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
