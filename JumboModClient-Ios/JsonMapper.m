@@ -135,20 +135,20 @@
     [TeamScoreMapping addAttributeMappingsFromDictionary:@{@"winLossTie":@"winLossTie_" }];
     [FacilityMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"location" toKeyPath:@"location_" withMapping:LocationMapping]];
     [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"division" toKeyPath:@"division_" withMapping:DivisionMapping]];
-    [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teamScore" toKeyPath:@"teamScore_" withMapping:TeamScoreMapping]];
     [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"facility" toKeyPath:@"facility_" withMapping:FacilityMapping]];
+    [GameMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"teamScore" toKeyPath:@"teamScore_" withMapping:TeamScoreMapping]];
     [MembershipMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membershipSubscription" toKeyPath:@"membershipSubscription_" withMapping:MembershipSubscriptionMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"acct" toKeyPath:@"acct_" withMapping:AcctMapping]];
-    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membership" toKeyPath:@"membership_" withMapping:MembershipMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"division" toKeyPath:@"division_" withMapping:DivisionMapping]];
+    [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"membership" toKeyPath:@"membership_" withMapping:MembershipMapping]];
     [PeopleMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"team" toKeyPath:@"team_" withMapping:TeamMapping]];
-    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
     [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"game" toKeyPath:@"game_" withMapping:GameMapping]];
+    [SportsRootMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"people" toKeyPath:@"people_" withMapping:PeopleMapping]];
     [TeamScoreMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"team" toKeyPath:@"team_" withMapping:TeamMapping]];
 
     //end generated
 
-    return PeopleMapping;
+    return SportsRootMapping;
 }
 
 @end
