@@ -192,7 +192,10 @@ class JsonMapper {
         let MembershipmembershipFieldsMapping = RKAttributeMapping(fromKeyPath: "membershipFields", toKeyPath: "membershipFields_")
         MembershipmembershipFieldsMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipMapping?.addPropertyMapping(MembershipmembershipFieldsMapping)
-        MembershipMapping?.addAttributeMappings(from: ["membershipNumber":"membershipNumber_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
+        let MembershipmembershipNumberMapping = RKAttributeMapping(fromKeyPath: "membershipNumber", toKeyPath: "membershipNumber_")
+        MembershipmembershipNumberMapping?.propertyValueClass = NSString.classForCoder() 
+        MembershipMapping?.addPropertyMapping(MembershipmembershipNumberMapping)
         //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         MembershipupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
