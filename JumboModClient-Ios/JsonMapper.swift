@@ -13,477 +13,357 @@ class JsonMapper {
     func mapComplexTypes() -> RKObjectMapping? {
         //generated
         let AcctMapping = RKObjectMapping(for: ModelsSportsAcct.self);
-
-        let AcctidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        AcctidMapping?.propertyValueClass = NSString.classForCoder() 
-        AcctMapping?.addPropertyMapping(AcctidMapping)
-
+        AcctMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctactivationStateMapping = RKAttributeMapping(fromKeyPath: "activationState", toKeyPath: "activationState_")
         AcctactivationStateMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctactivationStateMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctactivationTokenMapping = RKAttributeMapping(fromKeyPath: "activationToken", toKeyPath: "activationToken_")
         AcctactivationTokenMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctactivationTokenMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctactivationTokenExpiresAtMapping = RKAttributeMapping(fromKeyPath: "activationTokenExpiresAt", toKeyPath: "activationTokenExpiresAt_")
         AcctactivationTokenExpiresAtMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctactivationTokenExpiresAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctcreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
         AcctcreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctcreatedAtMapping)
-
-        let AcctcrossDomainCodeMapping = RKAttributeMapping(fromKeyPath: "crossDomainCode", toKeyPath: "crossDomainCode_")
-        AcctcrossDomainCodeMapping?.propertyValueClass = NSString.classForCoder() 
-        AcctMapping?.addPropertyMapping(AcctcrossDomainCodeMapping)
-
+        AcctMapping?.addAttributeMappings(from: ["crossDomainCode":"crossDomainCode_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctcryptedPasswordMapping = RKAttributeMapping(fromKeyPath: "cryptedPassword", toKeyPath: "cryptedPassword_")
         AcctcryptedPasswordMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctcryptedPasswordMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctemailMapping = RKAttributeMapping(fromKeyPath: "email", toKeyPath: "email_")
         AcctemailMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctemailMapping)
-
-        let AcctloggedinMapping = RKAttributeMapping(fromKeyPath: "loggedin", toKeyPath: "loggedin_")
-        AcctloggedinMapping?.propertyValueClass = NSString.classForCoder() 
-        AcctMapping?.addPropertyMapping(AcctloggedinMapping)
-
+        AcctMapping?.addAttributeMappings(from: ["loggedin":"loggedin_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctoldCryptedPasswordMapping = RKAttributeMapping(fromKeyPath: "oldCryptedPassword", toKeyPath: "oldCryptedPassword_")
         AcctoldCryptedPasswordMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctoldCryptedPasswordMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctrememberMeTokenMapping = RKAttributeMapping(fromKeyPath: "rememberMeToken", toKeyPath: "rememberMeToken_")
         AcctrememberMeTokenMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctrememberMeTokenMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctrememberMeTokenExpiresAtMapping = RKAttributeMapping(fromKeyPath: "rememberMeTokenExpiresAt", toKeyPath: "rememberMeTokenExpiresAt_")
         AcctrememberMeTokenExpiresAtMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctrememberMeTokenExpiresAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctresetPasswordEmailSentAtMapping = RKAttributeMapping(fromKeyPath: "resetPasswordEmailSentAt", toKeyPath: "resetPasswordEmailSentAt_")
         AcctresetPasswordEmailSentAtMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctresetPasswordEmailSentAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctresetPasswordTokenMapping = RKAttributeMapping(fromKeyPath: "resetPasswordToken", toKeyPath: "resetPasswordToken_")
         AcctresetPasswordTokenMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctresetPasswordTokenMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctsaltMapping = RKAttributeMapping(fromKeyPath: "salt", toKeyPath: "salt_")
         AcctsaltMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctsaltMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let AcctupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         AcctupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         AcctMapping?.addPropertyMapping(AcctupdatedAtMapping)
         let DivisionMapping = RKObjectMapping(for: ModelsSportsDivision.self);
-
-        let DivisionidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        DivisionidMapping?.propertyValueClass = NSString.classForCoder() 
-        DivisionMapping?.addPropertyMapping(DivisionidMapping)
-
+        DivisionMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let DivisionnameMapping = RKAttributeMapping(fromKeyPath: "name", toKeyPath: "name_")
         DivisionnameMapping?.propertyValueClass = NSString.classForCoder() 
         DivisionMapping?.addPropertyMapping(DivisionnameMapping)
         let FacilityMapping = RKObjectMapping(for: ModelsSportsFacility.self);
-
-        let FacilityidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        FacilityidMapping?.propertyValueClass = NSString.classForCoder() 
-        FacilityMapping?.addPropertyMapping(FacilityidMapping)
-
+        FacilityMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let FacilitycreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
         FacilitycreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         FacilityMapping?.addPropertyMapping(FacilitycreatedAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let FacilitydescriptionMapping = RKAttributeMapping(fromKeyPath: "description", toKeyPath: "description_")
         FacilitydescriptionMapping?.propertyValueClass = NSString.classForCoder() 
         FacilityMapping?.addPropertyMapping(FacilitydescriptionMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let FacilityfacilityTypeMapping = RKAttributeMapping(fromKeyPath: "facilityType", toKeyPath: "facilityType_")
         FacilityfacilityTypeMapping?.propertyValueClass = NSString.classForCoder() 
         FacilityMapping?.addPropertyMapping(FacilityfacilityTypeMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let FacilitynameMapping = RKAttributeMapping(fromKeyPath: "name", toKeyPath: "name_")
         FacilitynameMapping?.propertyValueClass = NSString.classForCoder() 
         FacilityMapping?.addPropertyMapping(FacilitynameMapping)
-
-        let FacilityorganizationIdMapping = RKAttributeMapping(fromKeyPath: "organizationId", toKeyPath: "organizationId_")
-        FacilityorganizationIdMapping?.propertyValueClass = NSString.classForCoder() 
-        FacilityMapping?.addPropertyMapping(FacilityorganizationIdMapping)
-
+        FacilityMapping?.addAttributeMappings(from: ["organizationId":"organizationId_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let FacilityupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         FacilityupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         FacilityMapping?.addPropertyMapping(FacilityupdatedAtMapping)
         let GameMapping = RKObjectMapping(for: ModelsSportsGame.self);
-
-        let GameidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        GameidMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GameidMapping)
-
-        let GameawayBonusPointsMapping = RKAttributeMapping(fromKeyPath: "awayBonusPoints", toKeyPath: "awayBonusPoints_")
-        GameawayBonusPointsMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GameawayBonusPointsMapping)
-
-        let GameawayLockerIdMapping = RKAttributeMapping(fromKeyPath: "awayLockerId", toKeyPath: "awayLockerId_")
-        GameawayLockerIdMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GameawayLockerIdMapping)
-
+        GameMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        GameMapping?.addAttributeMappings(from: ["awayBonusPoints":"awayBonusPoints_" ]);
+        GameMapping?.addAttributeMappings(from: ["awayLockerId":"awayLockerId_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GameboxTitleMapping = RKAttributeMapping(fromKeyPath: "boxTitle", toKeyPath: "boxTitle_")
         GameboxTitleMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GameboxTitleMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GamecontextMapping = RKAttributeMapping(fromKeyPath: "context", toKeyPath: "context_")
         GamecontextMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamecontextMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GamecreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
         GamecreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamecreatedAtMapping)
-
-        let GamegameNumberMapping = RKAttributeMapping(fromKeyPath: "gameNumber", toKeyPath: "gameNumber_")
-        GamegameNumberMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GamegameNumberMapping)
-
-        let GamehomeBonusPointsMapping = RKAttributeMapping(fromKeyPath: "homeBonusPoints", toKeyPath: "homeBonusPoints_")
-        GamehomeBonusPointsMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GamehomeBonusPointsMapping)
-
-        let GamehomeLockerIdMapping = RKAttributeMapping(fromKeyPath: "homeLockerId", toKeyPath: "homeLockerId_")
-        GamehomeLockerIdMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GamehomeLockerIdMapping)
-
+        GameMapping?.addAttributeMappings(from: ["gameNumber":"gameNumber_" ]);
+        GameMapping?.addAttributeMappings(from: ["homeBonusPoints":"homeBonusPoints_" ]);
+        GameMapping?.addAttributeMappings(from: ["homeLockerId":"homeLockerId_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GamenameMapping = RKAttributeMapping(fromKeyPath: "name", toKeyPath: "name_")
         GamenameMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamenameMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GameofficialsMapping = RKAttributeMapping(fromKeyPath: "officials", toKeyPath: "officials_")
         GameofficialsMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GameofficialsMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GamescoringMethodMapping = RKAttributeMapping(fromKeyPath: "scoringMethod", toKeyPath: "scoringMethod_")
         GamescoringMethodMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamescoringMethodMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GamestartTimeMapping = RKAttributeMapping(fromKeyPath: "startTime", toKeyPath: "startTime_")
         GamestartTimeMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamestartTimeMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GamestatusMapping = RKAttributeMapping(fromKeyPath: "status", toKeyPath: "status_")
         GamestatusMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamestatusMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let GameupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         GameupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GameupdatedAtMapping)
         let LocationMapping = RKObjectMapping(for: ModelsSportsLocation.self);
-
-        let LocationidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        LocationidMapping?.propertyValueClass = NSString.classForCoder() 
-        LocationMapping?.addPropertyMapping(LocationidMapping)
-
-        let LocationorganizationIdMapping = RKAttributeMapping(fromKeyPath: "organizationId", toKeyPath: "organizationId_")
-        LocationorganizationIdMapping?.propertyValueClass = NSString.classForCoder() 
-        LocationMapping?.addPropertyMapping(LocationorganizationIdMapping)
-
+        LocationMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        LocationMapping?.addAttributeMappings(from: ["organizationId":"organizationId_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationnameMapping = RKAttributeMapping(fromKeyPath: "name", toKeyPath: "name_")
         LocationnameMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationnameMapping)
-
-        let LocationcreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
-        LocationcreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
-        LocationMapping?.addPropertyMapping(LocationcreatedAtMapping)
-
-        let LocationupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
-        LocationupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
-        LocationMapping?.addPropertyMapping(LocationupdatedAtMapping)
-
+        LocationMapping?.addAttributeMappings(from: ["createdAt":"createdAt_" ]);
+        LocationMapping?.addAttributeMappings(from: ["updatedAt":"updatedAt_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationstreetMapping = RKAttributeMapping(fromKeyPath: "street", toKeyPath: "street_")
         LocationstreetMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationstreetMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationzipCodeMapping = RKAttributeMapping(fromKeyPath: "zipCode", toKeyPath: "zipCode_")
         LocationzipCodeMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationzipCodeMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationstateMapping = RKAttributeMapping(fromKeyPath: "state", toKeyPath: "state_")
         LocationstateMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationstateMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationcityMapping = RKAttributeMapping(fromKeyPath: "city", toKeyPath: "city_")
         LocationcityMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationcityMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationcountryMapping = RKAttributeMapping(fromKeyPath: "country", toKeyPath: "country_")
         LocationcountryMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationcountryMapping)
-
-        let LocationlatMapping = RKAttributeMapping(fromKeyPath: "lat", toKeyPath: "lat_")
-        LocationlatMapping?.propertyValueClass = NSString.classForCoder() 
-        LocationMapping?.addPropertyMapping(LocationlatMapping)
-
+        LocationMapping?.addAttributeMappings(from: ["lat":"lat_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationsearchMapping = RKAttributeMapping(fromKeyPath: "search", toKeyPath: "search_")
         LocationsearchMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationsearchMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationphoneNumberMapping = RKAttributeMapping(fromKeyPath: "phoneNumber", toKeyPath: "phoneNumber_")
         LocationphoneNumberMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationphoneNumberMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationtypeMapping = RKAttributeMapping(fromKeyPath: "type", toKeyPath: "type_")
         LocationtypeMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationtypeMapping)
         let MembershipMapping = RKObjectMapping(for: ModelsSportsMembership.self);
-
-        let MembershipidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        MembershipidMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipMapping?.addPropertyMapping(MembershipidMapping)
-
+        MembershipMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipcreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
         MembershipcreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipMapping?.addPropertyMapping(MembershipcreatedAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipmembershipFieldsMapping = RKAttributeMapping(fromKeyPath: "membershipFields", toKeyPath: "membershipFields_")
         MembershipmembershipFieldsMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipMapping?.addPropertyMapping(MembershipmembershipFieldsMapping)
-
-        let MembershipmembershipNumberMapping = RKAttributeMapping(fromKeyPath: "membershipNumber", toKeyPath: "membershipNumber_")
-        MembershipmembershipNumberMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipMapping?.addPropertyMapping(MembershipmembershipNumberMapping)
-
+        MembershipMapping?.addAttributeMappings(from: ["membershipNumber":"membershipNumber_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         MembershipupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipMapping?.addPropertyMapping(MembershipupdatedAtMapping)
         let MembershipSubscriptionMapping = RKObjectMapping(for: ModelsSportsMembershipSubscription.self);
-
-        let MembershipSubscriptionidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        MembershipSubscriptionidMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionidMapping)
-
+        MembershipSubscriptionMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipSubscriptioncreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
         MembershipSubscriptioncreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptioncreatedAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipSubscriptionexpiresOnMapping = RKAttributeMapping(fromKeyPath: "expiresOn", toKeyPath: "expiresOn_")
         MembershipSubscriptionexpiresOnMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionexpiresOnMapping)
-
-        let MembershipSubscriptionisActiveMapping = RKAttributeMapping(fromKeyPath: "isActive", toKeyPath: "isActive_")
-        MembershipSubscriptionisActiveMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionisActiveMapping)
-
-        let MembershipSubscriptionisOfflinePaymentMapping = RKAttributeMapping(fromKeyPath: "isOfflinePayment", toKeyPath: "isOfflinePayment_")
-        MembershipSubscriptionisOfflinePaymentMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionisOfflinePaymentMapping)
-
-        let MembershipSubscriptionmembershipOptionIdMapping = RKAttributeMapping(fromKeyPath: "membershipOptionId", toKeyPath: "membershipOptionId_")
-        MembershipSubscriptionmembershipOptionIdMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionmembershipOptionIdMapping)
-
+        MembershipSubscriptionMapping?.addAttributeMappings(from: ["isActive":"isActive_" ]);
+        MembershipSubscriptionMapping?.addAttributeMappings(from: ["isOfflinePayment":"isOfflinePayment_" ]);
+        MembershipSubscriptionMapping?.addAttributeMappings(from: ["membershipOptionId":"membershipOptionId_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipSubscriptionpaidAtMapping = RKAttributeMapping(fromKeyPath: "paidAt", toKeyPath: "paidAt_")
         MembershipSubscriptionpaidAtMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionpaidAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipSubscriptionpaidStatusMapping = RKAttributeMapping(fromKeyPath: "paidStatus", toKeyPath: "paidStatus_")
         MembershipSubscriptionpaidStatusMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionpaidStatusMapping)
-
-        let MembershipSubscriptiontotalOwedMapping = RKAttributeMapping(fromKeyPath: "totalOwed", toKeyPath: "totalOwed_")
-        MembershipSubscriptiontotalOwedMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptiontotalOwedMapping)
-
-        let MembershipSubscriptiontotalPaidMapping = RKAttributeMapping(fromKeyPath: "totalPaid", toKeyPath: "totalPaid_")
-        MembershipSubscriptiontotalPaidMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptiontotalPaidMapping)
-
-        let MembershipSubscriptiontotalRefundsMapping = RKAttributeMapping(fromKeyPath: "totalRefunds", toKeyPath: "totalRefunds_")
-        MembershipSubscriptiontotalRefundsMapping?.propertyValueClass = NSString.classForCoder() 
-        MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptiontotalRefundsMapping)
-
+        MembershipSubscriptionMapping?.addAttributeMappings(from: ["totalOwed":"totalOwed_" ]);
+        MembershipSubscriptionMapping?.addAttributeMappings(from: ["totalPaid":"totalPaid_" ]);
+        MembershipSubscriptionMapping?.addAttributeMappings(from: ["totalRefunds":"totalRefunds_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipSubscriptionupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         MembershipSubscriptionupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionupdatedAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let MembershipSubscriptionwaiverInitialsMapping = RKAttributeMapping(fromKeyPath: "waiverInitials", toKeyPath: "waiverInitials_")
         MembershipSubscriptionwaiverInitialsMapping?.propertyValueClass = NSString.classForCoder() 
         MembershipSubscriptionMapping?.addPropertyMapping(MembershipSubscriptionwaiverInitialsMapping)
         let PeopleMapping = RKObjectMapping(for: ModelsSportsPeople.self);
-
-        let PeopleidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        PeopleidMapping?.propertyValueClass = NSString.classForCoder() 
-        PeopleMapping?.addPropertyMapping(PeopleidMapping)
-
+        PeopleMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplealiasMapping = RKAttributeMapping(fromKeyPath: "alias", toKeyPath: "alias_")
         PeoplealiasMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplealiasMapping)
-
-        let PeopleallowFacebookPostsMapping = RKAttributeMapping(fromKeyPath: "allowFacebookPosts", toKeyPath: "allowFacebookPosts_")
-        PeopleallowFacebookPostsMapping?.propertyValueClass = NSString.classForCoder() 
-        PeopleMapping?.addPropertyMapping(PeopleallowFacebookPostsMapping)
-
-        let PeopleallowGameNotificationsMapping = RKAttributeMapping(fromKeyPath: "allowGameNotifications", toKeyPath: "allowGameNotifications_")
-        PeopleallowGameNotificationsMapping?.propertyValueClass = NSString.classForCoder() 
-        PeopleMapping?.addPropertyMapping(PeopleallowGameNotificationsMapping)
-
+        PeopleMapping?.addAttributeMappings(from: ["allowFacebookPosts":"allowFacebookPosts_" ]);
+        PeopleMapping?.addAttributeMappings(from: ["allowGameNotifications":"allowGameNotifications_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeopleavatarContentTypeMapping = RKAttributeMapping(fromKeyPath: "avatarContentType", toKeyPath: "avatarContentType_")
         PeopleavatarContentTypeMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeopleavatarContentTypeMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeopleavatarFileNameMapping = RKAttributeMapping(fromKeyPath: "avatarFileName", toKeyPath: "avatarFileName_")
         PeopleavatarFileNameMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeopleavatarFileNameMapping)
-
-        let PeopleavatarFileSizeMapping = RKAttributeMapping(fromKeyPath: "avatarFileSize", toKeyPath: "avatarFileSize_")
-        PeopleavatarFileSizeMapping?.propertyValueClass = NSString.classForCoder() 
-        PeopleMapping?.addPropertyMapping(PeopleavatarFileSizeMapping)
-
-        let PeopleavatarIdMapping = RKAttributeMapping(fromKeyPath: "avatarId", toKeyPath: "avatarId_")
-        PeopleavatarIdMapping?.propertyValueClass = NSString.classForCoder() 
-        PeopleMapping?.addPropertyMapping(PeopleavatarIdMapping)
-
+        PeopleMapping?.addAttributeMappings(from: ["avatarFileSize":"avatarFileSize_" ]);
+        PeopleMapping?.addAttributeMappings(from: ["avatarId":"avatarId_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeopleavatarUpdatedAtMapping = RKAttributeMapping(fromKeyPath: "avatarUpdatedAt", toKeyPath: "avatarUpdatedAt_")
         PeopleavatarUpdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeopleavatarUpdatedAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplebusinessPhoneMapping = RKAttributeMapping(fromKeyPath: "businessPhone", toKeyPath: "businessPhone_")
         PeoplebusinessPhoneMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplebusinessPhoneMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplecityMapping = RKAttributeMapping(fromKeyPath: "city", toKeyPath: "city_")
         PeoplecityMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplecityMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplecountryMapping = RKAttributeMapping(fromKeyPath: "country", toKeyPath: "country_")
         PeoplecountryMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplecountryMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplecreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
         PeoplecreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplecreatedAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeopledateOfBirthMapping = RKAttributeMapping(fromKeyPath: "dateOfBirth", toKeyPath: "dateOfBirth_")
         PeopledateOfBirthMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeopledateOfBirthMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let Peopleemail2Mapping = RKAttributeMapping(fromKeyPath: "email2", toKeyPath: "email2_")
         Peopleemail2Mapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(Peopleemail2Mapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplefaxMapping = RKAttributeMapping(fromKeyPath: "fax", toKeyPath: "fax_")
         PeoplefaxMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplefaxMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplefirstNameMapping = RKAttributeMapping(fromKeyPath: "firstName", toKeyPath: "firstName_")
         PeoplefirstNameMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplefirstNameMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplegenderMapping = RKAttributeMapping(fromKeyPath: "gender", toKeyPath: "gender_")
         PeoplegenderMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplegenderMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplehiddenLastNameMapping = RKAttributeMapping(fromKeyPath: "hiddenLastName", toKeyPath: "hiddenLastName_")
         PeoplehiddenLastNameMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplehiddenLastNameMapping)
-
-        let PeopleisAdminMapping = RKAttributeMapping(fromKeyPath: "isAdmin", toKeyPath: "isAdmin_")
-        PeopleisAdminMapping?.propertyValueClass = NSString.classForCoder() 
-        PeopleMapping?.addPropertyMapping(PeopleisAdminMapping)
-
+        PeopleMapping?.addAttributeMappings(from: ["isAdmin":"isAdmin_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplelastNameMapping = RKAttributeMapping(fromKeyPath: "lastName", toKeyPath: "lastName_")
         PeoplelastNameMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplelastNameMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplelatitudeMapping = RKAttributeMapping(fromKeyPath: "latitude", toKeyPath: "latitude_")
         PeoplelatitudeMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplelatitudeMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplelongitudeMapping = RKAttributeMapping(fromKeyPath: "longitude", toKeyPath: "longitude_")
         PeoplelongitudeMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplelongitudeMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplemiddleInitialMapping = RKAttributeMapping(fromKeyPath: "middleInitial", toKeyPath: "middleInitial_")
         PeoplemiddleInitialMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplemiddleInitialMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplemobileMapping = RKAttributeMapping(fromKeyPath: "mobile", toKeyPath: "mobile_")
         PeoplemobileMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplemobileMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplenotesMapping = RKAttributeMapping(fromKeyPath: "notes", toKeyPath: "notes_")
         PeoplenotesMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplenotesMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeopleotherPhoneMapping = RKAttributeMapping(fromKeyPath: "otherPhone", toKeyPath: "otherPhone_")
         PeopleotherPhoneMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeopleotherPhoneMapping)
-
-        let PeopleparentIdMapping = RKAttributeMapping(fromKeyPath: "parentId", toKeyPath: "parentId_")
-        PeopleparentIdMapping?.propertyValueClass = NSString.classForCoder() 
-        PeopleMapping?.addPropertyMapping(PeopleparentIdMapping)
-
+        PeopleMapping?.addAttributeMappings(from: ["parentId":"parentId_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplephoneMapping = RKAttributeMapping(fromKeyPath: "phone", toKeyPath: "phone_")
         PeoplephoneMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplephoneMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplestateMapping = RKAttributeMapping(fromKeyPath: "state", toKeyPath: "state_")
         PeoplestateMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplestateMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeopleupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         PeopleupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeopleupdatedAtMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplewebsiteMapping = RKAttributeMapping(fromKeyPath: "website", toKeyPath: "website_")
         PeoplewebsiteMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplewebsiteMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let PeoplezipMapping = RKAttributeMapping(fromKeyPath: "zip", toKeyPath: "zip_")
         PeoplezipMapping?.propertyValueClass = NSString.classForCoder() 
         PeopleMapping?.addPropertyMapping(PeoplezipMapping)
         let SportsRootMapping = RKObjectMapping(for: ModelsSportsSportsRoot.self);
-
-        let SportsRootidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        SportsRootidMapping?.propertyValueClass = NSString.classForCoder() 
-        SportsRootMapping?.addPropertyMapping(SportsRootidMapping)
+        SportsRootMapping?.addAttributeMappings(from: ["id":"id__" ]);
         let TeamMapping = RKObjectMapping(for: ModelsSportsTeam.self);
-
-        let TeamidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        TeamidMapping?.propertyValueClass = NSString.classForCoder() 
-        TeamMapping?.addPropertyMapping(TeamidMapping)
-
+        TeamMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let TeamshortNameMapping = RKAttributeMapping(fromKeyPath: "shortName", toKeyPath: "shortName_")
         TeamshortNameMapping?.propertyValueClass = NSString.classForCoder() 
         TeamMapping?.addPropertyMapping(TeamshortNameMapping)
         let TeamScoreMapping = RKObjectMapping(for: ModelsSportsTeamScore.self);
-
-        let TeamScoreidMapping = RKAttributeMapping(fromKeyPath: "id", toKeyPath: "id__")
-        TeamScoreidMapping?.propertyValueClass = NSString.classForCoder() 
-        TeamScoreMapping?.addPropertyMapping(TeamScoreidMapping)
-
-        let TeamScoreforfeitedMapping = RKAttributeMapping(fromKeyPath: "forfeited", toKeyPath: "forfeited_")
-        TeamScoreforfeitedMapping?.propertyValueClass = NSString.classForCoder() 
-        TeamScoreMapping?.addPropertyMapping(TeamScoreforfeitedMapping)
-
-        let TeamScoregoalsScoredMapping = RKAttributeMapping(fromKeyPath: "goalsScored", toKeyPath: "goalsScored_")
-        TeamScoregoalsScoredMapping?.propertyValueClass = NSString.classForCoder() 
-        TeamScoreMapping?.addPropertyMapping(TeamScoregoalsScoredMapping)
-
-        let TeamScorehomeFieldMapping = RKAttributeMapping(fromKeyPath: "homeField", toKeyPath: "homeField_")
-        TeamScorehomeFieldMapping?.propertyValueClass = NSString.classForCoder() 
-        TeamScoreMapping?.addPropertyMapping(TeamScorehomeFieldMapping)
-
-        let TeamScorerankPointsMapping = RKAttributeMapping(fromKeyPath: "rankPoints", toKeyPath: "rankPoints_")
-        TeamScorerankPointsMapping?.propertyValueClass = NSString.classForCoder() 
-        TeamScoreMapping?.addPropertyMapping(TeamScorerankPointsMapping)
-
+        TeamScoreMapping?.addAttributeMappings(from: ["id":"id__" ]);
+        TeamScoreMapping?.addAttributeMappings(from: ["forfeited":"forfeited_" ]);
+        TeamScoreMapping?.addAttributeMappings(from: ["goalsScored":"goalsScored_" ]);
+        TeamScoreMapping?.addAttributeMappings(from: ["homeField":"homeField_" ]);
+        TeamScoreMapping?.addAttributeMappings(from: ["rankPoints":"rankPoints_" ]);
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let TeamScoreresultMapping = RKAttributeMapping(fromKeyPath: "result", toKeyPath: "result_")
         TeamScoreresultMapping?.propertyValueClass = NSString.classForCoder() 
         TeamScoreMapping?.addPropertyMapping(TeamScoreresultMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let TeamScoreseedIdentifierMapping = RKAttributeMapping(fromKeyPath: "seedIdentifier", toKeyPath: "seedIdentifier_")
         TeamScoreseedIdentifierMapping?.propertyValueClass = NSString.classForCoder() 
         TeamScoreMapping?.addPropertyMapping(TeamScoreseedIdentifierMapping)
-
+        //Strings treated specially to prevent nulls getting typed as NSNull
         let TeamScorewinLossTieMapping = RKAttributeMapping(fromKeyPath: "winLossTie", toKeyPath: "winLossTie_")
         TeamScorewinLossTieMapping?.propertyValueClass = NSString.classForCoder() 
         TeamScoreMapping?.addPropertyMapping(TeamScorewinLossTieMapping)
