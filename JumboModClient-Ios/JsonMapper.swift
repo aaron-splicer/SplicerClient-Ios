@@ -129,7 +129,13 @@ class JsonMapper {
         SportsRootMapping?.addAttributeMappings(from: ["id":"id__" ]);
         let TeamMapping = RKObjectMapping(for: ModelsSportsTeam.self);
         TeamMapping?.addAttributeMappings(from: ["id":"id__" ]);
-        TeamMapping?.addAttributeMappings(from: ["shortName":"shortName_" ]);
+        
+        //TeamMapping?.addAttributeMappings(from: ["shortName":"shortName_" ]);
+        //let userMapping = RKObjectMapping(forClass: User.self)
+        let simpleMapping = RKAttributeMapping(fromKeyPath: "shortName", toKeyPath: "shortName_")
+        simpleMapping?.propertyValueClass = NSString.classForCoder() // we used class for coder when we did our project, but you might have success with something else.
+        TeamMapping?.addPropertyMapping(simpleMapping)
+        
         let TeamScoreMapping = RKObjectMapping(for: ModelsSportsTeamScore.self);
         TeamScoreMapping?.addAttributeMappings(from: ["id":"id__" ]);
         TeamScoreMapping?.addAttributeMappings(from: ["forfeited":"forfeited_" ]);
