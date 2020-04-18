@@ -109,9 +109,9 @@ class JsonMapper {
         let GamecontextMapping = RKAttributeMapping(fromKeyPath: "context", toKeyPath: "context_")
         GamecontextMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamecontextMapping)
-        //Strings treated specially to prevent nulls getting typed as NSNull
+        //Dates treated specially to prevent nulls getting typed as NSNull
         let GamecreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
-        GamecreatedAtMapping?.propertyValueClass = NSString.classForCoder() 
+        GamecreatedAtMapping?.propertyValueClass = NSDate.classForCoder() 
         GameMapping?.addPropertyMapping(GamecreatedAtMapping)
         GameMapping?.addAttributeMappings(from: ["gameNumber":"gameNumber_" ]);
         GameMapping?.addAttributeMappings(from: ["homeBonusPoints":"homeBonusPoints_" ]);
@@ -128,17 +128,17 @@ class JsonMapper {
         let GamescoringMethodMapping = RKAttributeMapping(fromKeyPath: "scoringMethod", toKeyPath: "scoringMethod_")
         GamescoringMethodMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamescoringMethodMapping)
-        //Strings treated specially to prevent nulls getting typed as NSNull
+        //Dates treated specially to prevent nulls getting typed as NSNull
         let GamestartTimeMapping = RKAttributeMapping(fromKeyPath: "startTime", toKeyPath: "startTime_")
-        GamestartTimeMapping?.propertyValueClass = NSString.classForCoder() 
+        GamestartTimeMapping?.propertyValueClass = NSDate.classForCoder() 
         GameMapping?.addPropertyMapping(GamestartTimeMapping)
         //Strings treated specially to prevent nulls getting typed as NSNull
         let GamestatusMapping = RKAttributeMapping(fromKeyPath: "status", toKeyPath: "status_")
         GamestatusMapping?.propertyValueClass = NSString.classForCoder() 
         GameMapping?.addPropertyMapping(GamestatusMapping)
-        //Strings treated specially to prevent nulls getting typed as NSNull
+        //Dates treated specially to prevent nulls getting typed as NSNull
         let GameupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
-        GameupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
+        GameupdatedAtMapping?.propertyValueClass = NSDate.classForCoder() 
         GameMapping?.addPropertyMapping(GameupdatedAtMapping)
         let LocationMapping = RKObjectMapping(for: ModelsSportsLocation.self);
         LocationMapping?.addAttributeMappings(from: ["id":"id__" ]);
@@ -147,8 +147,14 @@ class JsonMapper {
         let LocationnameMapping = RKAttributeMapping(fromKeyPath: "name", toKeyPath: "name_")
         LocationnameMapping?.propertyValueClass = NSString.classForCoder() 
         LocationMapping?.addPropertyMapping(LocationnameMapping)
-        LocationMapping?.addAttributeMappings(from: ["createdAt":"createdAt_" ]);
-        LocationMapping?.addAttributeMappings(from: ["updatedAt":"updatedAt_" ]);
+        //Dates treated specially to prevent nulls getting typed as NSNull
+        let LocationcreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
+        LocationcreatedAtMapping?.propertyValueClass = NSDate.classForCoder() 
+        LocationMapping?.addPropertyMapping(LocationcreatedAtMapping)
+        //Dates treated specially to prevent nulls getting typed as NSNull
+        let LocationupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
+        LocationupdatedAtMapping?.propertyValueClass = NSDate.classForCoder() 
+        LocationMapping?.addPropertyMapping(LocationupdatedAtMapping)
         //Strings treated specially to prevent nulls getting typed as NSNull
         let LocationstreetMapping = RKAttributeMapping(fromKeyPath: "street", toKeyPath: "street_")
         LocationstreetMapping?.propertyValueClass = NSString.classForCoder() 
