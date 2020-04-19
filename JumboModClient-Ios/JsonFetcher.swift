@@ -27,9 +27,16 @@ class JsonFetcher : JsonMapper {
         let client = AFRKHTTPClient(baseURL: baseURL)
         client?.setDefaultHeader("Authorization", value: AUTH_HEADER)
         let objectManager = RKObjectManager(httpClient: client)
-        let venueMapping = mapComplexTypes()
+        let venueMapping = mapComplexTypes()! as RKObjectMapping
+        let PeopleMapping = RKObjectMapping(for: ModelsSportsPeople.self);
+        let mapping = venueMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "people"})
+        PeopleMapping?.addRelationshipMapping(withSourceKeyPath: "people", mapping: mapping)
+
+        //PeopleMapping = venueMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.objectClass == ModelsSportsPeople.self})
+        //PeopleMapping?.objectClass = ModelsSportsPeople.self
+
         let statusCodes = RKStatusCodeIndexSetForClass(RKStatusCodeClass.successful)
-        let resDescriptor = RKResponseDescriptor(mapping: venueMapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
+        let resDescriptor = RKResponseDescriptor(mapping: PeopleMapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
         objectManager?.addResponseDescriptor(resDescriptor)
     }
     
