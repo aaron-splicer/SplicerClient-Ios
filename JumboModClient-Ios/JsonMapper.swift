@@ -140,6 +140,10 @@ class JsonMapper {
         let GameupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         GameupdatedAtMapping?.propertyValueClass = NSDate.classForCoder() 
         GameMapping?.addPropertyMapping(GameupdatedAtMapping)
+        //Dates treated specially to prevent nulls getting typed as NSNull
+        let GamelocalDateTestMapping = RKAttributeMapping(fromKeyPath: "localDateTest", toKeyPath: "localDateTest_")
+        GamelocalDateTestMapping?.propertyValueClass = NSDate.classForCoder() 
+        GameMapping?.addPropertyMapping(GamelocalDateTestMapping)
         let LocationMapping = RKObjectMapping(for: ModelsSportsLocation.self);
         LocationMapping?.addAttributeMappings(from: ["id":"id__" ]);
         LocationMapping?.addAttributeMappings(from: ["organizationId":"organizationId_" ]);
