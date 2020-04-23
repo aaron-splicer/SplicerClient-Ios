@@ -10,6 +10,8 @@ import Foundation
 import RestKit
 
 class JsonMapper {
+    var GameMapping: RKObjectMapping!;
+    
     func mapComplexTypes() -> RKObjectMapping? {
         //generated
         let AcctMapping = RKObjectMapping(for: ModelsSportsAcct.self);
@@ -97,53 +99,53 @@ class JsonMapper {
         let FacilityupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         FacilityupdatedAtMapping?.propertyValueClass = NSString.classForCoder() 
         FacilityMapping?.addPropertyMapping(FacilityupdatedAtMapping)
-        let GameMapping = RKObjectMapping(for: ModelsSportsGame.self);
-        GameMapping?.addAttributeMappings(from: ["id":"id__" ]);
-        GameMapping?.addAttributeMappings(from: ["awayBonusPoints":"awayBonusPoints_" ]);
-        GameMapping?.addAttributeMappings(from: ["awayLockerId":"awayLockerId_" ]);
+        GameMapping = RKObjectMapping(for: ModelsSportsGame.self);
+        GameMapping.addAttributeMappings(from: ["id":"id__" ]);
+        GameMapping.addAttributeMappings(from: ["awayBonusPoints":"awayBonusPoints_" ]);
+        GameMapping.addAttributeMappings(from: ["awayLockerId":"awayLockerId_" ]);
         //Strings treated specially to prevent nulls getting typed as NSNull
         let GameboxTitleMapping = RKAttributeMapping(fromKeyPath: "boxTitle", toKeyPath: "boxTitle_")
         GameboxTitleMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GameboxTitleMapping)
+        GameMapping.addPropertyMapping(GameboxTitleMapping)
         //Strings treated specially to prevent nulls getting typed as NSNull
         let GamecontextMapping = RKAttributeMapping(fromKeyPath: "context", toKeyPath: "context_")
         GamecontextMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GamecontextMapping)
+        GameMapping.addPropertyMapping(GamecontextMapping)
         //Dates treated specially to prevent nulls getting typed as NSNull
         let GamecreatedAtMapping = RKAttributeMapping(fromKeyPath: "createdAt", toKeyPath: "createdAt_")
         GamecreatedAtMapping?.propertyValueClass = NSDate.classForCoder() 
-        GameMapping?.addPropertyMapping(GamecreatedAtMapping)
-        GameMapping?.addAttributeMappings(from: ["gameNumber":"gameNumber_" ]);
-        GameMapping?.addAttributeMappings(from: ["homeBonusPoints":"homeBonusPoints_" ]);
-        GameMapping?.addAttributeMappings(from: ["homeLockerId":"homeLockerId_" ]);
+        GameMapping.addPropertyMapping(GamecreatedAtMapping)
+        GameMapping.addAttributeMappings(from: ["gameNumber":"gameNumber_" ]);
+        GameMapping.addAttributeMappings(from: ["homeBonusPoints":"homeBonusPoints_" ]);
+        GameMapping.addAttributeMappings(from: ["homeLockerId":"homeLockerId_" ]);
         //Strings treated specially to prevent nulls getting typed as NSNull
         let GamenameMapping = RKAttributeMapping(fromKeyPath: "name", toKeyPath: "name_")
         GamenameMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GamenameMapping)
+        GameMapping.addPropertyMapping(GamenameMapping)
         //Strings treated specially to prevent nulls getting typed as NSNull
         let GameofficialsMapping = RKAttributeMapping(fromKeyPath: "officials", toKeyPath: "officials_")
         GameofficialsMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GameofficialsMapping)
+        GameMapping.addPropertyMapping(GameofficialsMapping)
         //Strings treated specially to prevent nulls getting typed as NSNull
         let GamescoringMethodMapping = RKAttributeMapping(fromKeyPath: "scoringMethod", toKeyPath: "scoringMethod_")
         GamescoringMethodMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GamescoringMethodMapping)
+        GameMapping.addPropertyMapping(GamescoringMethodMapping)
         //Dates treated specially to prevent nulls getting typed as NSNull
         let GamestartTimeMapping = RKAttributeMapping(fromKeyPath: "startTime", toKeyPath: "startTime_")
         GamestartTimeMapping?.propertyValueClass = NSDate.classForCoder() 
-        GameMapping?.addPropertyMapping(GamestartTimeMapping)
+        GameMapping.addPropertyMapping(GamestartTimeMapping)
         //Strings treated specially to prevent nulls getting typed as NSNull
         let GamestatusMapping = RKAttributeMapping(fromKeyPath: "status", toKeyPath: "status_")
         GamestatusMapping?.propertyValueClass = NSString.classForCoder() 
-        GameMapping?.addPropertyMapping(GamestatusMapping)
+        GameMapping.addPropertyMapping(GamestatusMapping)
         //Dates treated specially to prevent nulls getting typed as NSNull
         let GameupdatedAtMapping = RKAttributeMapping(fromKeyPath: "updatedAt", toKeyPath: "updatedAt_")
         GameupdatedAtMapping?.propertyValueClass = NSDate.classForCoder() 
-        GameMapping?.addPropertyMapping(GameupdatedAtMapping)
+        GameMapping.addPropertyMapping(GameupdatedAtMapping)
         //Dates treated specially to prevent nulls getting typed as NSNull
         let GamelocalDateTestMapping = RKAttributeMapping(fromKeyPath: "localDateTest", toKeyPath: "localDateTest_")
         GamelocalDateTestMapping?.propertyValueClass = NSDate.classForCoder() 
-        GameMapping?.addPropertyMapping(GamelocalDateTestMapping)
+        GameMapping.addPropertyMapping(GamelocalDateTestMapping)
         let LocationMapping = RKObjectMapping(for: ModelsSportsLocation.self);
         LocationMapping?.addAttributeMappings(from: ["id":"id__" ]);
         LocationMapping?.addAttributeMappings(from: ["organizationId":"organizationId_" ]);
@@ -381,9 +383,9 @@ class JsonMapper {
         TeamScorewinLossTieMapping?.propertyValueClass = NSString.classForCoder() 
         TeamScoreMapping?.addPropertyMapping(TeamScorewinLossTieMapping)
         FacilityMapping?.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "location", toKeyPath:"location_", with: LocationMapping));
-        GameMapping?.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "division", toKeyPath:"division_", with: DivisionMapping));
-        GameMapping?.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "facility", toKeyPath:"facility_", with: FacilityMapping));
-        GameMapping?.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "teamScore", toKeyPath:"teamScore_", with: TeamScoreMapping));
+        GameMapping.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "division", toKeyPath:"division_", with: DivisionMapping));
+        GameMapping.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "facility", toKeyPath:"facility_", with: FacilityMapping));
+        GameMapping.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "teamScore", toKeyPath:"teamScore_", with: TeamScoreMapping));
         MembershipMapping?.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "membershipSubscription", toKeyPath:"membershipSubscription_", with: MembershipSubscriptionMapping));
         PeopleMapping?.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "acct", toKeyPath:"acct_", with: AcctMapping));
         PeopleMapping?.addPropertyMapping(RKRelationshipMapping(fromKeyPath: "division", toKeyPath:"division_", with: DivisionMapping));

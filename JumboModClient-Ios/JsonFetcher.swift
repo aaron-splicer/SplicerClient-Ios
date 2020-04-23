@@ -20,19 +20,26 @@ let AUTH_HEADER = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST
 class JsonFetcher : JsonMapper {
     var testUsers: [Any]!
     
+    var baseURL: URL!;// = URL(string: baseUrl ?? "")
+    var client: AFRKHTTPClient!;// = AFRKHTTPClient(baseURL: baseURL)
+    var objectManager: RKObjectManager!;// = RKObjectManager(httpClient: client)
+    //var mapping: RKObjectMapping!;// = mapComplexTypes()
+    var statusCodes: IndexSet = [];// = RKStatusCodeIndexSetForClass(RKStatusCodeClass.successful)
+    private var resDescriptor: RKResponseDescriptor!;// = RKResponseDescriptor(mapping: mapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
+    
     //RKObjectManager objectManager;
     
     func setup(_ baseUrl: String?, path: String?) {
-        let baseURL = URL(string: baseUrl ?? "")
-        let client = AFRKHTTPClient(baseURL: baseURL)
-        client?.setDefaultHeader("Authorization", value: AUTH_HEADER)
-        let objectManager = RKObjectManager(httpClient: client)
-        let venueMapping = mapComplexTypes()
-        let statusCodes = RKStatusCodeIndexSetForClass(RKStatusCodeClass.successful)
-        let resDescriptor = RKResponseDescriptor(mapping: venueMapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
-        objectManager?.addResponseDescriptor(resDescriptor)
+        baseURL = URL(string: baseUrl ?? "")!
+        client = AFRKHTTPClient(baseURL: baseURL)
+        client.setDefaultHeader("Authorization", value: AUTH_HEADER)
+        objectManager = RKObjectManager(httpClient: client)
+        let mapping = mapComplexTypes()!
+        statusCodes = RKStatusCodeIndexSetForClass(RKStatusCodeClass.successful)
+        resDescriptor = RKResponseDescriptor(mapping: mapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
+        objectManager.addResponseDescriptor(resDescriptor)
     }
-    
+    /*
     func execute(_ path: String?) {
         let queryParams = [
             "dummy": "dummyParam"
@@ -49,4 +56,5 @@ class JsonFetcher : JsonMapper {
         })
         
     }
+ */
 }
