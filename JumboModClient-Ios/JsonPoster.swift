@@ -15,8 +15,8 @@ class JsonPoster : JsonFetcher {
     func setup(_ baseUrl: String?, path: String?, clazz: ModelsSportsGame) {
         super.setup(baseUrl, path: path);
         objectManager = RKObjectManager(httpClient: client)
-        let mapping = GameMapping//.inverseMappingWithPropertyMappings(passingTest: //);
-        //wtf?
+        let mapping = GameMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "game"})
+            //.inverseMappingWithPropertyMappings(passingTest: //);
         let requestDescriptor = RKRequestDescriptor(mapping: mapping, objectClass: ModelsSportsGame.self, rootKeyPath: "", method: RKRequestMethod.POST)
         //resDescriptor = RKResponseDescriptor(mapping: venueMapping, method: RKRequestMethod.POST, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
         objectManager.addRequestDescriptor(requestDescriptor)
