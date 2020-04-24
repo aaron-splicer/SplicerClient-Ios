@@ -13,18 +13,36 @@ import RestKit
 class JsonPoster : JsonFetcher {
     //FIME: pass in generic class
     func setup(_ baseUrl: String?, path: String?, clazz: ModelsSportsGame) {
-        super.setup(baseUrl, path: path);
+        //super.setup(baseUrl, path: path);
+        baseURL = URL(string: baseUrl ?? "")!
+        client = AFRKHTTPClient(baseURL: baseURL)
+        client.setDefaultHeader("Authorization", value: AUTH_HEADER)
+        client.setDefaultHeader("Content-Type", value: "application/json")
+      //  'Content-Type: application/json'
         objectManager = RKObjectManager(httpClient: client)
-        let mapping = GameMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "game"})
+        let mapping1 = mapComplexTypes()!
+        statusCodes = RKStatusCodeIndexSetForClass(RKStatusCodeClass.successful)
+        
+        
+        
+        
+        
+        
+        //objectManager = RKObjectManager(httpClient: client)
+        let mapping = GameMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "game" ? true: true })
             //.inverseMappingWithPropertyMappings(passingTest: //);
-        let requestDescriptor = RKRequestDescriptor(mapping: mapping, objectClass: ModelsSportsGame.self, rootKeyPath: "", method: RKRequestMethod.PUT)
+        resDescriptor = RKResponseDescriptor(mapping: mapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
+        objectManager.addResponseDescriptor(resDescriptor)
+        
+
+        let requestDescriptor = RKRequestDescriptor(mapping: mapping, objectClass: ModelsSportsGame.self, rootKeyPath: nil, method: RKRequestMethod.PUT)
         //resDescriptor = RKResponseDescriptor(mapping: venueMapping, method: RKRequestMethod.POST, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
         objectManager.addRequestDescriptor(requestDescriptor)
     }
-    func postObject(path: String?)
+    func postObject(path: String?, object: ModelsSportsGame)
     {
         let params = ["key1": "value1", "key2": "value2"]
-        objectManager.post(params, path: path ,parameters: nil,
+        objectManager.put(object, path: path ,parameters: nil,
                            success:{ operation, mappingResult in
                             NSLog("success")
                             

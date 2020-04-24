@@ -25,7 +25,7 @@ class JsonFetcher : JsonMapper {
     var objectManager: RKObjectManager!;// = RKObjectManager(httpClient: client)
     //var mapping: RKObjectMapping!;// = mapComplexTypes()
     var statusCodes: IndexSet = [];// = RKStatusCodeIndexSetForClass(RKStatusCodeClass.successful)
-    private var resDescriptor: RKResponseDescriptor!;// = RKResponseDescriptor(mapping: mapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
+    var resDescriptor: RKResponseDescriptor!;// = RKResponseDescriptor(mapping: mapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
     
     //RKObjectManager objectManager;
     
