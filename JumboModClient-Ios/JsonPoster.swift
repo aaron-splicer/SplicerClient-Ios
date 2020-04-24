@@ -12,7 +12,7 @@ import RestKit
 
 class JsonPoster : JsonFetcher {
     //FIME: pass in generic class
-    func setup(_ baseUrl: String?, path: String?, clazz: ModelsSportsGame) {
+    func setup(_ baseUrl: String?, path: String?, clazz: ModelsSportsLocation) {
         //super.setup(baseUrl, path: path);
         baseURL = URL(string: baseUrl ?? "")!
         client = AFRKHTTPClient(baseURL: baseURL)
@@ -39,7 +39,7 @@ class JsonPoster : JsonFetcher {
         //resDescriptor = RKResponseDescriptor(mapping: venueMapping, method: RKRequestMethod.POST, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
         objectManager.addRequestDescriptor(requestDescriptor)
     }
-    func postObject(path: String?, object: ModelsSportsGame)
+    func postObject(path: String?, object: ModelsSportsLocation)
     {
         let params = ["key1": "value1", "key2": "value2"]
         objectManager.put(object, path: path ,parameters: nil,
