@@ -17,10 +17,11 @@ class JsonPoster : JsonFetcher {
         baseURL = URL(string: baseUrl ?? "")!
         client = AFRKHTTPClient(baseURL: baseURL)
         client.setDefaultHeader("Authorization", value: AUTH_HEADER)
-        client.setDefaultHeader("Content-Type", value: "application/json")
+        //client.setDefaultHeader("Content-Type", value: "application/json")
       //  'Content-Type: application/json'
         objectManager = RKObjectManager(httpClient: client)
-        let mapping1 = mapComplexTypes()!
+        //FIXME this should happen just once during intitial startup
+        mapComplexTypes()
         statusCodes = RKStatusCodeIndexSetForClass(RKStatusCodeClass.successful)
         
         
@@ -37,7 +38,7 @@ class JsonPoster : JsonFetcher {
         
         //mapping: RKMapping!, objectClass: Swift.AnyClass!, rootKeyPath: String!)
 
-        objectManager.setAcceptHeaderWithMIMEType("application/json")
+        //objectManager.setAcceptHeaderWithMIMEType("application/json")
         objectManager.requestSerializationMIMEType = "application/json"
         //objectManager.requestSerializationMIMEType
  
