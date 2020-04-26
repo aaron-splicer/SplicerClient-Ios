@@ -17,7 +17,7 @@ class JsonPoster : JsonFetcher {
         baseURL = URL(string: baseUrl ?? "")!
         client = AFRKHTTPClient(baseURL: baseURL)
         client.setDefaultHeader("Authorization", value: AUTH_HEADER)
-       // client.setDefaultHeader("Content-Type", value: "application/json")
+        client.setDefaultHeader("Content-Type", value: "application/json")
       //  'Content-Type: application/json'
         objectManager = RKObjectManager(httpClient: client)
         let mapping1 = mapComplexTypes()!
@@ -32,10 +32,13 @@ class JsonPoster : JsonFetcher {
         let mapping = GameMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "game" ? true: true })
             //.inverseMappingWithPropertyMappings(passingTest: //);
         let reqDescriptor = RKRequestDescriptor(mapping: mapping, objectClass: ModelsSportsLocation.self, rootKeyPath: nil)
+        //reqDescriptor?.setValue("application/json", forKey: "Content-Type")
+        //reqDescriptor.
         
         //mapping: RKMapping!, objectClass: Swift.AnyClass!, rootKeyPath: String!)
 
-       // objectManager.setAcceptHeaderWithMIMEType("application/json")
+        objectManager.setAcceptHeaderWithMIMEType("application/json")
+        objectManager.requestSerializationMIMEType = "application/json"
         //objectManager.requestSerializationMIMEType
  
         //objectManager.addResponseDescriptor(resDescriptor)
