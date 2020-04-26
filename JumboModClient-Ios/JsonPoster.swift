@@ -17,7 +17,7 @@ class JsonPoster : JsonFetcher {
         baseURL = URL(string: baseUrl ?? "")!
         client = AFRKHTTPClient(baseURL: baseURL)
         client.setDefaultHeader("Authorization", value: AUTH_HEADER)
-        client.setDefaultHeader("Content-Type", value: "application/json")
+       // client.setDefaultHeader("Content-Type", value: "application/json")
       //  'Content-Type: application/json'
         objectManager = RKObjectManager(httpClient: client)
         let mapping1 = mapComplexTypes()!
@@ -31,13 +31,22 @@ class JsonPoster : JsonFetcher {
         //objectManager = RKObjectManager(httpClient: client)
         let mapping = GameMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "game" ? true: true })
             //.inverseMappingWithPropertyMappings(passingTest: //);
-        resDescriptor = RKResponseDescriptor(mapping: mapping, method: RKRequestMethod.GET, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
-        objectManager.addResponseDescriptor(resDescriptor)
+        let reqDescriptor = RKRequestDescriptor(mapping: mapping, objectClass: ModelsSportsLocation.self, rootKeyPath: nil)
+        
+        //mapping: RKMapping!, objectClass: Swift.AnyClass!, rootKeyPath: String!)
+
+       // objectManager.setAcceptHeaderWithMIMEType("application/json")
+        //objectManager.requestSerializationMIMEType
+ 
+        //objectManager.addResponseDescriptor(resDescriptor)
+        objectManager.addRequestDescriptor(reqDescriptor!)
         
 
         let requestDescriptor = RKRequestDescriptor(mapping: mapping, objectClass: ModelsSportsGame.self, rootKeyPath: nil, method: RKRequestMethod.PUT)
         //resDescriptor = RKResponseDescriptor(mapping: venueMapping, method: RKRequestMethod.POST, pathPattern: path, keyPath: nil, statusCodes: statusCodes)
+        //requestDescriptor.http?.setValue("application/json", forKey: "content-type")
         objectManager.addRequestDescriptor(requestDescriptor)
+       
     }
     func postObject(path: String?, object: ModelsSportsLocation)
     {
