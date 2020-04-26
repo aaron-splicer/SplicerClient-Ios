@@ -29,7 +29,7 @@ class JsonPoster : JsonFetcher {
         
         
         //objectManager = RKObjectManager(httpClient: client)
-        let mapping = GameMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "location" ? true: true })
+        let mapping = LocationMapping.inverseMappingWithPropertyMappings(passingTest: {$0?.sourceKeyPath == "location" ? true: true })
             //.inverseMappingWithPropertyMappings(passingTest: //);
         let reqDescriptor = RKRequestDescriptor(mapping: mapping, objectClass: ModelsSportsLocation.self, rootKeyPath: nil)
         //reqDescriptor?.setValue("application/json", forKey: "Content-Type")

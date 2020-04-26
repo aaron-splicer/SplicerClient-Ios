@@ -11,6 +11,7 @@ import RestKit
 
 class JsonMapper {
     var GameMapping: RKObjectMapping!;
+    var LocationMapping: RKObjectMapping!;
     
     func mapComplexTypes() -> RKObjectMapping? {
         //generated
@@ -146,7 +147,7 @@ class JsonMapper {
         let GamelocalDateTestMapping = RKAttributeMapping(fromKeyPath: "localDateTest", toKeyPath: "localDateTest_")
         GamelocalDateTestMapping?.propertyValueClass = NSDate.classForCoder() 
         GameMapping.addPropertyMapping(GamelocalDateTestMapping)
-        let LocationMapping = RKObjectMapping(for: ModelsSportsLocation.self);
+        LocationMapping = RKObjectMapping(for: ModelsSportsLocation.self);
         LocationMapping?.addAttributeMappings(from: ["id":"id__" ]);
         LocationMapping?.addAttributeMappings(from: ["organizationId":"organizationId_" ]);
         //Strings treated specially to prevent nulls getting typed as NSNull
